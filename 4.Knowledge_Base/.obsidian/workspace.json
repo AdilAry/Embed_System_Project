@@ -4,37 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6aa5db366e9abb24",
+        "id": "b3c85d7837e50a0c",
         "type": "tabs",
         "children": [
           {
-            "id": "7ecc1b1f7798ab9d",
+            "id": "00e06a98b58db533",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "e79ccb218d8b6c7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Meta/Templates/Template.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Template"
+              "title": "New tab"
             }
           }
         ],
@@ -91,8 +71,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -113,13 +92,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline"
             }
           }
         ]
@@ -149,7 +127,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks"
             }
           }
         ],
@@ -177,12 +154,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7ecc1b1f7798ab9d",
+  "active": "00e06a98b58db533",
   "lastOpenFiles": [
-    "Meta/Templates/Template.md",
     "README.md",
-    "Core/ITMT, Lecture 0 - Welcome.md",
+    "Core/Github.md",
+    "Meta/Templates/Template.md",
     "Core/Git.md",
+    "Core/ITMT, Lecture 0 - Welcome.md",
     "Core/TLP Logic.md",
     "Core/TLP Computing.md",
     "youtu.be",
