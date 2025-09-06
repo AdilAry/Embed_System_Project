@@ -1,5 +1,5 @@
 explain project
-explain scope
+explain scope %%e%%
 
 ---
 introduce team members
