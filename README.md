@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Team members;
 - Adil Arystanbek, e2202683
 
@@ -41,3 +42,10 @@ Circuit Simulation - LTspice.
 
 ---
 #### Knowledge Base;
+=======
+explain project
+explain scope %%e%%
+
+---
+introduce team members
+>>>>>>> d41ff65897e2fcf8a1e1120d85d5ad47db05f13f
