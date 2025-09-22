@@ -1,0 +1,7079 @@
+*Coilcraft RF Inductor Netlists
+*
+*For any information on Coilcraft modeling please
+*visit http://www.coilcraft.com/models.cfm
+*
+*Disclaimer:
+*
+*Coilcraft makes every attempt to provide accurate measurement
+*data and software, representative of our components,
+*in a usable format. Coilcraft, however, disclaims
+*all warrants relating to the use of its data and software,
+*whether expressed or implied, including without limitation
+*any implied warranties of merchantability or fitness for a
+*particular purpose. Coilcraft cannot and will not be liable
+*for any special, incidental, consequential, indirect or
+*similar damages occurring with the use of the data and/
+*or software.
+
+
+*Coilcraft 0402CS Chip Inductor Series
+*Netlist for spice models
+*Updated 4/27/05
+
+
+*0402CS-1N0 valid from 1-21300 MHz
+
+.SUBCKT 0402CS-1N0  N1 N2
++ PARAMS: K1=3.40e-06
+R_R1          $N_0002 N2 6 
+R_R2        N1  $N_0001 0.001 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1.00nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .068pF 
+.ENDS
+
+*0402CS-1N9 valid from 1-21200 MHz
+
+.SUBCKT 0402CS-1N9  N1 N2
++ PARAMS: K1=1.01e-05
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.002 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1.90nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .036pF 
+.ENDS
+
+*0402CS-2N0 valid from 1-18100 MHz
+
+.SUBCKT 0402CS-2N0  N1 N2
++ PARAMS: K1=8.70e-06
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.002 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2.00nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .047pF 
+.ENDS
+
+*0402CS-2N2 valid from 1-17900 MHz
+
+.SUBCKT 0402CS-2N2  N1 N2
++ PARAMS: K1=7.40e-06
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.002 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2.20nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .044pF 
+.ENDS
+
+*0402CS-2N4 valid from 1-17900 MHz
+
+.SUBCKT 0402CS-2N4  N1 N2
++ PARAMS: K1=1.28e-05
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.003 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2.40nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .038pF 
+.ENDS
+
+*0402CS-2N7 valid from 1-17900 MHz
+
+.SUBCKT 0402CS-2N7  N1 N2
++ PARAMS: K1=1.38e-05
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.003 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2.70nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .036pF 
+.ENDS
+
+*0402CS-3N3 valid from 1-14800 MHz
+
+.SUBCKT 0402CS-3N3  N1 N2
++ PARAMS: K1=1.21e-05
+R_R1          $N_0002 N2 14 
+R_R2        N1  $N_0001 0.003 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.30nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .043pF 
+.ENDS
+
+*0402CS-3N6 valid from 1-14700 MHz
+
+.SUBCKT 0402CS-3N6  N1 N2
++ PARAMS: K1=1.28e-05
+R_R1          $N_0002 N2 26 
+R_R2        N1  $N_0001 0.003 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.60nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .040pF 
+.ENDS
+
+*0402CS-3N9 valid from 1-14700 MHz
+
+.SUBCKT 0402CS-3N9  N1 N2
++ PARAMS: K1=1.79e-05
+R_R1          $N_0002 N2 26 
+R_R2        N1  $N_0001 0.004 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.90nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .037pF 
+.ENDS
+
+*0402CS-4N3 valid from 1-14700 MHz
+
+.SUBCKT 0402CS-4N3  N1 N2
++ PARAMS: K1=1.76e-05
+R_R1          $N_0002 N2 25 
+R_R2        N1  $N_0001 0.004 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 4.30nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .032pF 
+.ENDS
+
+*0402CS-4N7 valid from 1-14400 MHz
+
+.SUBCKT 0402CS-4N7  N1 N2
++ PARAMS: K1=2.45e-05
+R_R1          $N_0002 N2 25 
+R_R2        N1  $N_0001 0.004 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 4.70nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .032pF 
+.ENDS
+
+*0402CS-5N1 valid from 1-13200 MHz
+
+.SUBCKT 0402CS-5N1  N1 N2
++ PARAMS: K1=1.81e-05
+R_R1          $N_0002 N2 24 
+R_R2        N1  $N_0001 0.004 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 5.10nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .035pF 
+.ENDS
+
+*0402CS-5N6 valid from 1-11900 MHz
+
+.SUBCKT 0402CS-5N6  N1 N2
++ PARAMS: K1=1.85e-05
+R_R1          $N_0002 N2 20 
+R_R2        N1  $N_0001 0.004 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 5.60nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .039pF 
+.ENDS
+
+*0402CS-6N2 valid from 1-11000 MHz
+
+.SUBCKT 0402CS-6N2  N1 N2
++ PARAMS: K1=2.23e-05
+R_R1          $N_0002 N2 18 
+R_R2        N1  $N_0001 0.005 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 6.20nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .041pF 
+.ENDS
+
+*0402CS-6N8 valid from 1-10700 MHz
+
+.SUBCKT 0402CS-6N8  N1 N2
++ PARAMS: K1=2.81e-05
+R_R1          $N_0002 N2 18 
+R_R2        N1  $N_0001 0.005 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 6.80nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .048pF 
+.ENDS
+
+*0402CS-7N5 valid from 1-10700 MHz
+
+.SUBCKT 0402CS-7N5  N1 N2
++ PARAMS: K1=2.68e-05
+R_R1          $N_0002 N2 18 
+R_R2        N1  $N_0001 0.005 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 7.50nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .036pF 
+.ENDS
+
+*0402CS-8N2 valid from 1-9400 MHz
+
+.SUBCKT 0402CS-8N2  N1 N2
++ PARAMS: K1=3.12e-05
+R_R1          $N_0002 N2 16 
+R_R2        N1  $N_0001 0.005 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 8.20nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .043pF 
+.ENDS
+
+*0402CS-8N7 valid from 1-9900 MHz
+
+.SUBCKT 0402CS-8N7  N1 N2
++ PARAMS: K1=3.90e-05
+R_R1          $N_0002 N2 20 
+R_R2        N1  $N_0001 0.005 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 8.70nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .032pF 
+.ENDS
+
+*0402CS-9N0 valid from 1-8700 MHz
+
+.SUBCKT 0402CS-9N0  N1 N2
++ PARAMS: K1=2.96e-05
+R_R1          $N_0002 N2 25 
+R_R2        N1  $N_0001 0.006 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 9.00nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .046pF 
+.ENDS
+
+*0402CS-9N5 valid from 1-8600 MHz
+
+.SUBCKT 0402CS-9N5  N1 N2
++ PARAMS: K1=4.26e-05
+R_R1          $N_0002 N2 20 
+R_R2        N1  $N_0001 0.006 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 9.50nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .044pF 
+.ENDS
+
+*0402CS-10N valid from 1-8300 MHz
+
+.SUBCKT 0402CS-10N  N1 N2
++ PARAMS: K1=3.88e-05
+R_R1          $N_0002 N2 30 
+R_R2        N1  $N_0001 0.006 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 10.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .046pF 
+.ENDS
+
+*0402CS-11N valid from 1-8600 MHz
+
+.SUBCKT 0402CS-11N  N1 N2
++ PARAMS: K1=3.63e-05
+R_R1          $N_0002 N2 20 
+R_R2        N1  $N_0001 0.008 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 11.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .038pF 
+.ENDS
+
+*0402CS-12N valid from 1-7200 MHz
+
+.SUBCKT 0402CS-12N  N1 N2
++ PARAMS: K1=3.93e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.008 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 12.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .050pF 
+.ENDS
+
+*0402CS-13N valid from 1-7200 MHz
+
+.SUBCKT 0402CS-13N  N1 N2
++ PARAMS: K1=4.38e-05
+R_R1          $N_0002 N2 20 
+R_R2        N1  $N_0001 0.009 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 13.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .046pF 
+.ENDS
+
+*0402CS-15N valid from 1-7300 MHz
+
+.SUBCKT 0402CS-15N  N1 N2
++ PARAMS: K1=4.73e-05
+R_R1          $N_0002 N2 40 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 15.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .039pF 
+.ENDS
+
+*0402CS-16N valid from 1-7300 MHz
+
+.SUBCKT 0402CS-16N  N1 N2
++ PARAMS: K1=5.50e-05
+R_R1          $N_0002 N2 15 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 16.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .049pF 
+.ENDS
+
+*0402CS-18N valid from 1-7300 MHz
+
+.SUBCKT 0402CS-18N  N1 N2
++ PARAMS: K1=6.31e-05
+R_R1          $N_0002 N2 26 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 18.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .031pF 
+.ENDS
+
+*0402CS-19N valid from 1-6700 MHz
+
+.SUBCKT 0402CS-19N  N1 N2
++ PARAMS: K1=5.71e-05
+R_R1          $N_0002 N2 14 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 19.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .036pF 
+.ENDS
+
+*0402CS-20N valid from 1-6700 MHz
+
+.SUBCKT 0402CS-20N  N1 N2
++ PARAMS: K1=7.01e-05
+R_R1          $N_0002 N2 18 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 20.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .043pF 
+.ENDS
+
+*0402CS-22N valid from 1-6700 MHz
+
+.SUBCKT 0402CS-22N  N1 N2
++ PARAMS: K1=7.81e-05
+R_R1          $N_0002 N2 21 
+R_R2        N1  $N_0001 0.011 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 22.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .034pF 
+.ENDS
+
+*0402CS-23N valid from 1-6700 MHz
+
+.SUBCKT 0402CS-23N  N1 N2
++ PARAMS: K1=7.47e-05
+R_R1          $N_0002 N2 20 
+R_R2        N1  $N_0001 0.012 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 23.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .036pF 
+.ENDS
+
+*0402CS-24N valid from 1-6200 MHz
+
+.SUBCKT 0402CS-24N  N1 N2
++ PARAMS: K1=8.51e-05
+R_R1          $N_0002 N2 20 
+R_R2        N1  $N_0001 0.012 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 24.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .045pF 
+.ENDS
+
+*0402CS-27N valid from 1-6200 MHz
+
+.SUBCKT 0402CS-27N  N1 N2
++ PARAMS: K1=8.75e-05
+R_R1          $N_0002 N2 22 
+R_R2        N1  $N_0001 0.012 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 27.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .036pF 
+.ENDS
+
+*0402CS-30N valid from 1-5300 MHz
+
+.SUBCKT 0402CS-30N  N1 N2
++ PARAMS: K1=1.02e-04
+R_R1          $N_0002 N2 26 
+R_R2        N1  $N_0001 0.013 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 30.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .044pF 
+.ENDS
+
+*0402CS-33N valid from 1-5000 MHz
+
+.SUBCKT 0402CS-33N  N1 N2
++ PARAMS: K1=1.16e-04
+R_R1          $N_0002 N2 29 
+R_R2        N1  $N_0001 0.013 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 33.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .045pF 
+.ENDS
+
+*0402CS-36N valid from 1-5000 MHz
+
+.SUBCKT 0402CS-36N  N1 N2
++ PARAMS: K1=1.28e-04
+R_R1          $N_0002 N2 28 
+R_R2        N1  $N_0001 0.014 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 36.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .041pF 
+.ENDS
+
+*0402CS-39N valid from 1-5200 MHz
+
+.SUBCKT 0402CS-39N  N1 N2
++ PARAMS: K1=1.29e-04
+R_R1          $N_0002 N2 36 
+R_R2        N1  $N_0001 0.014 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 39.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .031pF 
+.ENDS
+
+*0402CS-40N valid from 1-4800 MHz
+
+.SUBCKT 0402CS-40N  N1 N2
++ PARAMS: K1=1.30e-04
+R_R1          $N_0002 N2 35 
+R_R2        N1  $N_0001 0.014 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 40.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .040pF 
+.ENDS
+
+*0402CS-43N valid from 1-5100 MHz
+
+.SUBCKT 0402CS-43N  N1 N2
++ PARAMS: K1=1.43e-04
+R_R1          $N_0002 N2 35 
+R_R2        N1  $N_0001 0.015 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 43.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .033pF 
+.ENDS
+
+*0402CS-47N valid from 1-4800 MHz
+
+.SUBCKT 0402CS-47N  N1 N2
++ PARAMS: K1=1.40e-04
+R_R1          $N_0002 N2 44 
+R_R2        N1  $N_0001 0.016 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 47.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .035pF 
+.ENDS
+
+*0402CS-51N valid from 1-4600 MHz
+
+.SUBCKT 0402CS-51N  N1 N2
++ PARAMS: K1=1.79e-04
+R_R1          $N_0002 N2 44 
+R_R2        N1  $N_0001 0.017 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 51.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .034pF 
+.ENDS
+
+*0402CS-56N valid from 1-4400 MHz
+
+.SUBCKT 0402CS-56N  N1 N2
++ PARAMS: K1=2.16e-04
+R_R1          $N_0002 N2 53 
+R_R2        N1  $N_0001 0.018 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 56.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .035pF 
+.ENDS
+
+*0402CS-68N valid from 1-4000 MHz
+
+.SUBCKT 0402CS-68N  N1 N2
++ PARAMS: K1=2.67e-04
+R_R1          $N_0002 N2 60 
+R_R2        N1  $N_0001 0.020 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 68.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .034pF 
+.ENDS
+
+
+
+
+
+*Coilcraft 0402PA Chip Inductor Series
+*Netlist for spice models
+*Updated 4/28/05
+
+
+*0402PA-0N8 valid from 1-26000 MHz
+
+.SUBCKT 0402PA-0N8  N1 N2
++ PARAMS: K1=2.18e-06
+R_R1          $N_0002 N2 4.00 
+R_R2        N1  $N_0001 0.061 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 0.78nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .026pF 
+.ENDS
+
+*0402PA-1N9 valid from 1-20000 MHz
+
+.SUBCKT 0402PA-1N9  N1 N2
++ PARAMS: K1=5.51e-06
+R_R1          $N_0002 N2 4.86 
+R_R2        N1  $N_0001 0.049 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1.90nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .037pF 
+.ENDS
+
+*0402PA-3N4 valid from 1-14000 MHz
+
+.SUBCKT 0402PA-3N4  N1 N2
++ PARAMS: K1=1.58e-06
+R_R1          $N_0002 N2 0.75 
+R_R2        N1  $N_0001 0.330 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.40nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .041pF 
+.ENDS
+
+*0402PA-3N5 valid from 1-15000 MHz
+
+.SUBCKT 0402PA-3N5  N1 N2
++ PARAMS: K1=9.90e-06
+R_R1          $N_0002 N2 1.17 
+R_R2        N1  $N_0001 0.043 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.50nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .038pF 
+.ENDS
+
+*0402PA-5N8 valid from 1-9000 MHz
+
+.SUBCKT 0402PA-5N8  N1 N2
++ PARAMS: K1=1.20e-05
+R_R1          $N_0002 N2 6.80 
+R_R2        N1  $N_0001 0.222 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 5.80nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .070pF 
+.ENDS
+
+*0402PA-6N2 valid from 1-9500 MHz
+
+.SUBCKT 0402PA-6N2  N1 N2
++ PARAMS: K1=1.50e-05
+R_R1          $N_0002 N2 11.3 
+R_R2        N1  $N_0001 0.157 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2.60nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .056pF 
+.ENDS
+
+*0402PA-8N2 valid from 1-9000 MHz
+
+.SUBCKT 0402PA-8N2  N1 N2
++ PARAMS: K1=1.58e-05
+R_R1          $N_0002 N2 7.00 
+R_R2        N1  $N_0001 0.313 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 8.20nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .060pF 
+.ENDS
+
+
+
+*Coilcraft 0403HQ Chip Inductor Series
+*Netlist for spice models
+*Updated 4/28/05
+
+
+*0403HQ-1N9 valid from 1-14000 MHz
+
+.SUBCKT 0403HQ-1N9  N1 N2
++ PARAMS: K1=5.06e-06
+R_R1          $N_0002 N2 1.96 
+R_R2        N1  $N_0001 0.008 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1.90nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .095pF 
+.ENDS
+
+*0403HQ-2N1 valid from 1-14000 MHz
+
+.SUBCKT 0403HQ-2N1  N1 N2
++ PARAMS: K1=6.46e-06
+R_R1          $N_0002 N2 1.50 
+R_R2        N1  $N_0001 0.008 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2.10nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .078pF 
+.ENDS
+
+*0403HQ-3N4 valid from 1-10000 MHz
+
+.SUBCKT 0403HQ-3N4  N1 N2
++ PARAMS: K1=8.24e-06
+R_R1          $N_0002 N2 6.00 
+R_R2        N1  $N_0001 0.020 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.40nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .080pF 
+.ENDS
+
+*0403HQ-3N7 valid from 1-10000 MHz
+
+.SUBCKT 0403HQ-3N7  N1 N2
++ PARAMS: K1=9.54e-06
+R_R1          $N_0002 N2 6.00 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.70nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .085pF 
+.ENDS
+
+*0403HQ-5N5 valid from 1-10000 MHz
+
+.SUBCKT 0403HQ-5N5  N1 N2
++ PARAMS: K1=1.03e-05
+R_R1          $N_0002 N2 12.16 
+R_R2        N1  $N_0001 0.176 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 5.50nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .062pF 
+.ENDS
+
+*0403HQ-6N6 valid from 1-9000 MHz
+
+.SUBCKT 0403HQ-6N6  N1 N2
++ PARAMS: K1=1.31e-05
+R_R1          $N_0002 N2 6.77 
+R_R2        N1  $N_0001 0.176 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 6.60nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .072pF 
+.ENDS
+
+*0403HQ-8N2 valid from 1-8000 MHz
+
+.SUBCKT 0403HQ-8N2  N1 N2
++ PARAMS: K1=1.67e-05
+R_R1          $N_0002 N2 7.11 
+R_R2        N1  $N_0001 0.185 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 8.20nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .068pF 
+.ENDS
+
+*0403HQ-9N0 valid from 1-8000 MHz
+
+.SUBCKT 0403HQ-9N0  N1 N2
++ PARAMS: K1=1.91e-05
+R_R1          $N_0002 N2 9.07 
+R_R2        N1  $N_0001 0.176 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 9.00nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .060pF 
+.ENDS
+
+*0403HQ-12N valid from 1-7000 MHz
+
+.SUBCKT 0403HQ-12N  N1 N2
++ PARAMS: K1=1.99e-05
+R_R1          $N_0002 N2 12.34 
+R_R2        N1  $N_0001 0.350 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 12.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .060pF 
+.ENDS
+
+*0403HQ-15N valid from 1-7000 MHz
+
+.SUBCKT 0403HQ-15N  N1 N2
++ PARAMS: K1=3.15e-05
+R_R1          $N_0002 N2 12.76 
+R_R2        N1  $N_0001 0.273 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 15.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .049pF 
+.ENDS
+
+*0403HQ-18N valid from 1-6000 MHz
+
+.SUBCKT 0403HQ-18N  N1 N2
++ PARAMS: K1=3.83e-05
+R_R1          $N_0002 N2 11.02 
+R_R2        N1  $N_0001 0.273 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 18.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .053pF 
+.ENDS
+
+
+
+*Coilcraft 0603CS Chip Inductor Series
+*Netlist for spice models
+*Updated 4/22/05
+
+
+*0603CS-1N6 valid from 1-25300 MHz
+
+.SUBCKT 0603CS-1N6  N1 N2
++ PARAMS: K1=6.50e-06
+R_R1          $N_0002 N2 2 
+R_R2        N1  $N_0001 0.001 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1.6nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .030pF 
+.ENDS
+
+*0603CS-1N8 valid from 1-22100 MHz
+
+.SUBCKT 0603CS-1N8  N1 N2
++ PARAMS: K1=1.00e-05
+R_R1          $N_0002 N2 2 
+R_R2        N1  $N_0001 0.001 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1.8nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .035pF 
+.ENDS
+
+*0603CS-2N2 valid from 1-23000 MHz
+
+.SUBCKT 0603CS-2N2  N1 N2
++ PARAMS: K1=1.12e-05
+R_R1          $N_0002 N2 23 
+R_R2        N1  $N_0001 0.070 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2.2nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .024pF 
+.ENDS
+
+*0603CS-3N3 valid from 1-17100 MHz
+
+.SUBCKT 0603CS-3N3  N1 N2
++ PARAMS: K1=8.90e-06
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.002 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.3nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .032pF 
+.ENDS
+
+*0603CS-3N6 valid from 1-14600 MHz
+
+.SUBCKT 0603CS-3N6  N1 N2
++ PARAMS: K1=1.25e-05
+R_R1          $N_0002 N2 9 
+R_R2        N1  $N_0001 0.002 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.6nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .040pF 
+.ENDS
+
+*0603CS-3N9 valid from 1-13700 MHz
+
+.SUBCKT 0603CS-3N9  N1 N2
++ PARAMS: K1=1.40e-05
+R_R1          $N_0002 N2 9 
+R_R2        N1  $N_0001 0.002 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.9nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .042pF 
+.ENDS
+
+*0603CS-4N3 valid from 1-12900 MHz
+
+.SUBCKT 0603CS-4N3  N1 N2
++ PARAMS: K1=1.31e-05
+R_R1          $N_0002 N2 9 
+R_R2        N1  $N_0001 0.003 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 4.3nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .043pF 
+.ENDS
+
+*0603CS-4N7 valid from 1-12500 MHz
+
+.SUBCKT 0603CS-4N7  N1 N2
++ PARAMS: K1=1.99e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.003 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 4.7nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .042pF 
+.ENDS
+
+*0603CS-5N1 valid from 1-10700 MHz
+
+.SUBCKT 0603CS-5N1  N1 N2
++ PARAMS: K1=2.08e-05
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.004 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 5.1nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .053pF 
+.ENDS
+
+*0603CS-5N6 valid from 1-10600 MHz
+
+.SUBCKT 0603CS-5N6  N1 N2
++ PARAMS: K1=1.62e-05
+R_R1          $N_0002 N2 5 
+R_R2        N1  $N_0001 0.075 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 5.6nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .029pF 
+.ENDS
+
+*0603CS-6N8 valid from 1-10500 MHz
+
+.SUBCKT 0603CS-6N8  N1 N2
++ PARAMS: K1=1.89e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.005 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 6.8nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .041pF 
+.ENDS
+
+*0603CS-7N5 valid from 1-9600 MHz
+
+.SUBCKT 0603CS-7N5  N1 N2
++ PARAMS: K1=2.04e-05
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.006 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 7.5nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .045pF 
+.ENDS
+
+*0603CS-8N2 valid from 1-8100 MHz
+
+.SUBCKT 0603CS-8N2  N1 N2
++ PARAMS: K1=2.18e-05
+R_R1          $N_0002 N2 16 
+R_R2        N1  $N_0001 0.008 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 8.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .059pF 
+.ENDS
+
+*0603CS-8N7 valid from 1-7200 MHz
+
+.SUBCKT 0603CS-8N7  N1 N2
++ PARAMS: K1=2.40e-05
+R_R1          $N_0002 N2 5 
+R_R2        N1  $N_0001 0.011 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 8.7nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .069pF 
+.ENDS
+
+*0603CS-9N5 valid from 1-9300 MHz
+
+.SUBCKT 0603CS-9N5  N1 N2
++ PARAMS: K1=2.96e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.011 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 9.5nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .038pF 
+.ENDS
+
+*0603CS-10N valid from 1-8500 MHz
+
+.SUBCKT 0603CS-10N  N1 N2
++ PARAMS: K1=2.64e-05
+R_R1          $N_0002 N2 35 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 10.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .043pF 
+.ENDS
+
+*0603CS-11N valid from 1-7800 MHz
+
+.SUBCKT 0603CS-11N  N1 N2
++ PARAMS: K1=2.88e-05
+R_R1          $N_0002 N2 25 
+R_R2        N1  $N_0001 0.013 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 11.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .046pF 
+.ENDS
+
+*0603CS-12N valid from 1-6700 MHz
+
+.SUBCKT 0603CS-12N  N1 N2
++ PARAMS: K1=3.20e-05
+R_R1          $N_0002 N2 9 
+R_R2        N1  $N_0001 0.013 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 12.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .058pF 
+.ENDS
+
+*0603CS-15N valid from 1-6500 MHz
+
+.SUBCKT 0603CS-15N  N1 N2
++ PARAMS: K1=3.60e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.040 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 15.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .049pF 
+.ENDS
+
+*0603CS-16N valid from 1-6200 MHz
+
+.SUBCKT 0603CS-16N  N1 N2
++ PARAMS: K1=3.80e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.050 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 16.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .050pF 
+.ENDS
+
+*0603CS-18N valid from 1-5400 MHz
+
+.SUBCKT 0603CS-18N  N1 N2
++ PARAMS: K1=4.10e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.050 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 18.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .071pF 
+.ENDS
+
+*0603CS-22N valid from 1-5600 MHz
+
+.SUBCKT 0603CS-22N  N1 N2
++ PARAMS: K1=4.80e-05
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.050 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 21.9nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .054pF 
+.ENDS
+
+*0603CS-23N valid from 1-5500 MHz
+
+.SUBCKT 0603CS-23N  N1 N2
++ PARAMS: K1=4.91e-05
+R_R1          $N_0002 N2 18 
+R_R2        N1  $N_0001 0.050 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 23.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .054pF 
+.ENDS
+
+*0603CS-24N valid from 1-4800 MHz
+
+.SUBCKT 0603CS-24N  N1 N2
++ PARAMS: K1=5.03e-05
+R_R1          $N_0002 N2 15 
+R_R2        N1  $N_0001 0.040 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 24.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .068pF 
+.ENDS
+
+*0603CS-27N valid from 1-5300 MHz
+
+.SUBCKT 0603CS-27N  N1 N2
++ PARAMS: K1=5.75e-05
+R_R1          $N_0002 N2 17 
+R_R2        N1  $N_0001 0.030 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 27.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .049pF 
+.ENDS
+
+*0603CS-30N valid from 1-4500 MHz
+
+.SUBCKT 0603CS-30N  N1 N2
++ PARAMS: K1=6.13e-05
+R_R1          $N_0002 N2 19 
+R_R2        N1  $N_0001 0.020 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 30.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .062pF 
+.ENDS
+
+*0603CS-33N valid from 1-3700 MHz
+
+.SUBCKT 0603CS-33N  N1 N2
++ PARAMS: K1=8.00e-05
+R_R1          $N_0002 N2 16 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 33.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .081pF 
+.ENDS
+
+*0603CS-36N valid from 1-4200 MHz
+
+.SUBCKT 0603CS-36N  N1 N2
++ PARAMS: K1=7.22e-05
+R_R1          $N_0002 N2 23 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 35.7nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .059pF 
+.ENDS
+
+*0603CS-39N valid from 1-3800 MHz
+
+.SUBCKT 0603CS-39N  N1 N2
++ PARAMS: K1=9.00e-05
+R_R1          $N_0002 N2 17 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 39.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .066pF 
+.ENDS
+
+*0603CS-43N valid from 1-4000 MHz
+
+.SUBCKT 0603CS-43N  N1 N2
++ PARAMS: K1=9.50e-05
+R_R1          $N_0002 N2 27 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 43.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .055pF 
+.ENDS
+
+*0603CS-47N valid from 1-3400 MHz
+
+.SUBCKT 0603CS-47N  N1 N2
++ PARAMS: K1=1.03e-04
+R_R1          $N_0002 N2 17 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 47.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .071pF 
+.ENDS
+
+*0603CS-51N valid from 1-3800 MHz
+
+.SUBCKT 0603CS-51N  N1 N2
++ PARAMS: K1=1.17e-04
+R_R1          $N_0002 N2 30 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 51.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .050pF 
+.ENDS
+
+*0603CS-56N valid from 1-3200 MHz
+
+.SUBCKT 0603CS-56N  N1 N2
++ PARAMS: K1=1.18e-04
+R_R1          $N_0002 N2 17 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 56.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .065pF 
+.ENDS
+
+*0603CS-68N valid from 1-2800 MHz
+
+.SUBCKT 0603CS-68N  N1 N2
++ PARAMS: K1=1.45e-04
+R_R1          $N_0002 N2 17 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 67.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .073pF 
+.ENDS
+
+*0603CS-72N valid from 1-3100 MHz
+
+.SUBCKT 0603CS-72N  N1 N2
++ PARAMS: K1=1.60e-04
+R_R1          $N_0002 N2 20 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 72.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .054pF 
+.ENDS
+
+*0603CS-82N valid from 1-2900 MHz
+
+.SUBCKT 0603CS-82N  N1 N2
++ PARAMS: K1=1.65e-04
+R_R1          $N_0002 N2 20 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 81.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .056pF 
+.ENDS
+
+*0603CS-R10 valid from 1-2500 MHz
+
+.SUBCKT 0603CS-R10  N1 N2
++ PARAMS: K1=2.34e-04
+R_R1          $N_0002 N2 25 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 100nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .060pF 
+.ENDS
+
+*0603CS-R11 valid from 1-2400 MHz
+
+.SUBCKT 0603CS-R11  N1 N2
++ PARAMS: K1=2.57e-04
+R_R1          $N_0002 N2 21 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 109nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .060pF 
+.ENDS
+
+*0603CS-R12 valid from 1-2300 MHz
+
+.SUBCKT 0603CS-R12  N1 N2
++ PARAMS: K1=2.70e-04
+R_R1          $N_0002 N2 26 
+R_R2        N1  $N_0001 0.010 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 119nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .063pF 
+.ENDS
+
+*0603CS-R15 valid from 1-2000 MHz
+
+.SUBCKT 0603CS-R15  N1 N2
++ PARAMS: K1=3.57e-04
+R_R1          $N_0002 N2 30 
+R_R2        N1  $N_0001 0.025 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 148nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .068pF 
+.ENDS
+
+*0603CS-R18 valid from 1-1900 MHz
+
+.SUBCKT 0603CS-R18  N1 N2
++ PARAMS: K1=3.87e-04
+R_R1          $N_0002 N2 33 
+R_R2        N1  $N_0001 0.050 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 179nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .061pF 
+.ENDS
+
+*0603CS-R20 valid from 1-2000 MHz
+
+.SUBCKT 0603CS-R20  N1 N2
++ PARAMS: K1=4.17e-04
+R_R1          $N_0002 N2 20 
+R_R2        N1  $N_0001 0.125 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 198nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .048pF 
+.ENDS
+
+*0603CS-R21 valid from 1-2000 MHz
+
+.SUBCKT 0603CS-R21  N1 N2
++ PARAMS: K1=4.29e-04
+R_R1          $N_0002 N2 22 
+R_R2        N1  $N_0001 0.150 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 208nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .045pF 
+.ENDS
+
+*0603CS-R22 valid from 1-1700 MHz
+
+.SUBCKT 0603CS-R22  N1 N2
++ PARAMS: K1=4.53e-04
+R_R1          $N_0002 N2 28 
+R_R2        N1  $N_0001 0.168 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 219nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .058pF 
+.ENDS
+
+*0603CS-R25 valid from 1-1700 MHz
+
+.SUBCKT 0603CS-R25  N1 N2
++ PARAMS: K1=4.22e-04
+R_R1          $N_0002 N2 33 
+R_R2        N1  $N_0001 0.200 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 246nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .044pF 
+.ENDS
+
+*0603CS-R27 valid from 1-1600 MHz
+
+.SUBCKT 0603CS-R27  N1 N2
++ PARAMS: K1=5.30e-04
+R_R1          $N_0002 N2 34 
+R_R2        N1  $N_0001 0.300 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 268nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .054pF 
+.ENDS
+
+*0603CS-R33 valid from 1-1400 MHz
+
+.SUBCKT 0603CS-R33  N1 N2
++ PARAMS: K1=7.19e-04
+R_R1          $N_0002 N2 37 
+R_R2        N1  $N_0001 0.676 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 327nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .059pF 
+.ENDS
+
+*0603CS-R39 valid from 1-1300 MHz
+
+.SUBCKT 0603CS-R39  N1 N2
++ PARAMS: K1=7.69e-04
+R_R1          $N_0002 N2 41 
+R_R2        N1  $N_0001 1.052 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 386nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .059pF 
+.ENDS
+
+
+*Coilcraft 0603HC Chip Inductor Series
+*Netlist for spice models
+*Updated 4/22/05
+
+
+*0603HC-1N6 valid from 1-23800 MHz
+
+.SUBCKT 0603HC-1N6  N1 N2
++ PARAMS: K1=2.91e-06
+R_R1          $N_0002 N2 5 
+R_R2        N1  $N_0001 0.030 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1.3nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .042pF 
+.ENDS
+
+*0603HC-3N6 valid from 1-15200 MHz
+
+.SUBCKT 0603HC-3N6  N1 N2
++ PARAMS: K1=1.03e-05
+R_R1          $N_0002 N2 9 
+R_R2        N1  $N_0001 0.048 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.6nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .037pF 
+.ENDS
+
+*0603HC-3N9 valid from 1-15000 MHz
+
+.SUBCKT 0603HC-3N9  N1 N2
++ PARAMS: K1=9.70e-06
+R_R1          $N_0002 N2 9 
+R_R2        N1  $N_0001 0.054 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.7nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .037pF 
+.ENDS
+
+*0603HC-6N8 valid from 1-9400 MHz
+
+.SUBCKT 0603HC-6N8  N1 N2
++ PARAMS: K1=1.39e-05
+R_R1          $N_0002 N2 4 
+R_R2        N1  $N_0001 0.054 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 6.8nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .052pF 
+.ENDS
+
+*0603HC-7N5 valid from 1-7300 MHz
+
+.SUBCKT 0603HC-7N5  N1 N2
++ PARAMS: K1=1.51e-05
+R_R1          $N_0002 N2 4 
+R_R2        N1  $N_0001 0.059 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 7.5nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .078pF 
+.ENDS
+
+*0603HC-10N valid from 1-8300 MHz
+
+.SUBCKT 0603HC-10N  N1 N2
++ PARAMS: K1=2.05e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.071 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 10.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .045pF 
+.ENDS
+
+*0603HC-12N valid from 1-6300 MHz
+
+.SUBCKT 0603HC-12N  N1 N2
++ PARAMS: K1=2.48e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.075 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 12.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .079pF 
+.ENDS
+
+*0603HC-15N valid from 1-6300 MHz
+
+.SUBCKT 0603HC-15N  N1 N2
++ PARAMS: K1=3.12e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.080 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 15.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .062pF 
+.ENDS
+
+*0603HC-18N valid from 1-4900 MHz
+
+.SUBCKT 0603HC-18N  N1 N2
++ PARAMS: K1=3.32e-05
+R_R1          $N_0002 N2 15 
+R_R2        N1  $N_0001 0.099 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 18.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .085pF 
+.ENDS
+
+*0603HC-22N valid from 1-5200 MHz
+
+.SUBCKT 0603HC-22N  N1 N2
++ PARAMS: K1=3.84e-05
+R_R1          $N_0002 N2 15 
+R_R2        N1  $N_0001 0.099 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 22.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .062pF 
+.ENDS
+
+*0603HC-24N valid from 1-4100 MHz
+
+.SUBCKT 0603HC-24N  N1 N2
++ PARAMS: K1=4.50e-05
+R_R1          $N_0002 N2 15 
+R_R2        N1  $N_0001 0.105 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 24.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 .095pF 
+.ENDS
+
+
+
+*Coilcraft 0603LS Chip Inductor Series
+*Netlist for spice models
+*Updated 5/1/05
+
+
+*0603LS-47N valid from 1-500 MHz
+
+.SUBCKT 0603LS-47N  N1 N2
++ PARAMS: K1=2.87e-05 K2=5.77e-02
+R_R1          $N_0002 N2 490 
+R_R2        N1  $N_0001 0.001 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 46.3nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 10.6pF 
+.ENDS
+
+*0603LS-72N valid from 1-500 MHz
+
+.SUBCKT 0603LS-72N  N1 N2
++ PARAMS: K1=5.07e-05 K2=1.65e-01
+R_R1          $N_0002 N2 872 
+R_R2        N1  $N_0001 0.001 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 70.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 11.5pF 
+.ENDS
+
+*0603LS-101 valid from 1-500 MHz
+
+.SUBCKT 0603LS-101  N1 N2
++ PARAMS: K1=7.34e-05 K2=1.50e-01
+R_R1          $N_0002 N2 1264 
+R_R2        N1  $N_0001 0.001 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 95.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 7.50pF 
+.ENDS
+
+*0603LS-121 valid from 1-500 MHz
+
+.SUBCKT 0603LS-121  N1 N2
++ PARAMS: K1=7.34e-05 K2=1.52e-01
+R_R1          $N_0002 N2 1706 
+R_R2        N1  $N_0001 0.001 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 117.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 7.30pF 
+.ENDS
+
+*0603LS-151 valid from 1-500 MHz
+
+.SUBCKT 0603LS-151  N1 N2
++ PARAMS: K1=9.20e-05 K2=1.45e-01
+R_R1          $N_0002 N2 2756 
+R_R2        N1  $N_0001 0.002 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 149.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 2.00pF 
+.ENDS
+
+*0603LS-181 valid from 1-500 MHz
+
+.SUBCKT 0603LS-181  N1 N2
++ PARAMS: K1=9.54e-05 K2=1.60e-01
+R_R1          $N_0002 N2 3546 
+R_R2        N1  $N_0001 0.005 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 179.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.90pF 
+.ENDS
+
+*0603LS-241 valid from 1-350 MHz
+
+.SUBCKT 0603LS-241  N1 N2
++ PARAMS: K1=1.21e-04 K2=2.14e-01
+R_R1          $N_0002 N2 4025 
+R_R2        N1  $N_0001 0.002 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 232.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.17pF 
+.ENDS
+
+*0603LS-271 valid from 1-300 MHz
+
+.SUBCKT 0603LS-271  N1 N2
++ PARAMS: K1=1.15e-04 K2=2.17e-01
+R_R1          $N_0002 N2 3518 
+R_R2        N1  $N_0001 0.002 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 261.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.11pF 
+.ENDS
+
+*0603LS-331 valid from 1-300 MHz
+
+.SUBCKT 0603LS-331  N1 N2
++ PARAMS: K1=1.30e-04 K2=2.42e-01
+R_R1          $N_0002 N2 3330 
+R_R2        N1  $N_0001 0.002 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 325.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.12pF 
+.ENDS
+
+*0603LS-391 valid from 1-300 MHz
+
+.SUBCKT 0603LS-391  N1 N2
++ PARAMS: K1=1.44e-04 K2=3.72e-01
+R_R1          $N_0002 N2 2920 
+R_R2        N1  $N_0001 0.095 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 379.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.14pF 
+.ENDS
+
+*0603LS-471 valid from 1-300 MHz
+
+.SUBCKT 0603LS-471  N1 N2
++ PARAMS: K1=3.80e-05 K2=3.47e-01
+R_R1          $N_0002 N2 1886 
+R_R2        N1  $N_0001 0.432 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 455.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.13pF 
+.ENDS
+
+*0603LS-561 valid from 1-300 MHz
+
+.SUBCKT 0603LS-561  N1 N2
++ PARAMS: K1=3.94e-05 K2=3.94e-01
+R_R1          $N_0002 N2 1676 
+R_R2        N1  $N_0001 0.319 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 535.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.13pF 
+.ENDS
+
+*0603LS-681 valid from 1-200 MHz
+
+.SUBCKT 0603LS-681  N1 N2
++ PARAMS: K1=7.97e-05 K2=5.11e-01
+R_R1          $N_0002 N2 893 
+R_R2        N1  $N_0001 0.365 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 677nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.28pF 
+.ENDS
+
+*0603LS-781 valid from 1-200 MHz
+
+.SUBCKT 0603LS-781  N1 N2
++ PARAMS: K1=3.83e-05 K2=5.35e-01
+R_R1          $N_0002 N2 3800 
+R_R2        N1  $N_0001 0.532 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 765nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.10pF 
+.ENDS
+
+*0603LS-821 valid from 1-150 MHz
+
+.SUBCKT 0603LS-821  N1 N2
++ PARAMS: K1=5.70e-05 K2=6.33e-01
+R_R1          $N_0002 N2 2740 
+R_R2        N1  $N_0001 0.669 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 799nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.15pF 
+.ENDS
+
+*0603LS-102 valid from 1-100 MHz
+
+.SUBCKT 0603LS-102  N1 N2
++ PARAMS: K1=1.45e-04 K2=7.88e-01
+R_R1          $N_0002 N2 1180 
+R_R2        N1  $N_0001 0.666 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 997nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.33pF 
+.ENDS
+
+*0603LS-122 valid from 1-80 MHz
+
+.SUBCKT 0603LS-122  N1 N2
++ PARAMS: K1=8.08e-05 K2=7.78e-01
+R_R1          $N_0002 N2 690 
+R_R2        N1  $N_0001 0.666 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1180nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.35pF 
+.ENDS
+
+*0603LS-152 valid from 1-80 MHz
+
+.SUBCKT 0603LS-152  N1 N2
++ PARAMS: K1=3.39e-05 K2=9.40e-01
+R_R1          $N_0002 N2 242 
+R_R2        N1  $N_0001 0.956 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1500nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 1.26pF 
+.ENDS
+
+*0603LS-182 valid from 1-65 MHz
+
+.SUBCKT 0603LS-182  N1 N2
++ PARAMS: K1=8.42e-05 K2=1.06e+00
+R_R1          $N_0002 N2 27.8 
+R_R2        N1  $N_0001 1.51 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1760nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 1.56pF 
+.ENDS
+
+*0603LS-222 valid from 1-60 MHz
+
+.SUBCKT 0603LS-222  N1 N2
++ PARAMS: K1=7.23e-05 K2=1.31e+00
+R_R1          $N_0002 N2 33.5 
+R_R2        N1  $N_0001 1.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2140nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 1.73pF 
+.ENDS
+
+*0603LS-272 valid from 1-50 MHz
+
+.SUBCKT 0603LS-272  N1 N2
++ PARAMS: K1=5.76e-05 K2=1.71e+00
+R_R1          $N_0002 N2 36.1 
+R_R2        N1  $N_0001 1.37 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2620nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 1.59pF 
+.ENDS
+
+*0603LS-332 valid from 1-37 MHz
+
+.SUBCKT 0603LS-332  N1 N2
++ PARAMS: K1=2.17e-05 K2=1.98e+00
+R_R1          $N_0002 N2 80.4 
+R_R2        N1  $N_0001 1.49 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3290nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 2.68pF 
+.ENDS
+
+*0603LS-392 valid from 1-36 MHz
+
+.SUBCKT 0603LS-392  N1 N2
++ PARAMS: K1=2.33e-05 K2=2.10e+00
+R_R1          $N_0002 N2 91.5 
+R_R2        N1  $N_0001 1.89 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3810nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 2.69pF 
+.ENDS
+
+*0603LS-472 valid from 1-30 MHz
+
+.SUBCKT 0603LS-472  N1 N2
++ PARAMS: K1=1.71e-05 K2=2.59e+00
+R_R1          $N_0002 N2 76.1 
+R_R2        N1  $N_0001 3.14 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 4660nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 3.49pF 
+.ENDS
+
+*0603LS-562 valid from 1-28 MHz
+
+.SUBCKT 0603LS-562  N1 N2
++ PARAMS: K1=1.31e-05 K2=2.76e+00
+R_R1          $N_0002 N2 63.5 
+R_R2        N1  $N_0001 5.63 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 5390nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 3.14pF 
+.ENDS
+
+*0603LS-782 valid from 1-25 MHz
+
+.SUBCKT 0603LS-782  N1 N2
++ PARAMS: K1=2.04e-05 K2=4.46e+00
+R_R1          $N_0002 N2 90.4 
+R_R2        N1  $N_0001 3.58 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 7370nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 3.05pF 
+.ENDS
+
+*0603LS-822 valid from 1-23 MHz
+
+.SUBCKT 0603LS-822  N1 N2
++ PARAMS: K1=2.04e-05 K2=4.99e+00
+R_R1          $N_0002 N2 108 
+R_R2        N1  $N_0001 3.48 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 7801nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 3.22pF 
+.ENDS
+
+
+
+
+*Coilcraft 0604HQ Chip Inductor Series
+*Netlist for spice models
+*Updated 5/1/05
+
+
+*0604HQ-1N1 valid from 1-17600 MHz
+
+.SUBCKT 0604HQ-1N1  N1 N2
++ PARAMS: K1=3.81e-06
+R_R1          $N_0002 N2 2 
+R_R2        N1  $N_0001 0.02 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1.15nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.079pF 
+.ENDS
+
+*0604HQ-2N6 valid from 1-13900 MHz
+
+.SUBCKT 0604HQ-2N6  N1 N2
++ PARAMS: K1=5.81e-06
+R_R1          $N_0002 N2 2 
+R_R2        N1  $N_0001 0.02 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2.60nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.056pF 
+.ENDS
+
+*0604HQ-4N5 valid from 1-8900 MHz
+
+.SUBCKT 0604HQ-4N5  N1 N2
++ PARAMS: K1=7.71e-06
+R_R1          $N_0002 N2 3 
+R_R2        N1  $N_0001 0.03 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 4.50nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.080pF 
+.ENDS
+
+*0604HQ-5N0 valid from 1-9900 MHz
+
+.SUBCKT 0604HQ-5N0  N1 N2
++ PARAMS: K1=7.71e-06
+R_R1          $N_0002 N2 5 
+R_R2        N1  $N_0001 0.03 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 5.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.058pF 
+.ENDS
+
+*0604HQ-6N8 valid from 1-7000 MHz
+
+.SUBCKT 0604HQ-6N8  N1 N2
++ PARAMS: K1=1.25e-05
+R_R1          $N_0002 N2 5 
+R_R2        N1  $N_0001 0.03 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 6.80nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.086pF 
+.ENDS
+
+*0604HQ-7N6 valid from 1-6700 MHz
+
+.SUBCKT 0604HQ-7N6  N1 N2
++ PARAMS: K1=1.35e-05
+R_R1          $N_0002 N2 7 
+R_R2        N1  $N_0001 0.03 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 7.60nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.082pF 
+.ENDS
+
+*0604HQ-10N valid from 1-6000 MHz
+
+.SUBCKT 0604HQ-10N  N1 N2
++ PARAMS: K1=1.75e-05
+R_R1          $N_0002 N2 9 
+R_R2        N1  $N_0001 0.03 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 10.4nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.084pF 
+.ENDS
+
+
+
+
+*Coilcraft 0805CS Chip Inductor Series
+*Netlist for spice models
+*Updated 5/1/05
+
+
+*0805CS-020 valid from 1-17200 MHz
+
+.SUBCKT 0805CS-020  N1 N2
++ PARAMS: K1=6.40e-06
+R_R1          $N_0002 N2 1 
+R_R2        N1  $N_0001 0.06 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2.75nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.038pF 
+.ENDS
+
+*0805CS-3N0 valid from 1-16000 MHz
+
+.SUBCKT 0805CS-3N0  N1 N2
++ PARAMS: K1=8.90e-06
+R_R1          $N_0002 N2 2 
+R_R2        N1  $N_0001 0.06 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.00nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.040pF 
+.ENDS
+
+*0805CS-030 valid from 1-14900 MHz
+
+.SUBCKT 0805CS-030  N1 N2
++ PARAMS: K1=1.22e-05
+R_R1          $N_0002 N2 3 
+R_R2        N1  $N_0001 0.08 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.30nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.042pF 
+.ENDS
+
+*0805CS-050 valid from 1-10400 MHz
+
+.SUBCKT 0805CS-050  N1 N2
++ PARAMS: K1=1.36e-05
+R_R1          $N_0002 N2 4 
+R_R2        N1  $N_0001 0.08 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 5.66nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.051pF 
+.ENDS
+
+*0805CS-060 valid from 1-10600 MHz
+
+.SUBCKT 0805CS-060  N1 N2
++ PARAMS: K1=2.07e-05
+R_R1          $N_0002 N2 5 
+R_R2        N1  $N_0001 0.11 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 6.72nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.041pF 
+.ENDS
+
+*0805CS-070 valid from 1-7900 MHz
+
+.SUBCKT 0805CS-070  N1 N2
++ PARAMS: K1=2.22e-05
+R_R1          $N_0002 N2 5 
+R_R2        N1  $N_0001 0.14 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 7.65nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.065pF 
+.ENDS
+
+*0805CS-080 valid from 1-7100 MHz
+
+.SUBCKT 0805CS-080  N1 N2
++ PARAMS: K1=2.34e-05
+R_R1          $N_0002 N2 7 
+R_R2        N1  $N_0001 0.12 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 8.05nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.076pF 
+.ENDS
+
+*0805CS-100 valid from 1-8100 MHz
+
+.SUBCKT 0805CS-100  N1 N2
++ PARAMS: K1=1.72e-05
+R_R1          $N_0002 N2 6 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 10.1nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.047pF 
+.ENDS
+
+*0805CS-120 valid from 1-7100 MHz
+
+.SUBCKT 0805CS-120  N1 N2
++ PARAMS: K1=2.44e-05
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.15 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 12.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.051pF 
+.ENDS
+
+*0805CS-150 valid from 1-4700 MHz
+
+.SUBCKT 0805CS-150  N1 N2
++ PARAMS: K1=3.04e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.17 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 15.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.096pF 
+.ENDS
+
+*0805CS-180 valid from 1-5400 MHz
+
+.SUBCKT 0805CS-180  N1 N2
++ PARAMS: K1=3.69e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.20 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 18.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.059pF 
+.ENDS
+
+*0805CS-220 valid from 1-3900 MHz
+
+.SUBCKT 0805CS-220  N1 N2
++ PARAMS: K1=4.17e-05
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.22 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 22.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.093pF 
+.ENDS
+
+*0805CS-240 valid from 1-3500 MHz
+
+.SUBCKT 0805CS-240  N1 N2
++ PARAMS: K1=5.01e-05
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.22 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 24.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.110pF 
+.ENDS
+
+*0805CS-270 valid from 1-4200 MHz
+
+.SUBCKT 0805CS-270  N1 N2
++ PARAMS: K1=5.15e-05
+R_R1          $N_0002 N2 14 
+R_R2        N1  $N_0001 0.25 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 27.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.067pF 
+.ENDS
+
+*0805CS-330 valid from 1-3100 MHz
+
+.SUBCKT 0805CS-330  N1 N2
++ PARAMS: K1=5.71e-05
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.27 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 33.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.097pF 
+.ENDS
+
+*0805CS-360 valid from 1-2700 MHz
+
+.SUBCKT 0805CS-360  N1 N2
++ PARAMS: K1=6.71e-05
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.27 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 36.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.126pF 
+.ENDS
+
+*0805CS-390 valid from 1-3400 MHz
+
+.SUBCKT 0805CS-390  N1 N2
++ PARAMS: K1=6.81e-05
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.29 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 39.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.082pF 
+.ENDS
+
+*0805CS-430 valid from 1-3200 MHz
+
+.SUBCKT 0805CS-430  N1 N2
++ PARAMS: K1=7.51e-05
+R_R1          $N_0002 N2 15 
+R_R2        N1  $N_0001 0.31 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 43.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.084pF 
+.ENDS
+
+*0805CS-470 valid from 1-2700 MHz
+
+.SUBCKT 0805CS-470  N1 N2
++ PARAMS: K1=8.31e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.31 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 47.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.111pF 
+.ENDS
+
+*0805CS-560 valid from 1-2700 MHz
+
+.SUBCKT 0805CS-560  N1 N2
++ PARAMS: K1=1.01e-04
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.34 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 56.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.094pF 
+.ENDS
+
+*0805CS-680 valid from 1-2500 MHz
+
+.SUBCKT 0805CS-680  N1 N2
++ PARAMS: K1=1.20e-04
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.38 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 67.5nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.088pF 
+.ENDS
+
+*0805CS-820 valid from 1-2300 MHz
+
+.SUBCKT 0805CS-820  N1 N2
++ PARAMS: K1=1.34e-04
+R_R1          $N_0002 N2 15 
+R_R2        N1  $N_0001 0.42 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 81.4nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.088pF 
+.ENDS
+
+*0805CS-910 valid from 1-2300 MHz
+
+.SUBCKT 0805CS-910  N1 N2
++ PARAMS: K1=1.40e-04
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.48 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 90.4nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.083pF 
+.ENDS
+
+*0805CS-101 valid from 1-2100 MHz
+
+.SUBCKT 0805CS-101  N1 N2
++ PARAMS: K1=1.56e-04
+R_R1          $N_0002 N2 14 
+R_R2        N1  $N_0001 0.46 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 99.1nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.089pF 
+.ENDS
+
+*0805CS-111 valid from 1-1800 MHz
+
+.SUBCKT 0805CS-111  N1 N2
++ PARAMS: K1=1.52e-04
+R_R1          $N_0002 N2 15 
+R_R2        N1  $N_0001 0.48 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 109nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.109pF 
+.ENDS
+
+*0805CS-121 valid from 1-1800 MHz
+
+.SUBCKT 0805CS-121  N1 N2
++ PARAMS: K1=1.72e-04
+R_R1          $N_0002 N2 18 
+R_R2        N1  $N_0001 0.51 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 119nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.095pF 
+.ENDS
+
+*0805CS-151 valid from 1-1500 MHz
+
+.SUBCKT 0805CS-151  N1 N2
++ PARAMS: K1=2.23e-04
+R_R1          $N_0002 N2 24 
+R_R2        N1  $N_0001 0.56 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 149nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.110pF 
+.ENDS
+
+*0805CS-181 valid from 1-1600 MHz
+
+.SUBCKT 0805CS-181  N1 N2
++ PARAMS: K1=2.75e-04
+R_R1          $N_0002 N2 18 
+R_R2        N1  $N_0001 0.64 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 178nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.090pF 
+.ENDS
+
+*0805CS-221 valid from 1-1500 MHz
+
+.SUBCKT 0805CS-221  N1 N2
++ PARAMS: K1=3.40e-04
+R_R1          $N_0002 N2 26 
+R_R2        N1  $N_0001 0.70 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 215nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.086pF 
+.ENDS
+
+*0805CS-241 valid from 1-1300 MHz
+
+.SUBCKT 0805CS-241  N1 N2
++ PARAMS: K1=3.80e-04
+R_R1          $N_0002 N2 27 
+R_R2        N1  $N_0001 1.00 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 235nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.098pF 
+.ENDS
+
+*0805CS-271 valid from 1-1200 MHz
+
+.SUBCKT 0805CS-271  N1 N2
++ PARAMS: K1=3.90e-04
+R_R1          $N_0002 N2 31 
+R_R2        N1  $N_0001 1.00 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 263nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.098pF 
+.ENDS
+
+*0805CS-331 valid from 1-1100 MHz
+
+.SUBCKT 0805CS-331  N1 N2
++ PARAMS: K1=4.74e-04
+R_R1          $N_0002 N2 31 
+R_R2        N1  $N_0001 1.40 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 320nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.096pF 
+.ENDS
+
+*0805CS-391 valid from 1-1100 MHz
+
+.SUBCKT 0805CS-391  N1 N2
++ PARAMS: K1=5.78e-04
+R_R1          $N_0002 N2 33 
+R_R2        N1  $N_0001 1.50 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 380nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.095pF 
+.ENDS
+
+*0805CS-471 valid from 1-800 MHz
+
+.SUBCKT 0805CS-471  N1 N2
++ PARAMS: K1=6.14e-04
+R_R1          $N_0002 N2 66 
+R_R2        N1  $N_0001 1.76 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 470nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.132pF 
+.ENDS
+
+*0805CS-561 valid from 1-600 MHz
+
+.SUBCKT 0805CS-561  N1 N2
++ PARAMS: K1=5.54e-04
+R_R1          $N_0002 N2 66 
+R_R2        N1  $N_0001 1.90 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 560nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.258pF 
+.ENDS
+
+*0805CS-681 valid from 1-400 MHz
+
+.SUBCKT 0805CS-681  N1 N2
++ PARAMS: K1=7.14e-04
+R_R1          $N_0002 N2 88 
+R_R2        N1  $N_0001 2.20 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 680nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.542pF 
+.ENDS
+
+*0805CS-821 valid from 1-500 MHz
+
+.SUBCKT 0805CS-821  N1 N2
++ PARAMS: K1=9.80e-04
+R_R1          $N_0002 N2 125 
+R_R2        N1  $N_0001 2.35 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 820nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.255pF 
+.ENDS
+
+
+
+
+
+*Coilcraft 0805HS Chip Inductor Series
+*Netlist for spice models
+*Updated 5/1/05
+
+
+*0805HS-030 valid from 1-15900 MHz
+
+.SUBCKT 0805HS-030  N1 N2
++ PARAMS: K1=1.22e-05
+R_R1          $N_0002 N2 3 
+R_R2        N1  $N_0001 0.08 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.21nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.038pF 
+.ENDS
+
+*0805HS-060 valid from 1-11600 MHz
+
+.SUBCKT 0805HS-060  N1 N2
++ PARAMS: K1=2.07e-05
+R_R1          $N_0002 N2 5 
+R_R2        N1  $N_0001 0.11 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 6.72nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.034pF 
+.ENDS
+
+*0805HS-080 valid from 1-7800 MHz
+
+.SUBCKT 0805HS-080  N1 N2
++ PARAMS: K1=2.34e-05
+R_R1          $N_0002 N2 7 
+R_R2        N1  $N_0001 0.12 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 8.05nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.063pF 
+.ENDS
+
+*0805HS-120 valid from 1-7000 MHz
+
+.SUBCKT 0805HS-120  N1 N2
++ PARAMS: K1=2.44e-05
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.15 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 12.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.053pF 
+.ENDS
+
+*0805HS-150 valid from 1-4600 MHz
+
+.SUBCKT 0805HS-150  N1 N2
++ PARAMS: K1=3.04e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.17 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 15.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.101pF 
+.ENDS
+
+*0805HS-180 valid from 1-5500 MHz
+
+.SUBCKT 0805HS-180  N1 N2
++ PARAMS: K1=3.69e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.20 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 18.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.058pF 
+.ENDS
+
+*0805HS-220 valid from 1-4100 MHz
+
+.SUBCKT 0805HS-220  N1 N2
++ PARAMS: K1=4.17e-05
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.22 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 22.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.084pF 
+.ENDS
+
+*0805HS-270 valid from 1-4400 MHz
+
+.SUBCKT 0805HS-270  N1 N2
++ PARAMS: K1=5.15e-05
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.25 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 27.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.061pF 
+.ENDS
+
+*0805HS-330 valid from 1-3200 MHz
+
+.SUBCKT 0805HS-330  N1 N2
++ PARAMS: K1=5.71e-05
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.27 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 33.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.091pF 
+.ENDS
+
+*0805HS-390 valid from 1-3200 MHz
+
+.SUBCKT 0805HS-390  N1 N2
++ PARAMS: K1=6.81e-05
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.29 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 39.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.080pF 
+.ENDS
+
+*0805HS-470 valid from 1-2600 MHz
+
+.SUBCKT 0805HS-470  N1 N2
++ PARAMS: K1=8.31e-05
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.31 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 47.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.102pF 
+.ENDS
+
+*0805HS-560 valid from 1-2500 MHz
+
+.SUBCKT 0805HS-560  N1 N2
++ PARAMS: K1=1.01e-04
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.34 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 56.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.089pF 
+.ENDS
+
+*0805HS-680 valid from 1-2400 MHz
+
+.SUBCKT 0805HS-680  N1 N2
++ PARAMS: K1=1.20e-04
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.38 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 67.5nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.084pF 
+.ENDS
+
+*0805HS-820 valid from 1-2100 MHz
+
+.SUBCKT 0805HS-820  N1 N2
++ PARAMS: K1=1.34e-04
+R_R1          $N_0002 N2 14 
+R_R2        N1  $N_0001 0.42 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 81.4nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.087pF 
+.ENDS
+
+*0805HS-101 valid from 1-1900 MHz
+
+.SUBCKT 0805HS-101  N1 N2
++ PARAMS: K1=1.56e-04
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.46 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 99.1nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.087pF 
+.ENDS
+
+*0805HS-121 valid from 1-1700 MHz
+
+.SUBCKT 0805HS-121  N1 N2
++ PARAMS: K1=1.72e-04
+R_R1          $N_0002 N2 16 
+R_R2        N1  $N_0001 0.51 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 119nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.094pF 
+.ENDS
+
+*0805HS-151 valid from 1-1600 MHz
+
+.SUBCKT 0805HS-151  N1 N2
++ PARAMS: K1=2.23e-04
+R_R1          $N_0002 N2 20 
+R_R2        N1  $N_0001 0.56 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 149nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.107pF 
+.ENDS
+
+*0805HS-181 valid from 1-1500 MHz
+
+.SUBCKT 0805HS-181  N1 N2
++ PARAMS: K1=2.75e-04
+R_R1          $N_0002 N2 21 
+R_R2        N1  $N_0001 0.64 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 178nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.093pF 
+.ENDS
+
+*0805HS-221 valid from 1-1500 MHz
+
+.SUBCKT 0805HS-221  N1 N2
++ PARAMS: K1=3.40e-04
+R_R1          $N_0002 N2 24 
+R_R2        N1  $N_0001 0.70 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 215nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.081pF 
+.ENDS
+
+
+
+*Coilcraft 0805HQ Chip Inductor Series
+*Netlist for spice models
+*Updated 5/1/05
+
+
+*0805HQ-2N5 valid from 1-19800 MHz
+
+.SUBCKT 0805HQ-2N5  N1 N2
++ PARAMS: K1=6.90e-06
+R_R1          $N_0002 N2 6 
+R_R2        N1  $N_0001 0.02 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2.70nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.029pF 
+.ENDS
+
+*0805HQ-5N6 valid from 1-11000 MHz
+
+.SUBCKT 0805HQ-5N6  N1 N2
++ PARAMS: K1=1.19e-05
+R_R1          $N_0002 N2 7 
+R_R2        N1  $N_0001 0.04 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 5.80nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.044pF 
+.ENDS
+
+*0805HQ-6N2 valid from 1-10100 MHz
+
+.SUBCKT 0805HQ-6N2  N1 N2
++ PARAMS: K1=1.15e-05
+R_R1          $N_0002 N2 8 
+R_R2        N1  $N_0001 0.04 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 6.40nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.056pF 
+.ENDS
+
+*0805HQ-12N valid from 1-5800 MHz
+
+.SUBCKT 0805HQ-12N  N1 N2
++ PARAMS: K1=2.50e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.05 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 12.2nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.090pF 
+.ENDS
+
+*0805HQ-16N valid from 1-5900 MHz
+
+.SUBCKT 0805HQ-16N  N1 N2
++ PARAMS: K1=2.62e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.06 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 16.5nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.064pF 
+.ENDS
+
+*0805HQ-18N valid from 1-5000 MHz
+
+.SUBCKT 0805HQ-18N  N1 N2
++ PARAMS: K1=2.83e-05
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.06 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 18.6nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.079pF 
+.ENDS
+
+*0805HQ-20N valid from 1-3800 MHz
+
+.SUBCKT 0805HQ-20N  N1 N2
++ PARAMS: K1=3.38e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.06 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 20.5nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.128pF 
+.ENDS
+
+*0805HQ-27N valid from 1-3900 MHz
+
+.SUBCKT 0805HQ-27N  N1 N2
++ PARAMS: K1=4.34e-05
+R_R1          $N_0002 N2 14 
+R_R2        N1  $N_0001 0.07 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 27.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.093pF 
+.ENDS
+
+*0805HQ-30N valid from 1-3000 MHz
+
+.SUBCKT 0805HQ-30N  N1 N2
++ PARAMS: K1=4.58e-05
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 30.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.137pF 
+.ENDS
+
+*0805HQ-39N valid from 1-2900 MHz
+
+.SUBCKT 0805HQ-39N  N1 N2
++ PARAMS: K1=6.29e-05
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.11 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 39.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.117pF 
+.ENDS
+
+*0805HQ-48N valid from 1-2600 MHz
+
+.SUBCKT 0805HQ-48N  N1 N2
++ PARAMS: K1=7.59e-05
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 48.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.116pF 
+.ENDS
+
+*0805HQ-51N valid from 1-2500 MHz
+
+.SUBCKT 0805HQ-51N  N1 N2
++ PARAMS: K1=8.80e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.12 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 51.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.116pF 
+.ENDS
+
+
+
+*Coilcraft 0805HT Chip Inductor Series
+*Netlist for spice models
+*Updated 5/1/05
+
+
+*0805HT-1N8 valid from 1-14700 MHz
+
+.SUBCKT 0805HT-1N8  N1 N2
++ PARAMS: K1=6.04e-06
+R_R1          $N_0002 N2 6 
+R_R2        N1  $N_0001 0.03 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1.8nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.072pF 
+.ENDS
+
+*0805HT-3N9 valid from 1-12500 MHz
+
+.SUBCKT 0805HT-3N9  N1 N2
++ PARAMS: K1=1.22e-05
+R_R1          $N_0002 N2 7 
+R_R2        N1  $N_0001 0.05 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 4.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.045pF 
+.ENDS
+
+*0805HT-4N7 valid from 1-11400 MHz
+
+.SUBCKT 0805HT-4N7  N1 N2
++ PARAMS: K1=1.36e-05
+R_R1          $N_0002 N2 8 
+R_R2        N1  $N_0001 0.06 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 4.5nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.048pF 
+.ENDS
+
+*0805HT-6N8 valid from 1-9500 MHz
+
+.SUBCKT 0805HT-6N8  N1 N2
++ PARAMS: K1=2.11e-05
+R_R1          $N_0002 N2 8 
+R_R2        N1  $N_0001 0.08 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 6.9nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.045pF 
+.ENDS
+
+*0805HT-8N2 valid from 1-8100 MHz
+
+.SUBCKT 0805HT-8N2  N1 N2
++ PARAMS: K1=2.50e-05
+R_R1          $N_0002 N2 9 
+R_R2        N1  $N_0001 0.08 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 8.2nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.052pF 
+.ENDS
+
+*0805HT-10N valid from 1-5700 MHz
+
+.SUBCKT 0805HT-10N  N1 N2
++ PARAMS: K1=2.34e-05
+R_R1          $N_0002 N2 9 
+R_R2        N1  $N_0001 0.08 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 9.9nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.088pF 
+.ENDS
+
+*0805HT-12N valid from 1-7100 MHz
+
+.SUBCKT 0805HT-12N  N1 N2
++ PARAMS: K1=2.86e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 12.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.047pF 
+.ENDS
+
+*0805HT-15N valid from 1-5100 MHz
+
+.SUBCKT 0805HT-15N  N1 N2
++ PARAMS: K1=3.14e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 14.6nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.076pF 
+.ENDS
+
+*0805HT-18N valid from 1-5500 MHz
+
+.SUBCKT 0805HT-18N  N1 N2
++ PARAMS: K1=3.74e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.13 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 17.6nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.053pF 
+.ENDS
+
+*0805HT-22N valid from 1-5400 MHz
+
+.SUBCKT 0805HT-22N  N1 N2
++ PARAMS: K1=4.79e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.15 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 22.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.040pF 
+.ENDS
+
+*0805HT-27N valid from 1-4000 MHz
+
+.SUBCKT 0805HT-27N  N1 N2
++ PARAMS: K1=5.59e-05
+R_R1          $N_0002 N2 16 
+R_R2        N1  $N_0001 0.19 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 27.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.065pF 
+.ENDS
+
+*0805HT-33N valid from 1-3900 MHz
+
+.SUBCKT 0805HT-33N  N1 N2
++ PARAMS: K1=6.31e-05
+R_R1          $N_0002 N2 20 
+R_R2        N1  $N_0001 0.19 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 33.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.058pF 
+.ENDS
+
+*0805HT-39N valid from 1-3800 MHz
+
+.SUBCKT 0805HT-39N  N1 N2
++ PARAMS: K1=7.21e-05
+R_R1          $N_0002 N2 24 
+R_R2        N1  $N_0001 0.27 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 40.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.050pF 
+.ENDS
+
+*0805HT-47N valid from 1-3600 MHz
+
+.SUBCKT 0805HT-47N  N1 N2
++ PARAMS: K1=1.01e-04
+R_R1          $N_0002 N2 28 
+R_R2        N1  $N_0001 0.30 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 47.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.048pF 
+.ENDS
+
+*0805HT-56N valid from 1-3200 MHz
+
+.SUBCKT 0805HT-56N  N1 N2
++ PARAMS: K1=1.17e-04
+R_R1          $N_0002 N2 20 
+R_R2        N1  $N_0001 0.39 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 56.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.050pF 
+.ENDS
+
+*0805HT-68N valid from 1-2600 MHz
+
+.SUBCKT 0805HT-68N  N1 N2
++ PARAMS: K1=1.44e-04
+R_R1          $N_0002 N2 16 
+R_R2        N1  $N_0001 0.40 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 68.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.061pF 
+.ENDS
+
+*0805HT-82N valid from 1-2600 MHz
+
+.SUBCKT 0805HT-82N  N1 N2
++ PARAMS: K1=1.72e-04
+R_R1          $N_0002 N2 18 
+R_R2        N1  $N_0001 0.44 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 81.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.051pF 
+.ENDS
+
+*0805HT-R10 valid from 1-2200 MHz
+
+.SUBCKT 0805HT-R10  N1 N2
++ PARAMS: K1=1.84e-04
+R_R1          $N_0002 N2 20 
+R_R2        N1  $N_0001 0.64 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 101nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.059pF 
+.ENDS
+
+*0805HT-R12 valid from 1-2100 MHz
+
+.SUBCKT 0805HT-R12  N1 N2
++ PARAMS: K1=1.96e-04
+R_R1          $N_0002 N2 22 
+R_R2        N1  $N_0001 0.68 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 120nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.056pF 
+.ENDS
+
+*0805HT-R15 valid from 1-1900 MHz
+
+.SUBCKT 0805HT-R15  N1 N2
++ PARAMS: K1=1.98e-04
+R_R1          $N_0002 N2 25 
+R_R2        N1  $N_0001 0.80 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 146nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.054pF 
+.ENDS
+
+*0805HT-R18 valid from 1-1700 MHz
+
+.SUBCKT 0805HT-R18  N1 N2
++ PARAMS: K1=3.17e-04
+R_R1          $N_0002 N2 24 
+R_R2        N1  $N_0001 0.86 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 179nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.054pF 
+.ENDS
+
+*0805HT-R22 valid from 1-1500 MHz
+
+.SUBCKT 0805HT-R22  N1 N2
++ PARAMS: K1=2.44e-04
+R_R1          $N_0002 N2 34 
+R_R2        N1  $N_0001 1.29 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 215nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.064pF 
+.ENDS
+
+*0805HT-R27 valid from 1-1500 MHz
+
+.SUBCKT 0805HT-R27  N1 N2
++ PARAMS: K1=4.32e-04
+R_R1          $N_0002 N2 25 
+R_R2        N1  $N_0001 1.40 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 268nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.034pF 
+.ENDS
+
+*0805HT-R33 valid from 1-1300 MHz
+
+.SUBCKT 0805HT-R33  N1 N2
++ PARAMS: K1=4.85e-04
+R_R1          $N_0002 N2 36 
+R_R2        N1  $N_0001 1.93 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 326nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.048pF 
+.ENDS
+
+*0805HT-R39 valid from 1-1200 MHz
+
+.SUBCKT 0805HT-R39  N1 N2
++ PARAMS: K1=6.05e-04
+R_R1          $N_0002 N2 36 
+R_R2        N1  $N_0001 2.80 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 384nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.047pF 
+.ENDS
+
+*0805HT-R47 valid from 1-1100 MHz
+
+.SUBCKT 0805HT-R47  N1 N2
++ PARAMS: K1=7.37e-04
+R_R1          $N_0002 N2 145 
+R_R2        N1  $N_0001 3.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 462nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.043pF 
+.ENDS
+
+*0805HT-R50 valid from 1-1050 MHz
+
+.SUBCKT 0805HT-R50  N1 N2
++ PARAMS: K1=1.27e-03
+R_R1          $N_0002 N2 7 
+R_R2        N1  $N_0001 3.20 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 491nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.045pF 
+.ENDS
+
+
+*Coilcraft 0805LS Chip Inductor Series
+*Netlist for spice models
+*Updated 5/1/05
+
+
+*0805LS-78N valid from 1-500 MHz
+
+.SUBCKT 0805LS-78N  N1 N2
++ PARAMS: K1=0.00e+00 K2=6.53e-02
+R_R1          $N_0002 N2 2010 
+R_R2        N1  $N_0001 0.0785 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 0.0762uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 2.08pF 
+.ENDS
+
+*0805LS-111 valid from 1-500 MHz
+
+.SUBCKT 0805LS-111  N1 N2
++ PARAMS: K1=1.29e-05 K2=1.14e-01
+R_R1          $N_0002 N2 1590 
+R_R2        N1  $N_0001 0.142 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 0.108uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 8.53pF 
+.ENDS
+
+*0805LS-471 valid from 1-240 MHz
+
+.SUBCKT 0805LS-471  N1 N2
++ PARAMS: K1=2.52e-05 K2=3.05e-01
+R_R1          $N_0002 N2 3370 
+R_R2        N1  $N_0001 0.292 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 0.465uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.062pF 
+.ENDS
+
+*0805LS-681 valid from 1-200 MHz
+
+.SUBCKT 0805LS-681  N1 N2
++ PARAMS: K1=9.99e-06 K2=4.80e-01
+R_R1          $N_0002 N2 3440 
+R_R2        N1  $N_0001 0.459 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 0.677uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.170pF 
+.ENDS
+
+*0805LS-102 valid from 1-150 MHz
+
+.SUBCKT 0805LS-102  N1 N2
++ PARAMS: K1=8.40e-06 K2=6.82e-01
+R_R1          $N_0002 N2 9680 
+R_R2        N1  $N_0001 0.724 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1.00uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.142pF 
+.ENDS
+
+*0805LS-152 valid from 1-100 MHz
+
+.SUBCKT 0805LS-152  N1 N2
++ PARAMS: K1=1.10e-05 K2=1.19e+00
+R_R1          $N_0002 N2 19000 
+R_R2        N1  $N_0001 0.902 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1.55uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.149pF 
+.ENDS
+
+*0805LS-182 valid from 1-90 MHz
+
+.SUBCKT 0805LS-182  N1 N2
++ PARAMS: K1=1.45e-05 K2=1.39e+00
+R_R1          $N_0002 N2 20200 
+R_R2        N1  $N_0001 1.21 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1.79uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.166pF 
+.ENDS
+
+*0805LS-222 valid from 1-90 MHz
+
+.SUBCKT 0805LS-222  N1 N2
++ PARAMS: K1=1.11e-06 K2=1.49e+00
+R_R1          $N_0002 N2 380 
+R_R2        N1  $N_0001 1.28 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2.20uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.656pF 
+.ENDS
+
+*0805LS-272 valid from 1-75 MHz
+
+.SUBCKT 0805LS-272  N1 N2
++ PARAMS: K1=1.17e-06 K2=1.76e+00
+R_R1          $N_0002 N2 650 
+R_R2        N1  $N_0001 1.41 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2.70uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.511pF 
+.ENDS
+
+*0805LS-332 valid from 1-65 MHz
+
+.SUBCKT 0805LS-332  N1 N2
++ PARAMS: K1=1.59e-06 K2=2.11e+00
+R_R1          $N_0002 N2 305 
+R_R2        N1  $N_0001 1.69 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.35uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.792pF 
+.ENDS
+
+*0805LS-392 valid from 1-45 MHz
+
+.SUBCKT 0805LS-392  N1 N2
++ PARAMS: K1=2.26e-07 K2=2.48e+00
+R_R1          $N_0002 N2 161 
+R_R2        N1  $N_0001 1.77 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.90uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 1.51pF 
+.ENDS
+
+*0805LS-472 valid from 1-40 MHz
+
+.SUBCKT 0805LS-472  N1 N2
++ PARAMS: K1=1.88e-07 K2=2.87e+00
+R_R1          $N_0002 N2 198 
+R_R2        N1  $N_0001 1.95 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 4.70uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 1.39pF 
+.ENDS
+
+*0805LS-682 valid from 1-30 MHz
+
+.SUBCKT 0805LS-682  N1 N2
++ PARAMS: K1=1.90e-07 K2=3.96e+00
+R_R1          $N_0002 N2 144 
+R_R2        N1  $N_0001 2.47 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 6.62uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 2.49pF 
+.ENDS
+
+*0805LS-822 valid from 1-22 MHz
+
+.SUBCKT 0805LS-822  N1 N2
++ PARAMS: K1=2.03e-07 K2=4.66e+00
+R_R1          $N_0002 N2 158 
+R_R2        N1  $N_0001 2.80 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 8.20uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 4.12pF 
+.ENDS
+
+*0805LS-103 valid from 1-17 MHz
+
+.SUBCKT 0805LS-103  N1 N2
++ PARAMS: K1=2.21e-07 K2=5.89e+00
+R_R1          $N_0002 N2 142 
+R_R2        N1  $N_0001 3.89 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 9.90uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 4.43pF 
+.ENDS
+
+*0805LS-153 valid from 1-13 MHz
+
+.SUBCKT 0805LS-153  N1 N2
++ PARAMS: K1=5.20e-07 K2=9.23e+00
+R_R1          $N_0002 N2 150 
+R_R2        N1  $N_0001 6.13 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 14.8uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 4.15pF 
+.ENDS
+
+*0805LS-223 valid from 1-9 MHz
+
+.SUBCKT 0805LS-223  N1 N2
++ PARAMS: K1=4.01e-07 K2=1.29e+01
+R_R1          $N_0002 N2 156 
+R_R2        N1  $N_0001 7.69 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 21.6uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 4.41pF 
+.ENDS
+
+*0805LS-273 valid from 1-9 MHz
+
+.SUBCKT 0805LS-273  N1 N2
++ PARAMS: K1=7.31e-07 K2=1.45e+01
+R_R1          $N_0002 N2 117 
+R_R2        N1  $N_0001 11.9 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 26.7uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 5.53pF 
+.ENDS
+
+
+
+
+*Coilcraft 1008CS Chip Inductor Series
+*Netlist for spice models
+*Updated 5/1/05
+
+
+*1008CS-100 valid from 1-6700 MHz
+
+.SUBCKT 1008CS-100  N1 N2
++ PARAMS: K1=1.96e-05
+R_R1          $N_0002 N2 8 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 9.8nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.065pF 
+.ENDS
+
+*1008CS-120 valid from 1-4900 MHz
+
+.SUBCKT 1008CS-120  N1 N2
++ PARAMS: K1=2.40e-05
+R_R1          $N_0002 N2 7 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 12.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.100pF 
+.ENDS
+
+*1008CS-150 valid from 1-3700 MHz
+
+.SUBCKT 1008CS-150  N1 N2
++ PARAMS: K1=3.12e-05
+R_R1          $N_0002 N2 7 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 15.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.153pF 
+.ENDS
+
+*1008CS-180 valid from 1-4600 MHz
+
+.SUBCKT 1008CS-180  N1 N2
++ PARAMS: K1=3.16e-05
+R_R1          $N_0002 N2 7 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 18.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.083pF 
+.ENDS
+
+*1008CS-220 valid from 1-3400 MHz
+
+.SUBCKT 1008CS-220  N1 N2
++ PARAMS: K1=3.69e-05
+R_R1          $N_0002 N2 8 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 22.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.124pF 
+.ENDS
+
+*1008CS-270 valid from 1-2500 MHz
+
+.SUBCKT 1008CS-270  N1 N2
++ PARAMS: K1=4.41e-05
+R_R1          $N_0002 N2 8 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 27.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.185pF 
+.ENDS
+
+*1008CS-330 valid from 1-2900 MHz
+
+.SUBCKT 1008CS-330  N1 N2
++ PARAMS: K1=5.18e-05
+R_R1          $N_0002 N2 9 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 33.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.117pF 
+.ENDS
+
+*1008CS-390 valid from 1-2300 MHz
+
+.SUBCKT 1008CS-390  N1 N2
++ PARAMS: K1=5.50e-05
+R_R1          $N_0002 N2 9 
+R_R2        N1  $N_0001 0.20 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 39.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.149pF 
+.ENDS
+
+*1008CS-470 valid from 1-2400 MHz
+
+.SUBCKT 1008CS-470  N1 N2
++ PARAMS: K1=6.40e-05
+R_R1          $N_0002 N2 9 
+R_R2        N1  $N_0001 0.20 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 47.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.118pF 
+.ENDS
+
+*1008CS-560 valid from 1-1900 MHz
+
+.SUBCKT 1008CS-560  N1 N2
++ PARAMS: K1=7.40e-05
+R_R1          $N_0002 N2 7 
+R_R2        N1  $N_0001 0.20 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 56.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.160pF 
+.ENDS
+
+*1008CS-680 valid from 1-1900 MHz
+
+.SUBCKT 1008CS-680  N1 N2
++ PARAMS: K1=9.20e-05
+R_R1          $N_0002 N2 6 
+R_R2        N1  $N_0001 0.20 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 68.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.137pF 
+.ENDS
+
+*1008CS-820 valid from 1-1500 MHz
+
+.SUBCKT 1008CS-820  N1 N2
++ PARAMS: K1=1.15e-04
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.20 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 81.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.179pF 
+.ENDS
+
+*1008CS-101 valid from 1-1600 MHz
+
+.SUBCKT 1008CS-101  N1 N2
++ PARAMS: K1=1.25e-04
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.60 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 100nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.135pF 
+.ENDS
+
+*1008CS-121 valid from 1-1400 MHz
+
+.SUBCKT 1008CS-121  N1 N2
++ PARAMS: K1=1.51e-04
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.60 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 120nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.136pF 
+.ENDS
+
+*1008CS-151 valid from 1-1300 MHz
+
+.SUBCKT 1008CS-151  N1 N2
++ PARAMS: K1=1.10e-04
+R_R1          $N_0002 N2 14 
+R_R2        N1  $N_0001 0.70 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 150nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.136pF 
+.ENDS
+
+*1008CS-181 valid from 1-1200 MHz
+
+.SUBCKT 1008CS-181  N1 N2
++ PARAMS: K1=1.40e-04
+R_R1          $N_0002 N2 18 
+R_R2        N1  $N_0001 0.80 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 180nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.130pF 
+.ENDS
+
+*1008CS-221 valid from 1-1000 MHz
+
+.SUBCKT 1008CS-221  N1 N2
++ PARAMS: K1=1.90e-04
+R_R1          $N_0002 N2 18 
+R_R2        N1  $N_0001 0.80 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 224nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.147pF 
+.ENDS
+
+*1008CS-271 valid from 1-900 MHz
+
+.SUBCKT 1008CS-271  N1 N2
++ PARAMS: K1=2.32e-04
+R_R1          $N_0002 N2 19 
+R_R2        N1  $N_0001 0.90 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 265nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.144pF 
+.ENDS
+
+*1008CS-331 valid from 1-900 MHz
+
+.SUBCKT 1008CS-331  N1 N2
++ PARAMS: K1=2.84e-04
+R_R1          $N_0002 N2 20 
+R_R2        N1  $N_0001 1.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 330nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.132pF 
+.ENDS
+
+*1008CS-391 valid from 1-800 MHz
+
+.SUBCKT 1008CS-391  N1 N2
++ PARAMS: K1=3.49e-04
+R_R1          $N_0002 N2 27 
+R_R2        N1  $N_0001 1.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 380nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.138pF 
+.ENDS
+
+*1008CS-471 valid from 1-700 MHz
+
+.SUBCKT 1008CS-471  N1 N2
++ PARAMS: K1=4.27e-04
+R_R1          $N_0002 N2 31 
+R_R2        N1  $N_0001 1.20 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 465nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.156pF 
+.ENDS
+
+*1008CS-561 valid from 1-600 MHz
+
+.SUBCKT 1008CS-561  N1 N2
++ PARAMS: K1=5.18e-04
+R_R1          $N_0002 N2 36 
+R_R2        N1  $N_0001 1.30 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 550nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.172pF 
+.ENDS
+
+*1008CS-621 valid from 1-600 MHz
+
+.SUBCKT 1008CS-621  N1 N2
++ PARAMS: K1=5.74e-04
+R_R1          $N_0002 N2 37 
+R_R2        N1  $N_0001 1.40 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 615nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.143pF 
+.ENDS
+
+*1008CS-681 valid from 1-600 MHz
+
+.SUBCKT 1008CS-681  N1 N2
++ PARAMS: K1=6.10e-04
+R_R1          $N_0002 N2 37 
+R_R2        N1  $N_0001 1.50 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 665nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.139pF 
+.ENDS
+
+*1008CS-751 valid from 1-600 MHz
+
+.SUBCKT 1008CS-751  N1 N2
++ PARAMS: K1=6.90e-04
+R_R1          $N_0002 N2 44 
+R_R2        N1  $N_0001 1.50 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 740nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.138pF 
+.ENDS
+
+*1008CS-821 valid from 1-600 MHz
+
+.SUBCKT 1008CS-821  N1 N2
++ PARAMS: K1=8.10e-04
+R_R1          $N_0002 N2 41 
+R_R2        N1  $N_0001 1.60 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 810nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.135pF 
+.ENDS
+
+*1008CS-911 valid from 1-500 MHz
+
+.SUBCKT 1008CS-911  N1 N2
++ PARAMS: K1=7.80e-04
+R_R1          $N_0002 N2 53 
+R_R2        N1  $N_0001 1.70 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 895nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.155pF 
+.ENDS
+
+*1008CS-102 valid from 1-400 MHz
+
+.SUBCKT 1008CS-102  N1 N2
++ PARAMS: K1=8.20e-04
+R_R1          $N_0002 N2 90 
+R_R2        N1  $N_0001 1.80 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 975nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.209pF 
+.ENDS
+
+*1008CS-122 valid from 1-400 MHz
+
+.SUBCKT 1008CS-122  N1 N2
++ PARAMS: K1=1.05e-03
+R_R1          $N_0002 N2 73 
+R_R2        N1  $N_0001 2.00 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1215nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.201pF 
+.ENDS
+
+*1008CS-152 valid from 1-300 MHz
+
+.SUBCKT 1008CS-152  N1 N2
++ PARAMS: K1=1.71e-03
+R_R1          $N_0002 N2 83 
+R_R2        N1  $N_0001 2.30 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1515nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.249pF 
+.ENDS
+
+*1008CS-182 valid from 1-300 MHz
+
+.SUBCKT 1008CS-182  N1 N2
++ PARAMS: K1=2.04e-03
+R_R1          $N_0002 N2 85 
+R_R2        N1  $N_0001 2.60 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1825nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.278pF 
+.ENDS
+
+*1008CS-222 valid from 1-300 MHz
+
+.SUBCKT 1008CS-222  N1 N2
++ PARAMS: K1=2.46e-03
+R_R1          $N_0002 N2 84 
+R_R2        N1  $N_0001 2.80 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2200nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.258pF 
+.ENDS
+
+*1008CS-272 valid from 1-200 MHz
+
+.SUBCKT 1008CS-272  N1 N2
++ PARAMS: K1=2.55e-03
+R_R1          $N_0002 N2 112 
+R_R2        N1  $N_0001 3.20 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2700nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.398pF 
+.ENDS
+
+*1008CS-332 valid from 1-200 MHz
+
+.SUBCKT 1008CS-332  N1 N2
++ PARAMS: K1=3.27e-03
+R_R1          $N_0002 N2 134 
+R_R2        N1  $N_0001 3.40 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3300nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.285pF 
+.ENDS
+
+*1008CS-392 valid from 1-200 MHz
+
+.SUBCKT 1008CS-392  N1 N2
++ PARAMS: K1=4.23e-03
+R_R1          $N_0002 N2 121 
+R_R2        N1  $N_0001 3.60 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3900nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.401pF 
+.ENDS
+
+*1008CS-472 valid from 1-200 MHz
+
+.SUBCKT 1008CS-472  N1 N2
++ PARAMS: K1=5.00e-03
+R_R1          $N_0002 N2 163 
+R_R2        N1  $N_0001 4.00 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 4600nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.381pF 
+.ENDS
+
+*1008CS-562 valid from 1-100 MHz
+
+.SUBCKT 1008CS-562  N1 N2
++ PARAMS: K1=3.04e-03
+R_R1          $N_0002 N2 64 
+R_R2        N1  $N_0001 4.00 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 5250nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 5.304pF 
+.ENDS
+
+*1008CS-682 valid from 1-100 MHz
+
+.SUBCKT 1008CS-682  N1 N2
++ PARAMS: K1=3.54e-03
+R_R1          $N_0002 N2 148 
+R_R2        N1  $N_0001 4.90 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 6800nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 1.357pF 
+.ENDS
+
+*1008CS-822 valid from 1-100 MHz
+
+.SUBCKT 1008CS-822  N1 N2
++ PARAMS: K1=4.38e-03
+R_R1          $N_0002 N2 134 
+R_R2        N1  $N_0001 6.00 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 8200nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 2.911pF 
+.ENDS
+
+
+
+
+*Coilcraft 1008CT Chip Inductor Series
+*Netlist for spice models
+*Updated 5/2/05
+
+
+*1008CT-040 valid from 1-13700 MHz
+
+.SUBCKT 1008CT-040  N1 N2
++ PARAMS: K1=5.80e-06
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.15 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 4.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.041pF 
+.ENDS
+
+*1008CT-080 valid from 1-8900 MHz
+
+.SUBCKT 1008CT-080  N1 N2
++ PARAMS: K1=1.07e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.22 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 8.1nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.048pF 
+.ENDS
+
+*1008CT-100 valid from 1-6000 MHz
+
+.SUBCKT 1008CT-100  N1 N2
++ PARAMS: K1=2.05e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.25 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 10nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.078pF 
+.ENDS
+
+*1008CT-150 valid from 1-5700 MHz
+
+.SUBCKT 1008CT-150  N1 N2
++ PARAMS: K1=2.44e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.22 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 15nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.075pF 
+.ENDS
+
+*1008CT-200 valid from 1-4000 MHz
+
+.SUBCKT 1008CT-200  N1 N2
++ PARAMS: K1=2.20e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.33 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 20nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.119pF 
+.ENDS
+
+*1008CT-300 valid from 1-4100 MHz
+
+.SUBCKT 1008CT-300  N1 N2
++ PARAMS: K1=5.36e-05
+R_R1          $N_0002 N2 17 
+R_R2        N1  $N_0001 0.38 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 30nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.057pF 
+.ENDS
+
+*1008CT-400 valid from 1-3100 MHz
+
+.SUBCKT 1008CT-400  N1 N2
++ PARAMS: K1=5.44e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.43 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 39nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.103pF 
+.ENDS
+
+*1008CT-500 valid from 1-2800 MHz
+
+.SUBCKT 1008CT-500  N1 N2
++ PARAMS: K1=6.60e-05
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.48 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 50nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.094pF 
+.ENDS
+
+*1008CT-600 valid from 1-2700 MHz
+
+.SUBCKT 1008CT-600  N1 N2
++ PARAMS: K1=7.60e-05
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.52 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 60nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.087pF 
+.ENDS
+
+*1008CT-700 valid from 1-2600 MHz
+
+.SUBCKT 1008CT-700  N1 N2
++ PARAMS: K1=1.05e-04
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.55 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 70nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.078pF 
+.ENDS
+
+*1008CT-800 valid from 1-2300 MHz
+
+.SUBCKT 1008CT-800  N1 N2
++ PARAMS: K1=1.04e-04
+R_R1          $N_0002 N2 14 
+R_R2        N1  $N_0001 0.56 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 80nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.094pF 
+.ENDS
+
+*1008CT-900 valid from 1-2300 MHz
+
+.SUBCKT 1008CT-900  N1 N2
++ PARAMS: K1=1.05e-04
+R_R1          $N_0002 N2 14 
+R_R2        N1  $N_0001 0.61 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 90nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.081pF 
+.ENDS
+
+*1008CT-101 valid from 1-1900 MHz
+
+.SUBCKT 1008CT-101  N1 N2
++ PARAMS: K1=1.60e-04
+R_R1          $N_0002 N2 15 
+R_R2        N1  $N_0001 0.63 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 100nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.104pF 
+.ENDS
+
+
+
+
+*Coilcraft 1008HS Chip Inductor Series
+*Netlist for spice models
+*Updated 5/2/05
+
+
+*1008HS-100 valid from 1-6700 MHz
+
+.SUBCKT 1008HS-100  N1 N2
++ PARAMS: K1=1.95e-05
+R_R1          $N_0002 N2 8 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 9.8nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.065pF 
+.ENDS
+
+*1008HS-120 valid from 1-4900 MHz
+
+.SUBCKT 1008HS-120  N1 N2
++ PARAMS: K1=2.40e-05
+R_R1          $N_0002 N2 7 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 12.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.100pF 
+.ENDS
+
+*1008HS-150 valid from 1-3700 MHz
+
+.SUBCKT 1008HS-150  N1 N2
++ PARAMS: K1=3.12e-05
+R_R1          $N_0002 N2 7 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 15.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.153pF 
+.ENDS
+
+*1008HS-180 valid from 1-4600 MHz
+
+.SUBCKT 1008HS-180  N1 N2
++ PARAMS: K1=3.16e-05
+R_R1          $N_0002 N2 7 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 18.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.083pF 
+.ENDS
+
+*1008HS-220 valid from 1-3400 MHz
+
+.SUBCKT 1008HS-220  N1 N2
++ PARAMS: K1=3.69e-05
+R_R1          $N_0002 N2 8 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 22.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.124pF 
+.ENDS
+
+*1008HS-270 valid from 1-2500 MHz
+
+.SUBCKT 1008HS-270  N1 N2
++ PARAMS: K1=4.41e-05
+R_R1          $N_0002 N2 8 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 27.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.185pF 
+.ENDS
+
+*1008HS-330 valid from 1-2900 MHz
+
+.SUBCKT 1008HS-330  N1 N2
++ PARAMS: K1=5.18e-05
+R_R1          $N_0002 N2 9 
+R_R2        N1  $N_0001 0.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 33.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.117pF 
+.ENDS
+
+*1008HS-390 valid from 1-2300 MHz
+
+.SUBCKT 1008HS-390  N1 N2
++ PARAMS: K1=5.50e-05
+R_R1          $N_0002 N2 9 
+R_R2        N1  $N_0001 0.20 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 39.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.149pF 
+.ENDS
+
+*1008HS-470 valid from 1-2400 MHz
+
+.SUBCKT 1008HS-470  N1 N2
++ PARAMS: K1=6.40e-05
+R_R1          $N_0002 N2 9 
+R_R2        N1  $N_0001 0.20 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 47.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.118pF 
+.ENDS
+
+*1008HS-560 valid from 1-1900 MHz
+
+.SUBCKT 1008HS-560  N1 N2
++ PARAMS: K1=7.40e-05
+R_R1          $N_0002 N2 7 
+R_R2        N1  $N_0001 0.20 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 56.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.160pF 
+.ENDS
+
+*1008HS-680 valid from 1-1900 MHz
+
+.SUBCKT 1008HS-680  N1 N2
++ PARAMS: K1=9.20e-05
+R_R1          $N_0002 N2 6 
+R_R2        N1  $N_0001 0.20 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 68.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.137pF 
+.ENDS
+
+*1008HS-820 valid from 1-1500 MHz
+
+.SUBCKT 1008HS-820  N1 N2
++ PARAMS: K1=1.15e-04
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.20 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 81.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.179pF 
+.ENDS
+
+*1008HS-101 valid from 1-1600 MHz
+
+.SUBCKT 1008HS-101  N1 N2
++ PARAMS: K1=1.25e-04
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.60 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 100nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.135pF 
+.ENDS
+
+*1008HS-121 valid from 1-1400 MHz
+
+.SUBCKT 1008HS-121  N1 N2
++ PARAMS: K1=1.51e-04
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.60 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 120nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.136pF 
+.ENDS
+
+*1008HS-151 valid from 1-1300 MHz
+
+.SUBCKT 1008HS-151  N1 N2
++ PARAMS: K1=1.10e-04
+R_R1          $N_0002 N2 14 
+R_R2        N1  $N_0001 0.70 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 150nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.136pF 
+.ENDS
+
+*1008HS-181 valid from 1-1200 MHz
+
+.SUBCKT 1008HS-181  N1 N2
++ PARAMS: K1=1.40e-04
+R_R1          $N_0002 N2 18 
+R_R2        N1  $N_0001 0.80 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 180nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.130pF 
+.ENDS
+
+*1008HS-221 valid from 1-1000 MHz
+
+.SUBCKT 1008HS-221  N1 N2
++ PARAMS: K1=1.90e-04
+R_R1          $N_0002 N2 18 
+R_R2        N1  $N_0001 0.80 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 224nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.147pF 
+.ENDS
+
+*1008HS-271 valid from 1-900 MHz
+
+.SUBCKT 1008HS-271  N1 N2
++ PARAMS: K1=2.32e-04
+R_R1          $N_0002 N2 19 
+R_R2        N1  $N_0001 0.90 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 265nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.144pF 
+.ENDS
+
+*1008HS-331 valid from 1-900 MHz
+
+.SUBCKT 1008HS-331  N1 N2
++ PARAMS: K1=2.84e-04
+R_R1          $N_0002 N2 20 
+R_R2        N1  $N_0001 1.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 330nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.132pF 
+.ENDS
+
+*1008HS-391 valid from 1-800 MHz
+
+.SUBCKT 1008HS-391  N1 N2
++ PARAMS: K1=3.49e-04
+R_R1          $N_0002 N2 27 
+R_R2        N1  $N_0001 1.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 380nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.138pF 
+.ENDS
+
+*1008HS-471 valid from 1-700 MHz
+
+.SUBCKT 1008HS-471  N1 N2
++ PARAMS: K1=4.27e-04
+R_R1          $N_0002 N2 31 
+R_R2        N1  $N_0001 1.20 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 465nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.156pF 
+.ENDS
+
+*1008HS-561 valid from 1-600 MHz
+
+.SUBCKT 1008HS-561  N1 N2
++ PARAMS: K1=5.18e-04
+R_R1          $N_0002 N2 36 
+R_R2        N1  $N_0001 1.30 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 550nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.172pF 
+.ENDS
+
+*1008HS-621 valid from 1-600 MHz
+
+.SUBCKT 1008HS-621  N1 N2
++ PARAMS: K1=5.74e-04
+R_R1          $N_0002 N2 37 
+R_R2        N1  $N_0001 1.40 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 615nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.143pF 
+.ENDS
+
+*1008HS-681 valid from 1-600 MHz
+
+.SUBCKT 1008HS-681  N1 N2
++ PARAMS: K1=6.10e-04
+R_R1          $N_0002 N2 37 
+R_R2        N1  $N_0001 1.50 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 665nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.139pF 
+.ENDS
+
+*1008HS-751 valid from 1-600 MHz
+
+.SUBCKT 1008HS-751  N1 N2
++ PARAMS: K1=6.90e-04
+R_R1          $N_0002 N2 44 
+R_R2        N1  $N_0001 1.50 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 740nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.138pF 
+.ENDS
+
+*1008HS-821 valid from 1-600 MHz
+
+.SUBCKT 1008HS-821  N1 N2
++ PARAMS: K1=8.10e-04
+R_R1          $N_0002 N2 41 
+R_R2        N1  $N_0001 1.60 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 810nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.135pF 
+.ENDS
+
+*1008HS-911 valid from 1-500 MHz
+
+.SUBCKT 1008HS-911  N1 N2
++ PARAMS: K1=7.80e-04
+R_R1          $N_0002 N2 53 
+R_R2        N1  $N_0001 1.70 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 895nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.155pF 
+.ENDS
+
+*1008HS-102 valid from 1-400 MHz
+
+.SUBCKT 1008HS-102  N1 N2
++ PARAMS: K1=8.20e-04
+R_R1          $N_0002 N2 90 
+R_R2        N1  $N_0001 1.80 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 975nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.209pF 
+.ENDS
+
+
+
+
+*Coilcraft 1008HQ Chip Inductor Series
+*Netlist for spice models
+*Updated 5/2/05
+
+
+*1008HQ-3N0 valid from 1-14100 MHz
+
+.SUBCKT 1008HQ-3N0  N1 N2
++ PARAMS: K1=7.60e-06
+R_R1          $N_0002 N2 7 
+R_R2        N1  $N_0001 0.04 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.0nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.052pF 
+.ENDS
+
+*1008HQ-4N1 valid from 1-11500 MHz
+
+.SUBCKT 1008HQ-4N1  N1 N2
++ PARAMS: K1=1.00e-05
+R_R1          $N_0002 N2 8 
+R_R2        N1  $N_0001 0.05 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 4.1nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.057pF 
+.ENDS
+
+*1008HQ-7N8 valid from 1-6800 MHz
+
+.SUBCKT 1008HQ-7N8  N1 N2
++ PARAMS: K1=1.07e-05
+R_R1          $N_0002 N2 8 
+R_R2        N1  $N_0001 0.05 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 7.8nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.102pF 
+.ENDS
+
+*1008HQ-10N valid from 1-6800 MHz
+
+.SUBCKT 1008HQ-10N  N1 N2
++ PARAMS: K1=1.69e-05
+R_R1          $N_0002 N2 6 
+R_R2        N1  $N_0001 0.06 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 10nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.079pF 
+.ENDS
+
+*1008HQ-12N valid from 1-5100 MHz
+
+.SUBCKT 1008HQ-12N  N1 N2
++ PARAMS: K1=1.81e-05
+R_R1          $N_0002 N2 8 
+R_R2        N1  $N_0001 0.06 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 12nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.119pF 
+.ENDS
+
+*1008HQ-18N valid from 1-4600 MHz
+
+.SUBCKT 1008HQ-18N  N1 N2
++ PARAMS: K1=2.53e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.07 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 18nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.096pF 
+.ENDS
+
+*1008HQ-22N valid from 1-3300 MHz
+
+.SUBCKT 1008HQ-22N  N1 N2
++ PARAMS: K1=3.09e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.07 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 22nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.156pF 
+.ENDS
+
+*1008HQ-33N valid from 1-2900 MHz
+
+.SUBCKT 1008HQ-33N  N1 N2
++ PARAMS: K1=3.99e-05
+R_R1          $N_0002 N2 9 
+R_R2        N1  $N_0001 0.09 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 33nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.138pF 
+.ENDS
+
+*1008HQ-39N valid from 1-2300 MHz
+
+.SUBCKT 1008HQ-39N  N1 N2
++ PARAMS: K1=4.65e-05
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.09 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 39nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.191pF 
+.ENDS
+
+*1008HQ-47N valid from 1-2400 MHz
+
+.SUBCKT 1008HQ-47N  N1 N2
++ PARAMS: K1=5.61e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.12 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 47nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.140pF 
+.ENDS
+
+*1008HQ-56N valid from 1-1900 MHz
+
+.SUBCKT 1008HQ-56N  N1 N2
++ PARAMS: K1=6.51e-05
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.12 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 56nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.185pF 
+.ENDS
+
+*1008HQ-68N valid from 1-1900 MHz
+
+.SUBCKT 1008HQ-68N  N1 N2
++ PARAMS: K1=7.50e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.13 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 68nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.154pF 
+.ENDS
+
+*1008HQ-82N valid from 1-1900 MHz
+
+.SUBCKT 1008HQ-82N  N1 N2
++ PARAMS: K1=9.40e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.16 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 82nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.130pF 
+.ENDS
+
+*1008HQ-R10 valid from 1-1400 MHz
+
+.SUBCKT 1008HQ-R10  N1 N2
++ PARAMS: K1=1.31e-04
+R_R1          $N_0002 N2 14 
+R_R2        N1  $N_0001 0.16 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 100nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.210pF 
+.ENDS
+
+
+
+
+*Coilcraft 1008HT Chip Inductor Series
+*Netlist for spice models
+*Updated 5/3/05
+
+
+*1008HT-3N3 valid from 1-14200 MHz
+
+.SUBCKT 1008HT-3N3  N1 N2
++ PARAMS: K1=9.80e-06
+R_R1          $N_0002 N2 4 
+R_R2        N1  $N_0001 0.05 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.3nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.042pF 
+.ENDS
+
+*1008HT-6N8 valid from 1-8900 MHz
+
+.SUBCKT 1008HT-6N8  N1 N2
++ PARAMS: K1=1.96e-05
+R_R1          $N_0002 N2 5 
+R_R2        N1  $N_0001 0.05 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 6.8nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.052pF 
+.ENDS
+
+*1008HT-7N2 valid from 1-7500 MHz
+
+.SUBCKT 1008HT-7N2  N1 N2
++ PARAMS: K1=2.00e-05
+R_R1          $N_0002 N2 6 
+R_R2        N1  $N_0001 0.05 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 7.2nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.069pF 
+.ENDS
+
+*1008HT-12N valid from 1-5800 MHz
+
+.SUBCKT 1008HT-12N  N1 N2
++ PARAMS: K1=2.84e-05
+R_R1          $N_0002 N2 6 
+R_R2        N1  $N_0001 0.07 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 12.2nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.075pF 
+.ENDS
+
+*1008HT-15N valid from 1-4300 MHz
+
+.SUBCKT 1008HT-15N  N1 N2
++ PARAMS: K1=3.54e-05
+R_R1          $N_0002 N2 9 
+R_R2        N1  $N_0001 0.08 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 15nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.111pF 
+.ENDS
+
+*1008HT-18N valid from 1-5100 MHz
+
+.SUBCKT 1008HT-18N  N1 N2
++ PARAMS: K1=3.49e-05
+R_R1          $N_0002 N2 7 
+R_R2        N1  $N_0001 0.09 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 18nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.056pF 
+.ENDS
+
+*1008HT-22N valid from 1-3800 MHz
+
+.SUBCKT 1008HT-22N  N1 N2
++ PARAMS: K1=4.27e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.11 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 22nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.099pF 
+.ENDS
+
+*1008HT-27N valid from 1-4200 MHz
+
+.SUBCKT 1008HT-27N  N1 N2
++ PARAMS: K1=5.25e-05
+R_R1          $N_0002 N2 14 
+R_R2        N1  $N_0001 0.13 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 27nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.065pF 
+.ENDS
+
+*1008HT-33N valid from 1-3000 MHz
+
+.SUBCKT 1008HT-33N  N1 N2
++ PARAMS: K1=5.11e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.14 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 33nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.110pF 
+.ENDS
+
+*1008HT-39N valid from 1-3000 MHz
+
+.SUBCKT 1008HT-39N  N1 N2
++ PARAMS: K1=6.19e-05
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.17 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 39nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.089pF 
+.ENDS
+
+*1008HT-47N valid from 1-2300 MHz
+
+.SUBCKT 1008HT-47N  N1 N2
++ PARAMS: K1=7.59e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.18 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 47nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.128pF 
+.ENDS
+
+*1008HT-56N valid from 1-2400 MHz
+
+.SUBCKT 1008HT-56N  N1 N2
++ PARAMS: K1=8.89e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.18 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 56nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.096pF 
+.ENDS
+
+*1008HT-68N valid from 1-2200 MHz
+
+.SUBCKT 1008HT-68N  N1 N2
++ PARAMS: K1=1.08e-04
+R_R1          $N_0002 N2 15 
+R_R2        N1  $N_0001 0.23 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 68nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.094pF 
+.ENDS
+
+*1008HT-82N valid from 1-2000 MHz
+
+.SUBCKT 1008HT-82N  N1 N2
++ PARAMS: K1=1.38e-04
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.35 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 82nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.094pF 
+.ENDS
+
+*1008HT-R10 valid from 1-2000 MHz
+
+.SUBCKT 1008HT-R10  N1 N2
++ PARAMS: K1=1.60e-04
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.64 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 100nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.084pF 
+.ENDS
+
+*1008HT-R12 valid from 1-1800 MHz
+
+.SUBCKT 1008HT-R12  N1 N2
++ PARAMS: K1=1.76e-04
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.55 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 120nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.083pF 
+.ENDS
+
+*1008HT-R14 valid from 1-1700 MHz
+
+.SUBCKT 1008HT-R14  N1 N2
++ PARAMS: K1=2.06e-04
+R_R1          $N_0002 N2 14 
+R_R2        N1  $N_0001 0.70 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 140nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.081pF 
+.ENDS
+
+*1008HT-R15 valid from 1-1500 MHz
+
+.SUBCKT 1008HT-R15  N1 N2
++ PARAMS: K1=2.18e-04
+R_R1          $N_0002 N2 14 
+R_R2        N1  $N_0001 0.75 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 150nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.098pF 
+.ENDS
+
+*1008HT-R18 valid from 1-1500 MHz
+
+.SUBCKT 1008HT-R18  N1 N2
++ PARAMS: K1=2.63e-04
+R_R1          $N_0002 N2 20 
+R_R2        N1  $N_0001 1.02 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 185nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.075pF 
+.ENDS
+
+*1008HT-R22 valid from 1-1300 MHz
+
+.SUBCKT 1008HT-R22  N1 N2
++ PARAMS: K1=2.21e-04
+R_R1          $N_0002 N2 19 
+R_R2        N1  $N_0001 1.15 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 225nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.083pF 
+.ENDS
+
+*1008HT-R24 valid from 1-1300 MHz
+
+.SUBCKT 1008HT-R24  N1 N2
++ PARAMS: K1=2.63e-04
+R_R1          $N_0002 N2 25 
+R_R2        N1  $N_0001 1.15 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 245nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.078pF 
+.ENDS
+
+*1008HT-R27 valid from 1-1300 MHz
+
+.SUBCKT 1008HT-R27  N1 N2
++ PARAMS: K1=3.11e-04
+R_R1          $N_0002 N2 18 
+R_R2        N1  $N_0001 1.25 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 275nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.077pF 
+.ENDS
+
+*1008HT-R33 valid from 1-1000 MHz
+
+.SUBCKT 1008HT-R33  N1 N2
++ PARAMS: K1=4.07e-04
+R_R1          $N_0002 N2 28 
+R_R2        N1  $N_0001 1.35 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 340nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.094pF 
+.ENDS
+
+*1008HT-R39 valid from 1-900 MHz
+
+.SUBCKT 1008HT-R39  N1 N2
++ PARAMS: K1=4.98e-04
+R_R1          $N_0002 N2 30 
+R_R2        N1  $N_0001 1.45 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 390nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.108pF 
+.ENDS
+
+*1008HT-R47 valid from 1-900 MHz
+
+.SUBCKT 1008HT-R47  N1 N2
++ PARAMS: K1=6.15e-04
+R_R1          $N_0002 N2 38 
+R_R2        N1  $N_0001 1.65 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 485nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.091pF 
+.ENDS
+
+*1008HT-R56 valid from 1-900 MHz
+
+.SUBCKT 1008HT-R56  N1 N2
++ PARAMS: K1=6.85e-04
+R_R1          $N_0002 N2 42 
+R_R2        N1  $N_0001 1.90 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 595nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.077pF 
+.ENDS
+
+
+
+*Coilcraft 1008LS Chip Inductor Series
+*Netlist for spice models
+*Updated 5/3/05
+
+
+*1008LS-122 valid from 1-500 MHz
+
+.SUBCKT 1008LS-122  N1 N2
++ PARAMS: K1=7.41e-04
+R_R1          $N_0002 N2 369 
+R_R2        N1  $N_0001 0.60 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1200nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.158pF 
+.ENDS
+
+*1008LS-152 valid from 1-400 MHz
+
+.SUBCKT 1008LS-152  N1 N2
++ PARAMS: K1=7.61e-04
+R_R1          $N_0002 N2 369 
+R_R2        N1  $N_0001 0.70 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1500nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.185pF 
+.ENDS
+
+*1008LS-182 valid from 1-400 MHz
+
+.SUBCKT 1008LS-182  N1 N2
++ PARAMS: K1=8.40e-04
+R_R1          $N_0002 N2 384 
+R_R2        N1  $N_0001 0.80 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1800nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.186pF 
+.ENDS
+
+*1008LS-222 valid from 1-400 MHz
+
+.SUBCKT 1008LS-222  N1 N2
++ PARAMS: K1=9.40e-04
+R_R1          $N_0002 N2 384 
+R_R2        N1  $N_0001 1.10 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2200nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.168pF 
+.ENDS
+
+*1008LS-272 valid from 1-300 MHz
+
+.SUBCKT 1008LS-272  N1 N2
++ PARAMS: K1=1.25e-03
+R_R1          $N_0002 N2 426 
+R_R2        N1  $N_0001 1.20 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2700nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.181pF 
+.ENDS
+
+*1008LS-332 valid from 1-200 MHz
+
+.SUBCKT 1008LS-332  N1 N2
++ PARAMS: K1=1.45e-03
+R_R1          $N_0002 N2 261 
+R_R2        N1  $N_0001 1.40 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3300nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.309pF 
+.ENDS
+
+*1008LS-392 valid from 1-170 MHz
+
+.SUBCKT 1008LS-392  N1 N2
++ PARAMS: K1=1.47e-03
+R_R1          $N_0002 N2 252 
+R_R2        N1  $N_0001 1.50 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3900nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.349pF 
+.ENDS
+
+*1008LS-472 valid from 1-170 MHz
+
+.SUBCKT 1008LS-472  N1 N2
++ PARAMS: K1=1.79e-03
+R_R1          $N_0002 N2 273 
+R_R2        N1  $N_0001 1.60 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 4700nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.285pF 
+.ENDS
+
+*1008LS-562 valid from 1-140 MHz
+
+.SUBCKT 1008LS-562  N1 N2
++ PARAMS: K1=2.06e-03
+R_R1          $N_0002 N2 179 
+R_R2        N1  $N_0001 1.80 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 5600nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.370pF 
+.ENDS
+
+*1008LS-682 valid from 1-130 MHz
+
+.SUBCKT 1008LS-682  N1 N2
++ PARAMS: K1=2.82e-03
+R_R1          $N_0002 N2 242 
+R_R2        N1  $N_0001 2.00 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 6800nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.345pF 
+.ENDS
+
+*1008LS-822 valid from 1-110 MHz
+
+.SUBCKT 1008LS-822  N1 N2
++ PARAMS: K1=3.47e-03
+R_R1          $N_0002 N2 224 
+R_R2        N1  $N_0001 2.60 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 8200nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.445pF 
+.ENDS
+
+*1008LS-103 valid from 1-100 MHz
+
+.SUBCKT 1008LS-103  N1 N2
++ PARAMS: K1=3.89e-03
+R_R1          $N_0002 N2 300 
+R_R2        N1  $N_0001 2.90 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 10000nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.385pF 
+.ENDS
+
+
+
+*Coilcraft 1206CS Chip Inductor Series
+*Netlist for spice models
+*Updated 5/3/05
+
+
+*1206CS-030 valid from 1-12800 MHz
+
+.SUBCKT 1206CS-030  N1 N2
++ PARAMS: K1=4.35e-06
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.1 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.4nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.051pF 
+.ENDS
+
+*1206CS-060 valid from 1-10900 MHz
+
+.SUBCKT 1206CS-060  N1 N2
++ PARAMS: K1=1.37e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.1 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 6.8nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.035pF 
+.ENDS
+
+*1206CS-100 valid from 1-7900 MHz
+
+.SUBCKT 1206CS-100  N1 N2
++ PARAMS: K1=1.95e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.1 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 11.5nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.043pF 
+.ENDS
+
+*1206CS-120 valid from 1-4900 MHz
+
+.SUBCKT 1206CS-120  N1 N2
++ PARAMS: K1=2.58e-05
+R_R1          $N_0002 N2 11 
+R_R2        N1  $N_0001 0.1 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 15nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.086pF 
+.ENDS
+
+*1206CS-150 valid from 1-5900 MHz
+
+.SUBCKT 1206CS-150  N1 N2
++ PARAMS: K1=3.02e-05
+R_R1          $N_0002 N2 8 
+R_R2        N1  $N_0001 0.1 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 18nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.050pF 
+.ENDS
+
+*1206CS-180 valid from 1-4400 MHz
+
+.SUBCKT 1206CS-180  N1 N2
++ PARAMS: K1=3.22e-05
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.1 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 21nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.078pF 
+.ENDS
+
+*1206CS-220 valid from 1-3600 MHz
+
+.SUBCKT 1206CS-220  N1 N2
++ PARAMS: K1=3.97e-05
+R_R1          $N_0002 N2 14 
+R_R2        N1  $N_0001 0.1 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 24nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.101pF 
+.ENDS
+
+*1206CS-270 valid from 1-3600 MHz
+
+.SUBCKT 1206CS-270  N1 N2
++ PARAMS: K1=4.67e-05
+R_R1          $N_0002 N2 14 
+R_R2        N1  $N_0001 0.1 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 29nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.082pF 
+.ENDS
+
+*1206CS-330 valid from 1-2600 MHz
+
+.SUBCKT 1206CS-330  N1 N2
++ PARAMS: K1=4.95e-05
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.1 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 35nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.131pF 
+.ENDS
+
+*1206CS-390 valid from 1-3100 MHz
+
+.SUBCKT 1206CS-390  N1 N2
++ PARAMS: K1=6.21e-05
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.1 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 39nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.086pF 
+.ENDS
+
+*1206CS-470 valid from 1-2400 MHz
+
+.SUBCKT 1206CS-470  N1 N2
++ PARAMS: K1=7.31e-05
+R_R1          $N_0002 N2 14 
+R_R2        N1  $N_0001 0.1 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 47nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.115pF 
+.ENDS
+
+*1206CS-560 valid from 1-2300 MHz
+
+.SUBCKT 1206CS-560  N1 N2
++ PARAMS: K1=9.00e-05
+R_R1          $N_0002 N2 13 
+R_R2        N1  $N_0001 0.1 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 56nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.107pF 
+.ENDS
+
+*1206CS-680 valid from 1-1900 MHz
+
+.SUBCKT 1206CS-680  N1 N2
++ PARAMS: K1=1.03e-04
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.2 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 68nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.127pF 
+.ENDS
+
+*1206CS-820 valid from 1-2100 MHz
+
+.SUBCKT 1206CS-820  N1 N2
++ PARAMS: K1=1.30e-04
+R_R1          $N_0002 N2 12 
+R_R2        N1  $N_0001 0.2 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 83nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.089pF 
+.ENDS
+
+*1206CS-101 valid from 1-1900 MHz
+
+.SUBCKT 1206CS-101  N1 N2
++ PARAMS: K1=1.30e-04
+R_R1          $N_0002 N2 10 
+R_R2        N1  $N_0001 0.2 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 100nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.091pF 
+.ENDS
+
+*1206CS-121 valid from 1-2150 MHz
+
+.SUBCKT 1206CS-121  N1 N2
++ PARAMS: K1=1.73e-04
+R_R1          $N_0002 N2 18 
+R_R2        N1  $N_0001 0.2 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 118nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.052pF 
+.ENDS
+
+*1206CS-151 valid from 1-1600 MHz
+
+.SUBCKT 1206CS-151  N1 N2
++ PARAMS: K1=1.91e-04
+R_R1          $N_0002 N2 20 
+R_R2        N1  $N_0001 0.3 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 140nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.089pF 
+.ENDS
+
+*1206CS-181 valid from 1-1600 MHz
+
+.SUBCKT 1206CS-181  N1 N2
++ PARAMS: K1=2.67e-04
+R_R1          $N_0002 N2 15 
+R_R2        N1  $N_0001 0.4 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 183nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.067pF 
+.ENDS
+
+*1206CS-221 valid from 1-1300 MHz
+
+.SUBCKT 1206CS-221  N1 N2
++ PARAMS: K1=3.15e-04
+R_R1          $N_0002 N2 25 
+R_R2        N1  $N_0001 0.5 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 223nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.082pF 
+.ENDS
+
+*1206CS-271 valid from 1-1300 MHz
+
+.SUBCKT 1206CS-271  N1 N2
++ PARAMS: K1=3.95e-04
+R_R1          $N_0002 N2 25 
+R_R2        N1  $N_0001 0.5 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 280nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.074pF 
+.ENDS
+
+*1206CS-331 valid from 1-1200 MHz
+
+.SUBCKT 1206CS-331  N1 N2
++ PARAMS: K1=4.01e-04
+R_R1          $N_0002 N2 33 
+R_R2        N1  $N_0001 0.6 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 329nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.071pF 
+.ENDS
+
+*1206CS-391 valid from 1-1100 MHz
+
+.SUBCKT 1206CS-391  N1 N2
++ PARAMS: K1=4.85e-04
+R_R1          $N_0002 N2 35 
+R_R2        N1  $N_0001 0.7 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 390nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.058pF 
+.ENDS
+
+*1206CS-471 valid from 1-1000 MHz
+
+.SUBCKT 1206CS-471  N1 N2
++ PARAMS: K1=6.02e-04
+R_R1          $N_0002 N2 35 
+R_R2        N1  $N_0001 1.3 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 470nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.075pF 
+.ENDS
+
+*1206CS-561 valid from 1-900 MHz
+
+.SUBCKT 1206CS-561  N1 N2
++ PARAMS: K1=6.70e-04
+R_R1          $N_0002 N2 25 
+R_R2        N1  $N_0001 1.3 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 557nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.067pF 
+.ENDS
+
+*1206CS-621 valid from 1-800 MHz
+
+.SUBCKT 1206CS-621  N1 N2
++ PARAMS: K1=6.71e-04
+R_R1          $N_0002 N2 28 
+R_R2        N1  $N_0001 1.5 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 615nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.071pF 
+.ENDS
+
+*1206CS-681 valid from 1-850 MHz
+
+.SUBCKT 1206CS-681  N1 N2
++ PARAMS: K1=7.51e-04
+R_R1          $N_0002 N2 28 
+R_R2        N1  $N_0001 1.5 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 670nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.059pF 
+.ENDS
+
+*1206CS-751 valid from 1-760 MHz
+
+.SUBCKT 1206CS-751  N1 N2
++ PARAMS: K1=8.40e-04
+R_R1          $N_0002 N2 5 
+R_R2        N1  $N_0001 2.2 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 720nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.062pF 
+.ENDS
+
+*1206CS-821 valid from 1-760 MHz
+
+.SUBCKT 1206CS-821  N1 N2
++ PARAMS: K1=9.70e-04
+R_R1          $N_0002 N2 5 
+R_R2        N1  $N_0001 1.8 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 775nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.060pF 
+.ENDS
+
+*1206CS-911 valid from 1-730 MHz
+
+.SUBCKT 1206CS-911  N1 N2
++ PARAMS: K1=1.01e-03
+R_R1          $N_0002 N2 5 
+R_R2        N1  $N_0001 2.8 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 810nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.063pF 
+.ENDS
+
+*1206CS-102 valid from 1-730 MHz
+
+.SUBCKT 1206CS-102  N1 N2
++ PARAMS: K1=9.90e-04
+R_R1          $N_0002 N2 125 
+R_R2        N1  $N_0001 2.8 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 835nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.059pF 
+.ENDS
+
+*1206CS-122 valid from 1-650 MHz
+
+.SUBCKT 1206CS-122  N1 N2
++ PARAMS: K1=1.33e-03
+R_R1          $N_0002 N2 100 
+R_R2        N1  $N_0001 3.2 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1060nH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.060pF 
+.ENDS
+
+
+
+*Coilcraft 1812CS Chip Inductor Series
+*Netlist for spice models
+*Updated 5/4/05
+
+
+*1812CS-102 valid from 1-470 MHz
+
+.SUBCKT 1812CS-102  N1 N2
++ PARAMS: K1=4.23e-04
+R_R1          $N_0002 N2 58 
+R_R2        N1  $N_0001 1.2 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1.005uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.143pF 
+.ENDS
+
+*1812CS-122 valid from 1-420 MHz
+
+.SUBCKT 1812CS-122  N1 N2
++ PARAMS: K1=5.28e-04
+R_R1          $N_0002 N2 63 
+R_R2        N1  $N_0001 1.2 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1.220uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.148pF 
+.ENDS
+
+*1812CS-152 valid from 1-390 MHz
+
+.SUBCKT 1812CS-152  N1 N2
++ PARAMS: K1=5.76e-04
+R_R1          $N_0002 N2 72 
+R_R2        N1  $N_0001 1.6 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1.520uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.135pF 
+.ENDS
+
+*1812CS-182 valid from 1-370 MHz
+
+.SUBCKT 1812CS-182  N1 N2
++ PARAMS: K1=6.21e-04
+R_R1          $N_0002 N2 72 
+R_R2        N1  $N_0001 2.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 1.820uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.127pF 
+.ENDS
+
+*1812CS-222 valid from 1-310 MHz
+
+.SUBCKT 1812CS-222  N1 N2
++ PARAMS: K1=8.60e-04
+R_R1          $N_0002 N2 80 
+R_R2        N1  $N_0001 2.2 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2.250uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.150pF 
+.ENDS
+
+*1812CS-272 valid from 1-310 MHz
+
+.SUBCKT 1812CS-272  N1 N2
++ PARAMS: K1=9.80e-04
+R_R1          $N_0002 N2 68 
+R_R2        N1  $N_0001 3.2 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 2.700uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.123pF 
+.ENDS
+
+*1812CS-332 valid from 1-260 MHz
+
+.SUBCKT 1812CS-332  N1 N2
++ PARAMS: K1=1.12e-03
+R_R1          $N_0002 N2 81 
+R_R2        N1  $N_0001 3.8 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.330uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.120pF 
+.ENDS
+
+*1812CS-392 valid from 1-240 MHz
+
+.SUBCKT 1812CS-392  N1 N2
++ PARAMS: K1=1.12e-03
+R_R1          $N_0002 N2 121 
+R_R2        N1  $N_0001 5.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 3.950uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.118pF 
+.ENDS
+
+*1812CS-472 valid from 1-220 MHz
+
+.SUBCKT 1812CS-472  N1 N2
++ PARAMS: K1=1.80e-03
+R_R1          $N_0002 N2 85 
+R_R2        N1  $N_0001 5.4 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 4.775uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.122pF 
+.ENDS
+
+*1812CS-562 valid from 1-190 MHz
+
+.SUBCKT 1812CS-562  N1 N2
++ PARAMS: K1=2.01e-03
+R_R1          $N_0002 N2 198 
+R_R2        N1  $N_0001 5.7 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 5.700uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.165pF 
+.ENDS
+
+*1812CS-682 valid from 1-170 MHz
+
+.SUBCKT 1812CS-682  N1 N2
++ PARAMS: K1=2.58e-03
+R_R1          $N_0002 N2 203 
+R_R2        N1  $N_0001 6.6 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 6.800uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.166pF 
+.ENDS
+
+*1812CS-822 valid from 1-140 MHz
+
+.SUBCKT 1812CS-822  N1 N2
++ PARAMS: K1=3.30e-03
+R_R1          $N_0002 N2 212 
+R_R2        N1  $N_0001 7.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 8.200uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.202pF 
+.ENDS
+
+*1812CS-103 valid from 1-130 MHz
+
+.SUBCKT 1812CS-103  N1 N2
++ PARAMS: K1=4.98e-03
+R_R1          $N_0002 N2 244 
+R_R2        N1  $N_0001 7.7 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 10.00uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.210pF 
+.ENDS
+
+*1812CS-123 valid from 1-110 MHz
+
+.SUBCKT 1812CS-123  N1 N2
++ PARAMS: K1=3.65e-03
+R_R1          $N_0002 N2 244 
+R_R2        N1  $N_0001 8.7 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 12.00uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.241pF 
+.ENDS
+
+*1812CS-153 valid from 1-90 MHz
+
+.SUBCKT 1812CS-153  N1 N2
++ PARAMS: K1=4.91e-03
+R_R1          $N_0002 N2 288 
+R_R2        N1  $N_0001 9.6 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 15.00uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.312pF 
+.ENDS
+
+*1812CS-183 valid from 1-70 MHz
+
+.SUBCKT 1812CS-183  N1 N2
++ PARAMS: K1=7.21e-03
+R_R1          $N_0002 N2 286 
+R_R2        N1  $N_0001 10.5 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 18.00uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.370pF 
+.ENDS
+
+*1812CS-223 valid from 1-70 MHz
+
+.SUBCKT 1812CS-223  N1 N2
++ PARAMS: K1=8.70e-03
+R_R1          $N_0002 N2 318 
+R_R2        N1  $N_0001 11.5 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 22.00uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.342pF 
+.ENDS
+
+*1812CS-273 valid from 1-50 MHz
+
+.SUBCKT 1812CS-273  N1 N2
++ PARAMS: K1=1.12e-02
+R_R1          $N_0002 N2 338 
+R_R2        N1  $N_0001 12.5 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 26.89uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.540pF 
+.ENDS
+
+*1812CS-333 valid from 1-40 MHz
+
+.SUBCKT 1812CS-333  N1 N2
++ PARAMS: K1=1.77e-02
+R_R1          $N_0002 N2 266 
+R_R2        N1  $N_0001 13.5 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 32.75uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.885pF 
+.ENDS
+
+
+
+*Coilcraft 1812FS Chip Inductor Series
+*Netlist for spice models
+*Updated 5/4/05
+
+
+*1812FS-683 valid from 0.1-30 MHz
+
+.SUBCKT 1812FS-683  N1 N2
++ PARAMS: K1=1.00e-07 K2=25 K3=68 K4=0.146 K5=9.85e-06
+R_R1          $N_0002 N2 390 
+R_R2        N1  $N_0001 1.8 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+G_Lvar       $N_0003 N2 LAPLACE { V($N_0003, N2) } { 
++ 1/(S*1e-6*(k3-(k4*LOG(k5*(S/(2*3.14159265)))))) } 
+C_C            $N_0001 $N_0002 0.73pF 
+.ENDS
+
+*1812FS-154 valid from 0.1-5 MHz
+
+.SUBCKT 1812FS-154  N1 N2
++ PARAMS: K1=1.00e-06 K2=54 K3=150 K4=0.410 K5=1.29e-05
+R_R1          $N_0002 N2 106 
+R_R2        N1  $N_0001 3.8 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+G_Lvar       $N_0003 N2 LAPLACE { V($N_0003, N2) } { 
++ 1/(S*1e-6*(k3-(k4*LOG(k5*(S/(2*3.14159265)))))) } 
+C_C            $N_0001 $N_0002 12.6pF 
+.ENDS
+
+*1812FS-224 valid from 0.1-4 MHz
+
+.SUBCKT 1812FS-224  N1 N2
++ PARAMS: K1=1.00e-07 K2=69 K3=220 K4=0.952 K5=1.25e-05
+R_R1          $N_0002 N2 105 
+R_R2        N1  $N_0001 5.4 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+G_Lvar       $N_0003 N2 LAPLACE { V($N_0003, N2) } { 
++ 1/(S*1e-6*(k3-(k4*LOG(k5*(S/(2*3.14159265)))))) } 
+C_C            $N_0001 $N_0002 11.9pF 
+.ENDS
+
+*1812FS-274 valid from 0.1-4 MHz
+
+.SUBCKT 1812FS-274  N1 N2
++ PARAMS: K1=1.00e-07 K2=90 K3=270 K4=1.19 K5=1.43e-05
+R_R1          $N_0002 N2 80 
+R_R2        N1  $N_0001 6.5 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+G_Lvar       $N_0003 N2 LAPLACE { V($N_0003, N2) } { 
++ 1/(S*1e-6*(k3-(k4*LOG(k5*(S/(2*3.14159265)))))) } 
+C_C            $N_0001 $N_0002 15.3pF 
+.ENDS
+
+*1812FS-334 valid from 0.1-4 MHz
+
+.SUBCKT 1812FS-334  N1 N2
++ PARAMS: K1=1.00e-07 K2=82 K3=330 K4=1.53 K5=1.23e-05
+R_R1          $N_0002 N2 85 
+R_R2        N1  $N_0001 6.8 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+G_Lvar       $N_0003 N2 LAPLACE { V($N_0003, N2) } { 
++ 1/(S*1e-6*(k3-(k4*LOG(k5*(S/(2*3.14159265)))))) } 
+C_C            $N_0001 $N_0002 8.11pF 
+.ENDS
+
+*1812FS-394 valid from 0.1-4 MHz
+
+.SUBCKT 1812FS-394  N1 N2
++ PARAMS: K1=1.00e-07 K2=120 K3=390 K4=1.04 K5=1.52e-05
+R_R1          $N_0002 N2 152 
+R_R2        N1  $N_0001 7.6 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+G_Lvar       $N_0003 N2 LAPLACE { V($N_0003, N2) } { 
++ 1/(S*1e-6*(k3-(k4*LOG(k5*(S/(2*3.14159265)))))) } 
+C_C            $N_0001 $N_0002 7.56pF 
+.ENDS
+
+*1812FS-474 valid from 0.1-4 MHz
+
+.SUBCKT 1812FS-474  N1 N2
++ PARAMS: K1=1.00e-07 K2=120 K3=470 K4=1.96 K5=1.62e-05
+R_R1          $N_0002 N2 85 
+R_R2        N1  $N_0001 8.7 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+G_Lvar       $N_0003 N2 LAPLACE { V($N_0003, N2) } { 
++ 1/(S*1e-6*(k3-(k4*LOG(k5*(S/(2*3.14159265)))))) } 
+C_C            $N_0001 $N_0002 11.2pF 
+.ENDS
+
+*1812FS-564 valid from 0.1-4 MHz
+
+.SUBCKT 1812FS-564  N1 N2
++ PARAMS: K1=1.00e-07 K2=168 K3=560 K4=3.01 K5=1.51e-05
+R_R1          $N_0002 N2 141 
+R_R2        N1  $N_0001 11.2 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+G_Lvar       $N_0003 N2 LAPLACE { V($N_0003, N2) } { 
++ 1/(S*1e-6*(k3-(k4*LOG(k5*(S/(2*3.14159265)))))) } 
+C_C            $N_0001 $N_0002 10.3pF 
+.ENDS
+
+*1812FS-684 valid from 0.1-4 MHz
+
+.SUBCKT 1812FS-684  N1 N2
++ PARAMS: K1=1.00e-07 K2=160 K3=680 K4=3.02 K5=1.93e-05
+R_R1          $N_0002 N2 45 
+R_R2        N1  $N_0001 12.7 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+G_Lvar       $N_0003 N2 LAPLACE { V($N_0003, N2) } { 
++ 1/(S*1e-6*(k3-(k4*LOG(k5*(S/(2*3.14159265)))))) } 
+C_C            $N_0001 $N_0002 11.1pF 
+.ENDS
+
+*1812FS-824 valid from 0.1-4 MHz
+
+.SUBCKT 1812FS-824  N1 N2
++ PARAMS: K1=1.00e-07 K2=176 K3=820 K4=2.66 K5=3.79e-05
+R_R1          $N_0002 N2 27 
+R_R2        N1  $N_0001 16.8 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+G_Lvar       $N_0003 N2 LAPLACE { V($N_0003, N2) } { 
++ 1/(S*1e-6*(k3-(k4*LOG(k5*(S/(2*3.14159265)))))) } 
+C_C            $N_0001 $N_0002 13.5pF 
+.ENDS
+
+*1812FS-105 valid from 0.1-4 MHz
+
+.SUBCKT 1812FS-105  N1 N2
++ PARAMS: K1=1.00e-07 K2=240 K3=1000 K4=3.57 K5=2.45e-05
+R_R1          $N_0002 N2 9.5 
+R_R2        N1  $N_0001 19.5 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+G_Rvar2     $N_0001 N2 LAPLACE { V($N_0001, N2) } { 
++ 1/(k2*sqrt(S/(2*3.14159265))) } 
+G_Lvar       $N_0003 N2 LAPLACE { V($N_0003, N2) } { 
++ 1/(S*1e-6*(k3-(k4*LOG(k5*(S/(2*3.14159265)))))) } 
+C_C            $N_0001 $N_0002 8.23pF 
+.ENDS
+
+
+
+
+*Coilcraft 1812LS Chip Inductor Series
+*Netlist for spice models
+*Updated 5/4/05
+
+
+*1812LS-123 valid from 0.1-94 MHz
+
+.SUBCKT 1812LS-123  N1 N2
++ PARAMS: K1=5.27e-03
+R_R1          $N_0002 N2 284 
+R_R2        N1  $N_0001 2.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 12uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.29pF 
+.ENDS
+
+*1812LS-153 valid from 0.1-89 MHz
+
+.SUBCKT 1812LS-153  N1 N2
++ PARAMS: K1=6.53e-03
+R_R1          $N_0002 N2 292 
+R_R2        N1  $N_0001 2.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 15uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.26pF 
+.ENDS
+
+*1812LS-183 valid from 0.1-68 MHz
+
+.SUBCKT 1812LS-183  N1 N2
++ PARAMS: K1=6.73e-03
+R_R1          $N_0002 N2 208 
+R_R2        N1  $N_0001 2.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 18uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.37pF 
+.ENDS
+
+*1812LS-223 valid from 0.1-73 MHz
+
+.SUBCKT 1812LS-223  N1 N2
++ PARAMS: K1=8.93e-03
+R_R1          $N_0002 N2 324 
+R_R2        N1  $N_0001 3.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 22uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.26pF 
+.ENDS
+
+*1812LS-273 valid from 0.1-54 MHz
+
+.SUBCKT 1812LS-273  N1 N2
++ PARAMS: K1=9.33e-03
+R_R1          $N_0002 N2 374 
+R_R2        N1  $N_0001 3.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 27uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.39pF 
+.ENDS
+
+*1812LS-333 valid from 0.1-45 MHz
+
+.SUBCKT 1812LS-333  N1 N2
++ PARAMS: K1=9.73e-03
+R_R1          $N_0002 N2 354 
+R_R2        N1  $N_0001 4.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 33uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.47pF 
+.ENDS
+
+*1812LS-393 valid from 0.1-37 MHz
+
+.SUBCKT 1812LS-393  N1 N2
++ PARAMS: K1=9.93e-03
+R_R1          $N_0002 N2 444 
+R_R2        N1  $N_0001 4.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 39uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.57pF 
+.ENDS
+
+*1812LS-473 valid from 0.1-27 MHz
+
+.SUBCKT 1812LS-473  N1 N2
++ PARAMS: K1=9.93e-03
+R_R1          $N_0002 N2 408 
+R_R2        N1  $N_0001 5.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 47uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.92pF 
+.ENDS
+
+*1812LS-563 valid from 0.1-22 MHz
+
+.SUBCKT 1812LS-563  N1 N2
++ PARAMS: K1=1.01e-02
+R_R1          $N_0002 N2 552 
+R_R2        N1  $N_0001 5.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 55uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 1.16pF 
+.ENDS
+
+*1812LS-683 valid from 0.1-17 MHz
+
+.SUBCKT 1812LS-683  N1 N2
++ PARAMS: K1=1.08e-02
+R_R1          $N_0002 N2 370 
+R_R2        N1  $N_0001 6.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 66uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 1.64pF 
+.ENDS
+
+*1812LS-823 valid from 0.1-14 MHz
+
+.SUBCKT 1812LS-823  N1 N2
++ PARAMS: K1=1.17e-02
+R_R1          $N_0002 N2 335 
+R_R2        N1  $N_0001 7.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 79uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 1.96pF 
+.ENDS
+
+*1812LS-104 valid from 0.1-14 MHz
+
+.SUBCKT 1812LS-104  N1 N2
++ PARAMS: K1=1.47e-02
+R_R1          $N_0002 N2 433 
+R_R2        N1  $N_0001 8.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 97uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 1.59pF 
+.ENDS
+
+*1812LS-124 valid from 0.1-17 MHz
+
+.SUBCKT 1812LS-124  N1 N2
++ PARAMS: K1=1.98e-02
+R_R1          $N_0002 N2 596 
+R_R2        N1  $N_0001 11.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 120uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 0.87pF 
+.ENDS
+
+*1812LS-154 valid from 0.1-12 MHz
+
+.SUBCKT 1812LS-154  N1 N2
++ PARAMS: K1=1.98e-02
+R_R1          $N_0002 N2 434 
+R_R2        N1  $N_0001 13.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 150uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 1.50pF 
+.ENDS
+
+*1812LS-184 valid from 0.1-10 MHz
+
+.SUBCKT 1812LS-184  N1 N2
++ PARAMS: K1=2.05e-02
+R_R1          $N_0002 N2 518 
+R_R2        N1  $N_0001 14.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 178uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 1.79pF 
+.ENDS
+
+*1812LS-224 valid from 0.1-8 MHz
+
+.SUBCKT 1812LS-224  N1 N2
++ PARAMS: K1=2.31e-02
+R_R1          $N_0002 N2 469 
+R_R2        N1  $N_0001 16.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 218uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 2.17pF 
+.ENDS
+
+*1812LS-274 valid from 0.1-9 MHz
+
+.SUBCKT 1812LS-274  N1 N2
++ PARAMS: K1=3.01e-02
+R_R1          $N_0002 N2 573 
+R_R2        N1  $N_0001 20.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 268uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 1.59pF 
+.ENDS
+
+*1812LS-334 valid from 0.1-8 MHz
+
+.SUBCKT 1812LS-334  N1 N2
++ PARAMS: K1=3.63e-02
+R_R1          $N_0002 N2 517 
+R_R2        N1  $N_0001 22.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 325uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 1.70pF 
+.ENDS
+
+*1812LS-394 valid from 0.1-6 MHz
+
+.SUBCKT 1812LS-394  N1 N2
++ PARAMS: K1=4.26e-02
+R_R1          $N_0002 N2 517 
+R_R2        N1  $N_0001 24.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 382uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 2.37pF 
+.ENDS
+
+*1812LS-474 valid from 0.1-5 MHz
+
+.SUBCKT 1812LS-474  N1 N2
++ PARAMS: K1=4.51e-02
+R_R1          $N_0002 N2 414 
+R_R2        N1  $N_0001 26.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 455uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 2.66pF 
+.ENDS
+
+*1812LS-564 valid from 0.1-3 MHz
+
+.SUBCKT 1812LS-564  N1 N2
++ PARAMS: K1=4.77e-02
+R_R1          $N_0002 N2 238 
+R_R2        N1  $N_0001 28.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 515uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 6.09pF 
+.ENDS
+
+*1812LS-684 valid from 0.1-3 MHz
+
+.SUBCKT 1812LS-684  N1 N2
++ PARAMS: K1=5.05e-02
+R_R1          $N_0002 N2 217 
+R_R2        N1  $N_0001 38.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 615uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 6.36pF 
+.ENDS
+
+*1812LS-824 valid from 0.1-3 MHz
+
+.SUBCKT 1812LS-824  N1 N2
++ PARAMS: K1=6.31e-02
+R_R1          $N_0002 N2 206 
+R_R2        N1  $N_0001 41.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 705uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 7.71pF 
+.ENDS
+
+*1812LS-105 valid from 0.1-2 MHz
+
+.SUBCKT 1812LS-105  N1 N2
++ PARAMS: K1=7.00e-02
+R_R1          $N_0002 N2 220 
+R_R2        N1  $N_0001 44.0 
+R_R3         N1 N2 10meg 
+R_Rsim     0 $N_0003 10meg 
+L_L1       $N_0003 N2 820uH
+G_Rvar1     $N_0001 $N_0003 LAPLACE { V($N_0001, $N_0003) } { 
++ 1/(k1*sqrt(S/(2*3.14159265))) } 
+C_C            $N_0001 $N_0002 9.65pF 
+.ENDS
