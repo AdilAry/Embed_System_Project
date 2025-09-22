@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "800b6dd3ec953fcd",
+    "type": "split",
+    "children": [
+      {
+        "id": "b3c85d7837e50a0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "00e06a98b58db533",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Core/Battery Management System.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Battery Management System"
+            }
+          },
+          {
+            "id": "8f2b4382e49da975",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Core/Useful Material library.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Useful Material library"
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "09922fd3a067629c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d97e22e83418abc8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da3e0d31dae9e1af",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0e8d1715b441b0d5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "git",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0cb8d8d0e3a0a81f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 230.5
+  },
+  "right": {
+    "id": "b9a6ff418e70d4d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "93b9aa7d4ef6320c",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "cd87f5c0094f8c60",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Core/Battery Management System.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Battery Management System"
+            }
+          }
+        ]
+      },
+      {
+        "id": "bfebc35f28897335",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "7bdfd13bce02a54e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Core/How the Internet Really Works, by Article 19.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from How the Internet Really Works, by Article 19"
+            }
+          },
+          {
+            "id": "34ced2bb9f876ed8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Core/Battery Management System.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Battery Management System"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 296.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "00e06a98b58db533",
+  "lastOpenFiles": [
+    "Core/Git.md",
+    "Core/Github.md",
+    "Core/Useful Material library.md",
+    "Core/Battery Management System.md",
+    "Core/notes.md",
+    "README.md",
+    "Meta/Templates/Template.md",
+    "Core/ITMT, Lecture 0 - Welcome.md",
+    "Core/TLP Logic.md",
+    "Core/TLP Computing.md",
+    "youtu.be",
+    "Core/How the Internet Really Works, by Article 19.md",
+    "Core/forsenforsen.md",
+    "Core/TLP Computer Systems.md",
+    "Core/().md",
+    "Core/TLP Digital Electronics.md",
+    "Core/Introduction to Mathematical Thinking.md",
+    "Core/ITMT, week one.md",
+    "Core/The Learning Project CS.md",
+    "Core/TLP Electronics.md",
+    "Core/TLP Physics.md",
+    "Core/The Learning Project Phys-Math.md",
+    "Untitled 1/Technology.md",
+    "Untitled 1/Science.md",
+    "Untitled 1/Politics.md",
+    "Untitled 1/Homestead and Survivalism.md",
+    "Untitled 1/Health.md",
+    "Untitled 1",
+    "Untitled",
+    "Untitled.canvas",
+    "Meta/Attachments",
+    "Meta/Templates",
+    "Meta",
+    "Core",
+    "Meta/Diary Template",
+    "Diary",
+    "Meta/Templates"
+  ]
+}

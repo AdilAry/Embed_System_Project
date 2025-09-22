@@ -1,0 +1,6 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\Nickolas\Downloads\Problem1\Experimenting.net
+Start Time: Sun Sep 21 12:13:44 2025
+C:\Users\Nickolas\Downloads\Problem1\Experimenting.net(5): This sub-circuit name is not defined.
+X§U1 N001 VEE VCC VEE 0 opamp2 ;§pnba In+)In-)V+)V-)OUT
+                       ^^^^^^^

@@ -1,0 +1,6 @@
+D:\Projects\Lidl_Projects\DoDE_Labs\Lab_3\Task1\LM317.sub(143): syntax error
+.ENDS LM317 **changes may be required on this line**
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\Projects\Lidl_Projects\DoDE_Labs\Lab_3\Task1\LM317.sub(143): Expected device instantiation or directive here.
+.ENDS LM317 **changes may be required on this line**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
