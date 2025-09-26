@@ -1,0 +1,57 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATMEGA8-16PI_DIL28
+D High-performance, Low-power AVR® 8-bit Microcontroller
+K ""
+F ""
+$ENDCMP
+#
+$CMP ATMEGA8515-16JI_PLCC44
+D High-performance, Low-power AVR® 8-bit Microcontroller
+K ""
+F ""
+$ENDCMP
+#
+$CMP ATMEGA8515-16PI_DIL40
+D High-performance, Low-power AVR® 8-bit Microcontroller
+K ""
+F ""
+$ENDCMP
+#
+$CMP ATMEGA8535-16JI_PLCC44
+D High-performance, Low-power AVR® 8-bit Microcontroller
+K ""
+F ""
+$ENDCMP
+#
+$CMP ATMEGA8535-16PI_DIL40
+D High-performance, Low-power AVR® 8-bit Microcontroller
+K ""
+F ""
+$ENDCMP
+#
+$CMP ATTINY15-1PI_DIL8
+D High-performance, Low-power AVR® 8-bit Microcontroller
+K ""
+F ""
+$ENDCMP
+#
+$CMP ATTINY2313-20PI_DIL20
+D High-performance, Low-power AVR® 8-bit Microcontroller
+K ""
+F ""
+$ENDCMP
+#
+$CMP ATTINY26-16PI_DIL20
+D High-performance, Low-power AVR® 8-bit Microcontroller
+K ""
+F ""
+$ENDCMP
+#
+$CMP P80C32SBPN_DIL40
+D 80C51 Central Processing Unit
+K ""
+F ""
+$ENDCMP
+#
+#End Doc Library

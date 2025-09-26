@@ -1,0 +1,159 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1N4007
+D  Silicon Rectifier
+K ""
+F ""
+$ENDCMP
+#
+$CMP 1N4148
+D  High-speed diodes
+K ""
+F ""
+$ENDCMP
+#
+$CMP 1N5406
+D  Silicon Rectifier
+K ""
+F ""
+$ENDCMP
+#
+$CMP 1N5819
+D  Low Drop Power Schottky Rectifier
+K ""
+F ""
+$ENDCMP
+#
+$CMP 1N5822
+D  Schottky Barrier Rectifier
+K ""
+F ""
+$ENDCMP
+#
+$CMP 2W10M
+D  Single Phase Silicon Bridge Rectifier
+K ""
+F ""
+$ENDCMP
+#
+$CMP 2X16LCD
+D  2x16 LCD display
+K ""
+F ""
+$ENDCMP
+#
+$CMP BZX85_10V
+D  Zener Diode 1.3W
+K ""
+F ""
+$ENDCMP
+#
+$CMP BZX85_12V
+D  Zener Diode 1.3W
+K ""
+F ""
+$ENDCMP
+#
+$CMP BZX85_15V
+D  Zener Diode 1.3W
+K ""
+F ""
+$ENDCMP
+#
+$CMP BZX85_18V
+D  Zener Diode 1.3W
+K ""
+F ""
+$ENDCMP
+#
+$CMP BZX85_22V
+D  Zener Diode 1.3W
+K ""
+F ""
+$ENDCMP
+#
+$CMP BZX85_27V
+D  Zener Diode 1.3W
+K ""
+F ""
+$ENDCMP
+#
+$CMP BZX85_3.0V
+D  Zener Diode 1.3W
+K ""
+F ""
+$ENDCMP
+#
+$CMP BZX85_3.3V
+D  Zener Diode 1.3W
+K ""
+F ""
+$ENDCMP
+#
+$CMP BZX85_3.9V
+D  Zener Diode 1.3W
+K ""
+F ""
+$ENDCMP
+#
+$CMP BZX85_33V
+D  Zener Diode 1.3W
+K ""
+F ""
+$ENDCMP
+#
+$CMP BZX85_4.7V
+D  Zener Diode 1.3W
+K ""
+F ""
+$ENDCMP
+#
+$CMP BZX85_5.6V
+D  Zener Diode 1.3W
+K ""
+F ""
+$ENDCMP
+#
+$CMP BZX85_6.8V
+D  Zener Diode 1.3W
+K ""
+F ""
+$ENDCMP
+#
+$CMP BZX85_8.2V
+D  Zener Diode 1.3W
+K ""
+F ""
+$ENDCMP
+#
+$CMP GreenLED
+D  LIGHT EMITTING DIODE
+K ""
+F ""
+$ENDCMP
+#
+$CMP HDSP7511C_ANODE
+D  Low Current Seven Segment Display
+K ""
+F ""
+$ENDCMP
+#
+$CMP HDSP7513C_CATODE
+D  Low Current Seven Segment Display
+K ""
+F ""
+$ENDCMP
+#
+$CMP RedLED
+D  LIGHT EMITTING DIODE
+K ""
+F ""
+$ENDCMP
+#
+$CMP YellowLED
+D  LIGHT EMITTING DIODE
+K ""
+F ""
+$ENDCMP
+#
+#End Doc Library

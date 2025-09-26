@@ -1,0 +1,303 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1.0F_5.5V_ELE
+D  Backup Capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 1.0NF_200V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 1.0PF_100V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 1.0UF_50V_ELE
+D  Aluminum electrolytic capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 1.5NF_100V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 1.5PF_100V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 1000UF_50V_ELE
+D  Aluminum electrolytic capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 100NF_50V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 100PF_200V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 100UF_50V_ELE
+D  Aluminum electrolytic capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 10NF_100V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 10PF_200V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 10UF_50V_ELE
+D  Aluminum electrolytic capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 150NF_63V_MPO
+D  Metallised polester capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 150PF_200V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 15NF_50V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 15PF_200V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 2.2NF_100V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 2.2PF_100V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 2.2UF_50V_ELE
+D  Aluminum electrolytic capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 220NF_63V_MPO
+D  Metallised polester capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 220PF_200V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 220UF_50V_ELE
+D  Aluminum electrolytic capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 22NF_50V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 22PF_200V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 22UF_50V_ELE
+D  Aluminum electrolytic capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 27PF_200V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 3.3NF_100V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 3.3PF_100V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 3.3UF_50V_ELE
+D  Aluminum electrolytic capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 330NF_63V_MPO
+D  Metallised polester capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 330PF_200V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 330UF_50V_ELE
+D  Aluminum electrolytic capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 33NF_50V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 33PF_200V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 33UF_50V_ELE
+D  Aluminum electrolytic capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 4.7NF_100V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 4.7PF_100V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 4.7UF_50V_ELE
+D  Aluminum electrolytic capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 470PF_200V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 470UF_50V_ELE
+D  Aluminum electrolytic capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 47NF_50V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 47PF_200V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 47UF_50V_ELE
+D  Aluminum electrolytic capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 6.8NF_100V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 6.8PF_100V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 680NF_63V_MPO
+D  Metallised polester capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 680PF_200V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 68NF_50V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+$CMP 68PF_200V_CER
+D  Ceramic disc capacitor
+K "capacitor"
+F ""
+$ENDCMP
+#
+#End Doc Library

@@ -11,17 +11,19 @@ Every team member, before commiting and pushing into the main branch, must first
 ### Project specification;
 ---
 #### Battery details:
-4 cell Lithium Iron Phosphate battery.
+**4 cell Lithium Iron Phosphate battery:**
 
 Cell voltage: 3.2 V
 
 Cell capacity: 105 Ah
 
-Energy storage: 336 Wh
-
 Charge voltage maximum: 3.65 V
 
 Discharge cutoff voltage: 2.5 V
+
+---
+Battery full specifications can be found here:
+https://www.18650batterystore.com/products/eve-lf105
 
 ---
 #### Requirements;

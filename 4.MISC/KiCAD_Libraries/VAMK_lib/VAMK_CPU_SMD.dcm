@@ -1,0 +1,57 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATMEGA128L-8AI_TQFP64
+D High-performance, Low-power AVR® 8-bit Microcontroller
+K none
+F none
+$ENDCMP
+#
+$CMP ATMEGA169-16AI_TQFP64
+D High-performance, Low-power AVR® 8-bit Microcontroller
+K none
+F none
+$ENDCMP
+#
+$CMP ATMEGA8-16AI_TQFP32
+D High-performance, Low-power AVR® 8-bit Microcontroller
+K none
+F none
+$ENDCMP
+#
+$CMP ATMEGA8515-16AI_TQFP44
+D High-performance, Low-power AVR® 8-bit Microcontroller
+K none
+F none
+$ENDCMP
+#
+$CMP ATMEGA8535-16AI_TQFP44
+D High-performance, Low-power AVR® 8-bit Microcontroller
+K none
+F none
+$ENDCMP
+#
+$CMP ATTINY15-1SI_SO8
+D High-performance, Low-power AVR® 8-bit Microcontroller
+K none
+F none
+$ENDCMP
+#
+$CMP ATTINY2313-20SI_SO20
+D High-performance, Low-power AVR® 8-bit Microcontroller
+K none
+F none
+$ENDCMP
+#
+$CMP ATTINY26-16SI_SO20
+D High-performance, Low-power AVR® 8-bit Microcontroller
+K none
+F none
+$ENDCMP
+#
+$CMP LPC2129FBD64_arm_TQFP64
+D 32-bit microcontroller; 256 kB ISP Flash with 10-bit ADC and CAN (ARM7)
+K none
+F none
+$ENDCMP
+#
+#End Doc Library
