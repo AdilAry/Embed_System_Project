@@ -2,3 +2,5 @@ We will be buying components in bulk with other groups, and possibly doing this 
 
 Farnell / Mouser
 Price noting / Bomb / component buying
+
+All components should be SMD

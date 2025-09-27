@@ -1,0 +1,201 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1.5PF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 1.8NF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 100NF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 100PF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 100UF_10V_TAN
+D Tantalum SMD capacitor (polarized)
+K ""
+F ""
+$ENDCMP
+#
+$CMP 10NF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 10PF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 10UF_35V_TAN
+D Tantalum SMD capacitor (polarized)
+K ""
+F ""
+$ENDCMP
+#
+$CMP 15PF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 1NF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 1PF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 1UF_35V_TAN
+D Tantalum SMD capacitor (polarized)
+K ""
+F ""
+$ENDCMP
+#
+$CMP 2.2NF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 2.2PF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 220PF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 22NF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 22PF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 22UF_35V_TAN
+D Tantalum SMD capacitor (polarized)
+K ""
+F ""
+$ENDCMP
+#
+$CMP 3.3NF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 3.9PF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 33NF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 33PF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 4.7PF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 47NF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 47PF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 47UF_16V_TAN
+D Tantalum SMD capacitor (polarized)
+K ""
+F ""
+$ENDCMP
+#
+$CMP 5.6PF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 56NF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 56PF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 6.8NF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 6.8PF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 680PF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+$CMP 8.2PF_50V_CER
+D Multilayer ceramic SMD capacitor
+K ""
+F ""
+$ENDCMP
+#
+#End Doc Library
