@@ -1,9 +1,3 @@
-### Team members;
-- Adil Arystanbek, e2202683
-
-- Ganeshram Manisekaran Sujatha, e2203643
-
----
 ### Commit and Merge rules;
 Every team member, before commiting and pushing into the main branch, must first commit to the "dev" branch and make a pull request for a merge with the main branch.
 
@@ -11,7 +5,7 @@ Every team member, before commiting and pushing into the main branch, must first
 ### Project specification;
 ---
 #### Battery details:
-**4 cell Lithium Iron Phosphate battery:**
+**4 cell Lithium Iron Phosphate battery.**
 
 Cell voltage: 3.2 V
 
@@ -22,8 +16,7 @@ Charge voltage maximum: 3.65 V
 Discharge cutoff voltage: 2.5 V
 
 ---
-Battery full specifications can be found here:
-https://www.18650batterystore.com/products/eve-lf105
+Battery full specifications can be found here: https://www.18650batterystore.com/products/eve-lf105
 
 ---
 #### Requirements;
