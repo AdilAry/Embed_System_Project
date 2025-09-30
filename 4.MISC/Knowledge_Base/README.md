@@ -4,7 +4,7 @@ tags: green
 ---
 #### Introduction;
 ---
-Knowledge base is a place where each team member can write notes related to the project that they seem useful both to them and other team members.
+Knowledge base is a place where each team member can collect notes and material related to the project that they seem useful both to them and other team members.
 
 ---
 #### Shortcuts Setup;
