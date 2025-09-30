@@ -1,6 +1,6 @@
 LTspice 24.1.10 for Windows
-
-Start Time: Mon Sep 22 18:32:02 2025
+Circuit: D:\Projects\BMS_Project\4.MISC\Problem_1\LTspice\Problem_1.net
+Start Time: Mon Sep 29 09:33:55 2025
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -34,7 +34,11 @@ Source Step = 63.6364%
 Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 2.240 seconds.
+Total elapsed time: 2.035 seconds.
 
 Files loaded:
+D:\Projects\BMS_Project\4.MISC\Problem_1\LTspice\Problem_1.net
+C:\Users\Nickolas\AppData\Local\LTspice\lib\cmp\standard.bjt
+D:\Projects\BMS_Project\4.MISC\Problem_1\LTspice\nat_semi.lib
+D:\Projects\BMS_Project\4.MISC\Problem_1\LTspice\tex_inst.lib
 

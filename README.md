@@ -27,10 +27,6 @@ Battery full specifications can be found here: https://www.18650batterystore.com
 - STM32 controller with over/under voltage per cell (2.5V min, 3.65V max. per cell), over/under temperature (charge: 0C to 40C and discharge: -20C to 40C).
 - Plugin design to connect a NUCLEO-L15RE board to the BMS circuit.
 
-"No need to worry about casing"
-
-"No need to worry about cell overcharge balancing(this far at least)"
-
 ---
 ### Platform/software choices;
 Version Control - Git, GitHub.
