@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f2f860a72d7331d7",
+        "id": "df3735701e5a68c4",
         "type": "tabs",
         "children": [
           {
-            "id": "2ab35a4137f6a3f2",
+            "id": "1504047a68344465",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Core/MOSFET.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "MOSFET"
+              "title": "New tab"
             }
           }
         ],
@@ -97,13 +92,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core/MOSFET.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MOSFET"
+              "title": "Outline"
             }
           }
         ]
@@ -133,7 +127,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core/MOSFET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MOSFET"
+              "title": "Backlinks"
             }
           }
         ],
@@ -161,15 +154,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2ab35a4137f6a3f2",
+  "active": "1504047a68344465",
   "lastOpenFiles": [
+    "Core/BMS ICs.md",
+    "Core/MOSFET.md",
     "Core/Github.md",
     "Core/Git.md",
-    "Core/BMS ICs.md",
     "Core/Active Cell Balancing.md",
     "Core/Battery Management System.md",
     "Core/Battery charge balancing.md",
-    "Core/MOSFET.md",
     "Meta/Index.md",
     "Core/sjfsndf.md",
     "Core/Useful Material library.md",
