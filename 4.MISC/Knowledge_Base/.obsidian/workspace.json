@@ -4,37 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b3c85d7837e50a0c",
+        "id": "df3735701e5a68c4",
         "type": "tabs",
         "children": [
           {
-            "id": "22b3e5adbeb3b41e",
+            "id": "1504047a68344465",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Core/MOSFET.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "MOSFET"
-            }
-          },
-          {
-            "id": "2c2b2836a6628315",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Core/Battery Management System.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Battery Management System"
+              "title": "New tab"
             }
           }
         ],
@@ -112,13 +92,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core/MOSFET.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MOSFET"
+              "title": "Outline"
             }
           }
         ]
@@ -148,7 +127,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core/MOSFET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MOSFET"
+              "title": "Backlinks"
             }
           }
         ],
@@ -176,18 +154,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "22b3e5adbeb3b41e",
+  "active": "1504047a68344465",
   "lastOpenFiles": [
-    "Core/Battery Management System.md",
-    "Core/MOSFET.md",
-    "Core/sjfsndf.md",
     "Core/BMS ICs.md",
+    "Core/MOSFET.md",
+    "Core/Github.md",
+    "Core/Git.md",
+    "Core/Active Cell Balancing.md",
+    "Core/Battery Management System.md",
+    "Core/Battery charge balancing.md",
+    "Meta/Index.md",
+    "Core/sjfsndf.md",
     "Core/Useful Material library.md",
     "Meta/Templates/Template.md",
-    "README.md",
-    "Core/Battery charge balancing.md",
-    "Core/Git.md",
-    "Core/Github.md",
     "Core/notes.md",
     "Core/ITMT, Lecture 0 - Welcome.md",
     "Core/TLP Logic.md",
@@ -204,7 +183,6 @@
     "Core/TLP Electronics.md",
     "Core/TLP Physics.md",
     "Core/The Learning Project Phys-Math.md",
-    "Untitled 1/Technology.md",
     "Untitled 1",
     "Untitled",
     "Untitled.canvas",
