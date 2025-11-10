@@ -1,12 +1,18 @@
-#### Marco Polo game.
+### Marco Polo game;
 
-The runner has to verify that it's Marco, "and then I guess reply Polo?"
-Eduroam got nuked so I didn't manage to make it.
+The board sends two messages periodically, one of the is "Marco", the other is something different
+The runner has to verify that it's "Marco" in which case it responds "Polo" or "Wrong" if that was any other message.
 
 ---
-#### Marco Polo game, but Embed flavoured.
-After the Marco Polo game is tested, 
-basically make the same kind of a thingie but no instead of passing Marco and Polo around it should be Voltage, Curren and Temperature
+### Communication doc;
+It should have all the information related to the PC and Board communicating with each other.
+Like what protocol are we using, what registers are we using and etc.
+
+You also have to have a way to visualize your information, like with Graphana for example.
+And then there needs to be a way to log/store all of your information, maybe like in a database let's say.
+
+On graphana, teacher has a github repo with graphana and modbus stuff:
+https://github.com/PurpleAlien/jk-bms_grafana
 
 ---
 ### Presentation stuff;
