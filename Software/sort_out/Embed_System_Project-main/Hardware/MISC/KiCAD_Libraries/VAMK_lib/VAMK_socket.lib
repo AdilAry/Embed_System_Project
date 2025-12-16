@@ -1,0 +1,249 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# DIL14;0,3"
+#
+DEF DIL14;0,3" C 0 0 N N 1 F N
+F0 "DIL" 0 0 60 H V C CNN
+F1 "DIL14;0,3" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "355-0709" 0 -500 60 H I C CNN "Order Number Farnell"
+F4 "none" 0 -600 60 H I C CNN "Blank Field"
+F5 "P14" 0 -700 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# DIL16;0,3"
+#
+DEF DIL16;0,3" C 0 0 N N 1 F N
+F0 "DIL" 0 0 60 H V C CNN
+F1 "DIL16;0,3" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN "Blank Field"
+F4 "355-0710" 0 -400 60 H I C CNN "Order Number Farnell"
+F5 "P16" 0 -500 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# DIL18;0,3"
+#
+DEF DIL18;0,3" C 0 0 N N 1 F N
+F0 "DIL" 0 0 60 H V C CNN
+F1 "DIL18;0,3" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN "Blank Field"
+F4 "355-0722" 0 -400 60 H I C CNN "Order Number Farnell"
+F5 "P18" 0 -500 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# DIL20;0,3"
+#
+DEF DIL20;0,3" C 0 0 N N 1 F N
+F0 "DIL" 0 0 60 H V C CNN
+F1 "DIL20;0,3" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN "Blank Field"
+F4 "1077321" 0 -400 60 H I C CNN "Order Number Farnell"
+F5 "P20" 0 -500 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# DIL22;0,3"
+#
+DEF DIL22;0,3" C 0 0 N N 1 F N
+F0 "DIL" 0 0 60 H V C CNN
+F1 "DIL22;0,3" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN "Blank Field"
+F4 "P22" 0 -400 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# DIL24;0,3"
+#
+DEF DIL24;0,3" C 0 0 N N 1 F N
+F0 "DIL" 0 0 60 H V C CNN
+F1 "DIL24;0,3" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN "Blank Field"
+F4 "355-0746" 0 -400 60 H I C CNN "Order Number Farnell"
+F5 "P24" 0 -500 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# DIL24;0,6"
+#
+DEF DIL24;0,6" C 0 0 N N 1 F N
+F0 "DIL" 0 0 60 H V C CNN
+F1 "DIL24;0,6" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN "Blank Field"
+F4 "355-0758" 0 -400 60 H I C CNN "Order Number Farnell"
+F5 "P24L" 0 -500 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# DIL28;0,3"
+#
+DEF DIL28;0,3" C 0 0 N N 1 F N
+F0 "DIL" 0 0 60 H V C CNN
+F1 "DIL28;0,3" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN "Blank Field"
+F4 "P28" 0 -400 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# DIL28;0,6"
+#
+DEF DIL28;0,6" C 0 0 N N 1 F N
+F0 "DIL" 0 0 60 H V C CNN
+F1 "DIL28;0,6" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN "Blank Field"
+F4 "355-0760" 0 -400 60 H I C CNN "Order Number Farnell"
+F5 "P28L" 0 -500 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# DIL40;0,6"
+#
+DEF DIL40;0,6" C 0 0 N N 1 F N
+F0 "DIL" 0 0 60 H V C CNN
+F1 "DIL40;0,6" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN "Blank Field"
+F4 "355-0783" 0 -400 60 H I C CNN "Order Number Farnell"
+F5 "P40L" 0 -500 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# DIL48;0,6"
+#
+DEF DIL48;0,6" C 0 0 N N 1 F N
+F0 "DIL" 0 0 60 H V C CNN
+F1 "DIL48;0,6" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN "Blank Field"
+F4 "355-0795" 0 -400 60 H I C CNN "Order Number Farnell"
+F5 "P48L" 0 -500 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# DIL6;0,3"
+#
+DEF DIL6;0,3" C 0 0 N N 1 F N
+F0 "DIL" 0 0 60 H V C CNN
+F1 "DIL6;0,3" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN "Blank Field"
+F4 "355-0680" 0 -400 60 H I C CNN "Order Number Farnell"
+F5 "P6" 0 -500 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# DIL8;0,3"
+#
+DEF DIL8;0,3" C 0 0 N N 1 F N
+F0 "DIL" 0 0 60 H V C CNN
+F1 "DIL8;0,3" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN "Blank Field"
+F4 "1077344" 0 -400 60 H I C CNN "Order Number Farnell"
+F5 "P8" 0 -500 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# PLCC28
+#
+DEF PLCC28 C 0 0 N N 1 F N
+F0 "PLC" 0 0 60 H V C CNN
+F1 "PLCC28" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN "Blank Field"
+F4 "48-109-17" 0 -400 60 H I C CNN "Order Number Elfa"
+F5 "P28 PLCC" 0 -500 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# PLCC32
+#
+DEF PLCC32 C 0 0 N N 1 F N
+F0 "PLC" 0 0 60 H V C CNN
+F1 "PLCC32" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN "Blank Field"
+F4 "48-109-32" 0 -400 60 H I C CNN "Order Number Elfa"
+F5 "P32 PLCC" 0 -500 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# PLCC44
+#
+DEF PLCC44 C 0 0 N N 1 F N
+F0 "PLC" 0 0 60 H V C CNN
+F1 "PLCC44" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN "Blank Field"
+F4 "48-109-44" 0 -400 60 H I C CNN "Order Number Elfa"
+F5 "P44 PLCC" 0 -500 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# PLCC52
+#
+DEF PLCC52 C 0 0 N N 1 F N
+F0 "PLC" 0 0 60 H V C CNN
+F1 "PLCC52" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN "Blank Field"
+F4 "48-109-52" 0 -400 60 H I C CNN "Order Number Elfa"
+F5 "P52 PLCC" 0 -500 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# PLCC68
+#
+DEF PLCC68 C 0 0 N N 1 F N
+F0 "PLC" 0 0 60 H V C CNN
+F1 "PLCC68" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN "Blank Field"
+F4 "48-109-68" 0 -400 60 H I C CNN "Order Number Elfa"
+F5 "P68 PLCC" 0 -500 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# PLCC84
+#
+DEF PLCC84 C 0 0 N N 1 F N
+F0 "PLC" 0 0 60 H V C CNN
+F1 "PLCC84" 0 -100 60 H I C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN "Blank Field"
+F4 "48-109-84" 0 -400 60 H I C CNN "Order Number Elfa"
+F5 "P84 PLCC" 0 -500 60 H I C CNN "Order Number Partco"
+DRAW
+ENDDRAW
+ENDDEF
+#
+#End Library

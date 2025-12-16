@@ -1,0 +1,2759 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 1.1R
+#
+DEF 1.1R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "1.1R" 0 -100 60 H V C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "" 0 -300 60 H I C CNN
+F4 " 1.1.1.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-760-12" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465600" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1.1k
+#
+DEF 1.1k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "1.1k" 0 -100 60 H V C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "" 0 -300 60 H I C CNN
+F4 " 1.7.1.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-723-26" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465219" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1.2R
+#
+DEF 1.2R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "1.2R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.1.1.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-760-20" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465634" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1.2k
+#
+DEF 1.2k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "1.2k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "" 0 -300 60 H I C CNN
+F4 " 1.7.1.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-723-67" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465251" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1.3R
+#
+DEF 1.3R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "1.3R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.1.2.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-760-38" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465677" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1.3k
+#
+DEF 1.3k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "1.3k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.7.2.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-724-09" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465294" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1.5R
+#
+DEF 1.5R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "1.5R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.1.2.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-760-46" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465731" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1.5k
+#
+DEF 1.5k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "1.5k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.7.2.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-724-66" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465359" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1.6R
+#
+DEF 1.6R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "1.6R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.1.2.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-760-53" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465766" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1.6k
+#
+DEF 1.6k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "1.6k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.7.2.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-724-90" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465383" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1.8R
+#
+DEF 1.8R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "1.8R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.1.3.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-760-61" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465820" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1.8k
+#
+DEF 1.8k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "1.8k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.7.3.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-725-57" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465448" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 100R
+#
+DEF 100R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "100R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.5.1.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-711-46" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9463909" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 100k
+#
+DEF 100k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "100k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.11.1.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-745-61" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9463895" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10R
+#
+DEF 10R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "10R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.3.1.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-700-07" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464026" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10k
+#
+DEF 10k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "10k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.9.1.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-734-23" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9463976" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 110R
+#
+DEF 110R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "110R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.5.1.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-711-87" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464077" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 110k
+#
+DEF 110k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "110k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.11.1.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-746-03" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464069" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 11R
+#
+DEF 11R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "11R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.3.1.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-700-49" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464182" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 11k
+#
+DEF 11k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "11k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.9.1.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-734-64" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464140" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 120R
+#
+DEF 120R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "120R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.5.1.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-712-29" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464239" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 120k
+#
+DEF 120k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "120k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.11.1.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-746-45" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464220" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 12R
+#
+DEF 12R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "12R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.3.1.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-700-80" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464344" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 12k
+#
+DEF 12k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "12k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.9.1.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-735-06" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464301" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 130R
+#
+DEF 130R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "130R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.5.2.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-712-60" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464395" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 130k
+#
+DEF 130k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "130k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.11.2.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-746-86" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464387" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 13R
+#
+DEF 13R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "13R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.3.2.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-701-22" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464476" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 13k
+#
+DEF 13k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "13k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.9.2.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-735-48" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464441" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150R
+#
+DEF 150R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "150R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.5.2.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-713-28" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464638" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150k
+#
+DEF 150k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "150k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.11.2.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-747-44" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464620" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 15R
+#
+DEF 15R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "15R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.3.2.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-701-89" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464719" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 15k
+#
+DEF 15k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "15k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.9.2.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-736-05" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464689" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 160R
+#
+DEF 160R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "160R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.5.2.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-713-51" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464751" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 160k
+#
+DEF 160k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "160k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.11.2.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-747-77" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464743" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 16R
+#
+DEF 16R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "16R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.3.2.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-702-13" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464867" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 16k
+#
+DEF 16k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "16k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.9.2.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-736-39" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464824" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 180R
+#
+DEF 180R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "180R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.5.3.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-714-19" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464980" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 180k
+#
+DEF 180k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "180k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.11.3.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-748-35" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9464972" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 18R
+#
+DEF 18R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "18R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.3.3.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-702-70" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465065" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 18k
+#
+DEF 18k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "18k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.9.3.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-736-96" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465030" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1M
+#
+DEF 1M R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "1M" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.12.4.4" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-757-09" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465499" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1R
+#
+DEF 1R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "1R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 " 1.1.1.1" 0 -300 60 H I C CNN
+F4 "+-1%" 0 -400 60 H I C CNN "Tolerance"
+F5 "9465561" 0 -500 60 H I C CNN "Order Number Farnell"
+F6 "none" 0 -600 60 H I C CNN "Blank Field"
+F7 "60-760-04" 0 -700 60 H I C CNN "Order Number Elfa"
+F8 " 1.1.1.1" 0 -800 60 H I C CNN "Storing Location"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1k
+#
+DEF 1k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "1k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.7.1.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-722-84" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465170" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2.2R
+#
+DEF 2.2R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "2.2R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.1.3.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-760-87" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9466959" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2.2k
+#
+DEF 2.2k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "2.2k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "" 0 -300 60 H I C CNN
+F4 " 1.7.3.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-726-49" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9466711" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2.4R
+#
+DEF 2.4R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "2.4R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.1.4.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-760-95" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467009" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2.4k
+#
+DEF 2.4k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "2.4k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.7.4.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-726-98" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9466762" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2.7R
+#
+DEF 2.7R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "2.7R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.1.4.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-761-03" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467068" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2.7k
+#
+DEF 2.7k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "2.7k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.7.4.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-727-55" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9466827" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 200R
+#
+DEF 200R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "200R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.5.3.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-714-68" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465880" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 200k
+#
+DEF 200k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "200k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.11.3.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-748-84" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465871" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 20R
+#
+DEF 20R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "20R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.3.3.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-703-20" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465936" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 20k
+#
+DEF 20k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "20k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.9.3.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-737-46" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9465910" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 220R
+#
+DEF 220R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "220R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.5.3.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-715-00" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9466045" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 220k
+#
+DEF 220k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "220k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.11.3.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-749-26" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9466037" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 22R
+#
+DEF 22R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "22R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.3.3.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-703-61" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9466126" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 22k
+#
+DEF 22k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "22k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.9.3.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-737-87" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9466096" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 240R
+#
+DEF 240R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "240R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.5.4.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-715-59" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9466240" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 240k
+#
+DEF 240k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "240k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.11.4.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-749-75" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9466231" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 24R
+#
+DEF 24R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "24R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.3.4.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-704-11" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9466320" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 24k
+#
+DEF 24k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "24k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.9.4.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-738-37" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9466290" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 270R
+#
+DEF 270R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "270R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.5.4.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-716-17" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9466487" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 270k
+#
+DEF 270k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "270k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.11.4.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-750-30" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9466479" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 27R
+#
+DEF 27R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "27R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.3.4.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-704-78" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9466533" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 27k
+#
+DEF 27k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "27k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.9.4.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-738-94" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9466517" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2R
+#
+DEF 2R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "2R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.1.3.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-760-79" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9466916" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2k
+#
+DEF 2k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "2k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.7.3.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-726-07" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "946673" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.0R
+#
+DEF 3.0R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "3.0R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.1.4.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-761-11" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467980" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.3R
+#
+DEF 3.3R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "3.3R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.2.1.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-761-29" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468021" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.3k
+#
+DEF 3.3k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "3.3k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.8.1.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-728-54" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467823" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.6R
+#
+DEF 3.6R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "3.6R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.2.1.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-761-37" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468072" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.6k
+#
+DEF 3.6k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "3.6k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.8.1.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-729-04" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467874" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.9R
+#
+DEF 3.9R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "3.9R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.2.1.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-761-45" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468110" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.9k
+#
+DEF 3.9k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "3.9k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.8.1.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-729-46" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467912" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 300R
+#
+DEF 300R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "300R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.5.4.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-716-66" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467122" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 300k
+#
+DEF 300k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "300k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.11.4.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-750-89" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467114" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 30R
+#
+DEF 30R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "30R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.3.4.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-705-28" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467203" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 30k
+#
+DEF 30k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "30k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.9.4.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-739-44" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467173" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 330R
+#
+DEF 330R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "330R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.6.1.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-717-16" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467327" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 330k
+#
+DEF 330k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "330k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.12.1.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-751-39" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467319" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 33R
+#
+DEF 33R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "33R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.4.1.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-705-77" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467378" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 33k
+#
+DEF 33k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "33k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.10.1.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-739-93" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467351" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 360R
+#
+DEF 360R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "360R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.6.1.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-717-65" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467521" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 360k
+#
+DEF 360k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "360k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.12.1.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-751-88" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467513" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 36R
+#
+DEF 36R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "36R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.4.1.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-706-27" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467572" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 36k
+#
+DEF 36k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "36k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.10.1.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-740-41" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467556" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 390R
+#
+DEF 390R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "390R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.6.1.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-718-07" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467688" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 390k
+#
+DEF 390k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "390k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.12.1.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-752-20" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467670" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 39R
+#
+DEF 39R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "39R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.4.1.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-706-68" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467734" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 39k
+#
+DEF 39k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "39k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.10.1.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-740-90" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467718" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3k
+#
+DEF 3k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "3k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.7.4.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-728-05" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9467750" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4.3R
+#
+DEF 4.3R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "4.3R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.2.2.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-761-52" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468773" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4.3k
+#
+DEF 4.3k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "4.3k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.8.2.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-729-95" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468641" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4.7R
+#
+DEF 4.7R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "4.7R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.2.2.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-761-60" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468803" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4.7k
+#
+DEF 4.7k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "4.7k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.8.2.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-730-43" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468692" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 430R
+#
+DEF 430R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "430R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.6.2.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-718-56" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468269" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 430k
+#
+DEF 430k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "430k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.12.2.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-752-79" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468250" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 43R
+#
+DEF 43R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "43R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.4.2.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-707-18" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468315" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 43k
+#
+DEF 43k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "43k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.10.2.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-741-32" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468293" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 470R
+#
+DEF 470R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "470R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.6.2.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-719-06" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468463" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 470k
+#
+DEF 470k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "470k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.12.2.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-753-29" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468455" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 47R
+#
+DEF 47R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "47R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.4.2.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-707-67" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468510" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 47k
+#
+DEF 47k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "47k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.10.2.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-741-81" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468498" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 5.1R
+#
+DEF 5.1R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "5.1R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.2.2.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-761-78" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469290" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 5.1k
+#
+DEF 5.1k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "5.1k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.8.2.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-730-84" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469184" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 5.6R
+#
+DEF 5.6R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "5.6R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.2.3.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-761-86" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469320" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 5.6k
+#
+DEF 5.6k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "5.6k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.8.3.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-731-34" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469230" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 510R
+#
+DEF 510R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "510R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.6.2.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-719-48" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468838" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 510k
+#
+DEF 510k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "510k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.12.2.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-753-60" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468820" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 51R
+#
+DEF 51R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "51R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.4.2.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-708-09" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468889" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 51k
+#
+DEF 51k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "51k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.10.2.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-742-23" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9468862" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 560R
+#
+DEF 560R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "560R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.6.3.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-719-97" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469036" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 560k
+#
+DEF 560k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "560k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.12.3.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-754-10" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469028" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 56R
+#
+DEF 56R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "56R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.4.3.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-708-58" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469087" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 56k
+#
+DEF 56k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "56k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.10.3.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-742-72" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469060" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 6.2R
+#
+DEF 6.2R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "6.2R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.2.3.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-761-94" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469869" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 6.2k
+#
+DEF 6.2k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "6.2k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.8.3.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-731-91" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469761" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 6.8R
+#
+DEF 6.8R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "6.8R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.2.3.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-762-02" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469885" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 6.8k
+#
+DEF 6.8k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "6.8k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.8.3.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-732-33" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469800" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 620R
+#
+DEF 620R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "620R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.6.3.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-720-52" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469478" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 620k
+#
+DEF 620k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "620k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.12.3.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-754-77" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469460" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 62R
+#
+DEF 62R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "62R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.4.3.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-709-16" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469494" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 62k
+#
+DEF 62k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "62k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.10.3.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-743-30" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469486" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 680R
+#
+DEF 680R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "680R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.6.3.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-720-94" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469630" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 680k
+#
+DEF 680k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "680k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.12.3.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-755-19" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469621" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 68R
+#
+DEF 68R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "68R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.4.3.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-709-57" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469680" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 68k
+#
+DEF 68k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "68k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.10.3.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-743-71" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469664" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 7.5R
+#
+DEF 7.5R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "7.5R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.2.4.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-762-10" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9470166" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 7.5k
+#
+DEF 7.5k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "7.5k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.8.4.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-732-82" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9470115" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 750R
+#
+DEF 750R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "750R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.6.4.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-721-44" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469982" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 750k
+#
+DEF 750k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "750k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.12.4.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-755-68" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469974" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 75R
+#
+DEF 75R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "75R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.4.4.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-710-05" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9470000" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 75k
+#
+DEF 75k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "75k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.10.4.1" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-744-21" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9469990" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 8.2R
+#
+DEF 8.2R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "8.2R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.2.4.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-762-28" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9470506" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 8.2k
+#
+DEF 8.2k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "8.2k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.8.4.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-733-24" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9470441" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 820R
+#
+DEF 820R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "820R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.6.4.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-721-85" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9470247" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 820k
+#
+DEF 820k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "820k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.12.4.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-756-00" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9470239" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 82R
+#
+DEF 82R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "82R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.4.4.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-710-47" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9470298" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 82k
+#
+DEF 82k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "82k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.10.4.2" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-744-62" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9470271" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 9.1R
+#
+DEF 9.1R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "9.1R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.2.4.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-762-36" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9470816" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 9.1k
+#
+DEF 9.1k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "9.1k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.8.4.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-733-81" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9470751" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 910R
+#
+DEF 910R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "910R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.6.4.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-722-43" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9470581" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 910k
+#
+DEF 910k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "910k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.12.4.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-756-67" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9470573" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 91R
+#
+DEF 91R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "91R" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.4.4.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-711-04" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9470603" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 91k
+#
+DEF 91k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "91k" 0 -100 60 H I C CNN
+F2 "VAMK_R:R3_5W" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 " 1.10.4.3" 0 -400 60 H I C CNN "Storing Location"
+F5 "+-1%" 0 -500 60 H I C CNN "Tolerance"
+F6 "60-745-20" 0 -600 60 H I C CNN "Order Number Elfa"
+F7 "9470590" 0 -700 60 H I C CNN "Order Number Farnell"
+F8 "none" 0 -800 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

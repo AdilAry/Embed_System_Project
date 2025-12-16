@@ -1,0 +1,147 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NTC_THERMISTOR_10K
+D NTC 10k, for temperature measurement
+K NTC
+F ""
+$ENDCMP
+#
+$CMP NTC_THERMISTOR_1K
+D NTC 1k, for temperature measurement
+K NTC
+F ""
+$ENDCMP
+#
+$CMP NTC_THERMISTOR_4.7K
+D NTC 4.7k, for temperature measurement
+K NTC
+F ""
+$ENDCMP
+#
+$CMP POTENTIO_M_100K_LIN
+D Potentiometer, 100k linear mono
+K POTENTIO_M
+F ""
+$ENDCMP
+#
+$CMP POTENTIO_M_10K_LIN
+D Potentiometer, 10k linear mono
+K POTENTIO_M
+F ""
+$ENDCMP
+#
+$CMP POTENTIO_M_1K_LIN
+D Potentiometer, 1k linear mono
+K POTENTIO_M
+F ""
+$ENDCMP
+#
+$CMP POTENTIO_M_4.7K_LIN
+D Potentiometer, 4.7k linear mono
+K POTENTIO_M
+F ""
+$ENDCMP
+#
+$CMP POTENTIO_S_100K_LIN
+D Potentiometer, 100k linear stereo
+K POTENTIO_S
+F ""
+$ENDCMP
+#
+$CMP POTENTIO_S_10K_LIN
+D Potentiometer, 10k linear stereo
+K POTENTIO_S
+F ""
+$ENDCMP
+#
+$CMP POTENTIO_S_4.7K_LIN
+D Potentiometer, 4.7k linear stereo
+K POTENTIO_S
+F ""
+$ENDCMP
+#
+$CMP PUSH_BUTTON
+D Push- Button Switch for PCB assembly, ESD protechted
+K PUSH_BUTTON
+F ""
+$ENDCMP
+#
+$CMP TRIMMER_100K
+D Trimmer, 100k
+K TRIMMER
+F ""
+$ENDCMP
+#
+$CMP TRIMMER_10K
+D Trimmer, 10k
+K TRIMMER
+F ""
+$ENDCMP
+#
+$CMP TRIMMER_1K
+D Trimmer, 1k
+K TRIMMER
+F ""
+$ENDCMP
+#
+$CMP TRIMMER_5K
+D Trimmer, 5k
+K TRIMMER
+F ""
+$ENDCMP
+#
+$CMP XTAL_10MHZ
+D Crystal, 10.0 MHZ
+K XTAL
+F ""
+$ENDCMP
+#
+$CMP XTAL_12MHZ
+D Crystal, 12.0 MHZ
+K XTAL
+F ""
+$ENDCMP
+#
+$CMP XTAL_16MHZ
+D Crystal, 16.0 MHZ
+K XTAL
+F ""
+$ENDCMP
+#
+$CMP XTAL_20MHZ
+D Crystal, 20.0 MHZ
+K XTAL
+F ""
+$ENDCMP
+#
+$CMP XTAL_2MHZ
+D Crystal, 2.0MHZ
+K XTAL
+F ""
+$ENDCMP
+#
+$CMP XTAL_32MHZ
+D Crystal, 32.0 MHZ
+K XTAL
+F ""
+$ENDCMP
+#
+$CMP XTAL_4MHZ
+D Crystal, 4.0MHZ
+K XTAL
+F ""
+$ENDCMP
+#
+$CMP XTAL_6MHZ
+D Crystal, 6.0 MHZ
+K XTAL
+F ""
+$ENDCMP
+#
+$CMP XTAL_8MHZ
+D Crystal, 8.0 MHZ
+K XTAL
+F ""
+$ENDCMP
+#
+#End Doc Library

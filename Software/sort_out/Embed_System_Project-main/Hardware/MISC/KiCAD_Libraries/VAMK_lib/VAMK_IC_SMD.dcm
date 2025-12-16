@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMC6081AIM_SO8
+D Op-amp Single, Precision, Rail To Rail, single supply 4,5V to 15V
+K ""
+F ""
+$ENDCMP
+#
+$CMP MAX1112CAP_SSOP20
+D A/D-converter 8-bit, internal reference, 8-channel, SPI-bus
+K ""
+F ""
+$ENDCMP
+#
+$CMP MAX232CWE_SO16W
+D RS-232 multichannel driver, 5V-powered
+K ""
+F ""
+$ENDCMP
+#
+$CMP TL071CD_SO8
+D Op-amp Single, JFET input
+K ""
+F ""
+$ENDCMP
+#
+$CMP UA741_SO8
+D Op-amp Single, general purporse
+K ""
+F ""
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,13 @@
+stages:
+  - test
+
+runner_smoke_test:
+  stage: test
+  tags:
+    - hil
+    
+  script:
+    - cd Drivers/ && make
+    - cd .. && make
+    - openocd -f interface/stlink.cfg -f target/stm32l1x_dual_bank.cfg -c "init; reset halt; flash write_image erase project.bin 0x8000000; reset; exit"
+    #- st-flash --reset --connect-under-reset  write project.bin 0x8000000  #issue under Debian...
