@@ -1,0 +1,29 @@
+stages:
+  - build
+  - deploy
+  - test
+
+runner_smoke_test:
+  stage: test
+  tags:
+    - hil
+
+  script:
+    - cd Drivers/ && make
+    - cd .. && make
+    - openocd -f interface/stlink.cfg -f target/stm32l1x_dual_bank.cfg -c "init; reset halt; flash write_image erase project.bin 0x8000000; reset; exit"
+    
+    - sleep 2
+
+    - source myvenv/bin/activate
+    - pip install robotframework-modbus 
+    - robot --outputdir results --variable PORT:/dev/ttyUSB0 bms_modbus_test.robot
+
+  artifacts:
+    when: always
+    paths:
+      - results/log.html
+      - results/report.html
+    reports:
+      junit: results/output.xml
+    expire_in: 1 week
