@@ -1,0 +1,6 @@
+C:\Users\Nickolas\Downloads\Year4\Design_of_Digital_Electronics\Lab_3\Lab3\LM317.sub(143): syntax error
+.ENDS LM317 **changes may be required on this line**
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Nickolas\Downloads\Year4\Design_of_Digital_Electronics\Lab_3\Lab3\LM317.sub(143): Expected device instantiation or directive here.
+.ENDS LM317 **changes may be required on this line**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,873 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1.1R
+D 1.1R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 1.1k
+D 1.1K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 1.2R
+D 1.2R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 1.2k
+D 1.2K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 1.3R
+D 1.3R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 1.3k
+D 1.3K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 1.5R
+D 1.5R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 1.5k
+D 1.5K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 1.6R
+D 1.6R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 1.6k
+D 1.6K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 1.8R
+D 1.8R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 1.8k
+D 1.8K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 100R
+D 100R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 100k
+D 100K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 10R
+D 10R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 10k
+D 10K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 110R
+D 110R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 110k
+D 110K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 11R
+D 11R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 11k
+D 11K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 120R
+D 120R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 120k
+D 120K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 12R
+D 12R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 12k
+D 12K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 130R
+D 130R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 130k
+D 130K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 13R
+D 13R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 13k
+D 13K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 150R
+D 150R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 150k
+D 150K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 15R
+D 15R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 15k
+D 15K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 160R
+D 160R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 160k
+D 160K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 16R
+D 16R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 16k
+D 16K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 180R
+D 180R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 180k
+D 180K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 18R
+D 18R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 18k
+D 18K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 1M
+D 1M/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 1R
+D 1.0R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 1k
+D 1K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 2.2R
+D 2.2R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 2.2k
+D 2.2K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 2.4R
+D 2.4R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 2.4k
+D 2.4K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 2.7R
+D 2.7R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 2.7k
+D 2.7K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 200R
+D 200R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 200k
+D 200K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 20R
+D 20R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 20k
+D 20K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 220R
+D 220R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 220k
+D 220K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 22R
+D 22R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 22k
+D 22K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 240R
+D 240R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 240k
+D 240K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 24R
+D 24R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 24k
+D 24K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 270R
+D 270R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 270k
+D 270K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 27R
+D 27R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 27k
+D 27K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 2R
+D 2.0R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 2k
+D 2K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 3.0R
+D 3.0R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 3.3R
+D 3.3R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 3.3k
+D 3.3K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 3.6R
+D 3.6R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 3.6k
+D 3.6K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 3.9R
+D 3.9R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 3.9k
+D 3.9K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 300R
+D 300R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 300k
+D 300K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 30R
+D 30R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 30k
+D 30K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 330R
+D 330R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 330k
+D 330K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 33R
+D 33R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 33k
+D 33K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 360R
+D 360R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 360k
+D 360K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 36R
+D 36R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 36k
+D 36K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 390R
+D 390R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 390k
+D 390K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 39R
+D 39R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 39k
+D 39K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 3k
+D 3K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 4.3R
+D 4.3R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 4.3k
+D 4.3K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 4.7R
+D 4.7R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 4.7k
+D 4.7K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 430R
+D 430R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 430k
+D 430K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 43R
+D 43R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 43k
+D 43K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 470R
+D 470R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 470k
+D 470K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 47R
+D 47R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 47k
+D 47K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 5.1R
+D 5.1R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 5.1k
+D 5.1K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 5.6R
+D 5.6R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 5.6k
+D 5.6K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 510R
+D 510R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 510k
+D 510K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 51R
+D 51R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 51k
+D 51K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 560R
+D 560R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 560k
+D 560K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 56R
+D 56R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 56k
+D 56K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 6.2R
+D 6.2R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 6.2k
+D 6.2K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 6.8R
+D 6.8R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 6.8k
+D 6.8K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 620R
+D 620R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 620k
+D 620K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 62R
+D 62R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 62k
+D 62K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 680R
+D 680R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 680k
+D 680K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 68R
+D 68R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 68k
+D 68K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 7.5R
+D 7.5R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 7.5k
+D 7.5K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 750R
+D 750R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 750k
+D 750K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 75R
+D 75R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 75k
+D 75K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 8.2R
+D 8.2R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 8.2k
+D 8.2K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 820R
+D 820R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 820k
+D 820K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 82R
+D 82R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 82k
+D 82K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 9.1R
+D 9.1R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 9.1k
+D 9.1K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 910R
+D 910R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 910k
+D 910K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 91R
+D 91R/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+$CMP 91k
+D 91K/1%/0.6W
+K "Resistor"
+F ""
+$ENDCMP
+#
+#End Doc Library

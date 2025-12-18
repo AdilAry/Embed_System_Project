@@ -1,0 +1,1120 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 0R
+#
+DEF 0R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 0R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "" 0 -300 60 H I C CNN
+F4 " +-5%" 0 -400 60 H I C CNN "Tolerance"
+F5 "772240" 0 -500 60 H I C CNN "Order Number Farnell"
+F6 "none" 0 -600 60 H I C CNN "Blank Field"
+F7 "EC6,  SMD station" 0 -700 60 H I C CNN "Storing Location"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1.2k
+#
+DEF 1.2k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 1.2k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613710" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1.5k
+#
+DEF 1.5k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 1.5k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613721" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1.8k
+#
+DEF 1.8k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 1.8k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613733" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 100R
+#
+DEF 100R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 100R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613587" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 100k
+#
+DEF 100k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 100k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613940" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10R
+#
+DEF 10R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 10R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613460" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10k
+#
+DEF 10k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 10k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613824" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 120R
+#
+DEF 120R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 120R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613599" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 120k
+#
+DEF 120k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 120k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613952" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 12R
+#
+DEF 12R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 12R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613472" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 12k
+#
+DEF 12k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 12k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613836" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150R
+#
+DEF 150R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 150R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613605" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150k
+#
+DEF 150k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 150k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613964" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 15R
+#
+DEF 15R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 15R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613484" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 15k
+#
+DEF 15k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 15k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613848" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 180R
+#
+DEF 180R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 180R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613617" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 180k
+#
+DEF 180k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 180k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613976" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 18R
+#
+DEF 18R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 18R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613496" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 18k
+#
+DEF 18k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 18k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613850" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1M
+#
+DEF 1M R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 1M" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613063" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1k
+#
+DEF 1k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 1k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613708" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2.2k
+#
+DEF 2.2k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 2.2k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613745" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2.7k
+#
+DEF 2.7k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 2.7k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613757" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 220R
+#
+DEF 220R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 220R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613629" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 220k
+#
+DEF 220k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 220k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613988" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 22R
+#
+DEF 22R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 22R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613502" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 22k
+#
+DEF 22k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 22k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613861" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 270R
+#
+DEF 270R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 270R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613630" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 270k
+#
+DEF 270k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 270k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613990" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 27R
+#
+DEF 27R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 27R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613514" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 27k
+#
+DEF 27k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 27k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613873" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.3k
+#
+DEF 3.3k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 3.3k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613769" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.9k
+#
+DEF 3.9k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 3.9k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613770" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 330R
+#
+DEF 330R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 330R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613642" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 330k
+#
+DEF 330k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 330k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613002" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 33R
+#
+DEF 33R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 33R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613526" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 33k
+#
+DEF 33k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 33k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613885" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 390R
+#
+DEF 390R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 390R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613654" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 390k
+#
+DEF 390k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 390k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613014" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 39R
+#
+DEF 39R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 39R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613538" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 39k
+#
+DEF 39k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 39k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613897" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4.7k
+#
+DEF 4.7k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 4.7k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613782" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 470R
+#
+DEF 470R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 470R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613666" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 470k
+#
+DEF 470k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 470k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613026" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 47R
+#
+DEF 47R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 47R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613540" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 47k
+#
+DEF 47k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 47k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613903" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 5.6k
+#
+DEF 5.6k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 5.6k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613794" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 560R
+#
+DEF 560R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 560R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613678" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 560k
+#
+DEF 560k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 560k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613038" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 56R
+#
+DEF 56R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 56R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613551" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 56k
+#
+DEF 56k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 56k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613915" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 6.8k
+#
+DEF 6.8k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 6.8k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613800" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 680R
+#
+DEF 680R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 680R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613680" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 680k
+#
+DEF 680k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 680k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613040" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 68R
+#
+DEF 68R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 68R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613563" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 68k
+#
+DEF 68k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 68k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613927" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 8.2k
+#
+DEF 8.2k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 8.2k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613812" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 820R
+#
+DEF 820R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 820R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613691" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 820k
+#
+DEF 820k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 820k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613051" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 82R
+#
+DEF 82R R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 82R" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613575" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 82k
+#
+DEF 82k R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 " 82k" 0 -100 60 H I C CNN
+F2 "VAMK_R_SMD:1206" 0 -200 60 H I C CNN
+F3 "none" 0 -300 60 H I C CNN
+F4 "EC6,  SMD station" 0 -400 60 H I C CNN "Storing Location"
+F5 " +-5%" 0 -500 60 H I C CNN "Tolerance"
+F6 "613939" 0 -600 60 H I C CNN "Order Number Farnell"
+F7 "none" 0 -700 60 H I C CNN "Blank Field"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

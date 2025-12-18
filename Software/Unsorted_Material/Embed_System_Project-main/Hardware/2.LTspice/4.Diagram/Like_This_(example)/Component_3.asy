@@ -1,0 +1,13 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 95 48 -81 -48
+WINDOW 0 -81 -59 Left 0
+PIN 48 48 BOTTOM 20
+PINATTR PinName Vout-
+PINATTR SpiceOrder 1
+PIN 48 -48 TOP 20
+PINATTR PinName Vout+
+PINATTR SpiceOrder 2
+PIN -80 0 LEFT 20
+PINATTR PinName GND
+PINATTR SpiceOrder 3

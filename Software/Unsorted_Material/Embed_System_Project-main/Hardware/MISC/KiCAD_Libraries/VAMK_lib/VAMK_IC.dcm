@@ -1,0 +1,141 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LS47_DIL16
+D BCD to 7-Segment Driver, Common Anode
+K ""
+F ""
+$ENDCMP
+#
+$CMP CNY17-3_DIL6
+D Optoisolator Single, Transistor output
+K ""
+F ""
+$ENDCMP
+#
+$CMP DS1302_DIL8
+D Real Time Clock
+K ""
+F ""
+$ENDCMP
+#
+$CMP DS18S20_TO92
+D Digital Thermometer (-55°C to +125°C)
+K ""
+F ""
+$ENDCMP
+#
+$CMP L293D_DIL16
+D Buffer, push-pull four channel driver with diodes
+K ""
+F ""
+$ENDCMP
+#
+$CMP LM1458N_DIL8
+D Op-amp Dual, general purpose
+K ""
+F ""
+$ENDCMP
+#
+$CMP LM301AN_DIL8
+D Op-amp Single, industrial, pin compatible with uA741
+K ""
+F ""
+$ENDCMP
+#
+$CMP LM324N_DIL14
+D Op-amp Quad, General, Rail To Rail, single supply 3V to 32V
+K ""
+F ""
+$ENDCMP
+#
+$CMP LM35CZ_TO92
+D Analog Thermometer (-40°C to +110°C)
+K ""
+F ""
+$ENDCMP
+#
+$CMP LM35DZ_TO92
+D Analog Thermometer (0°C to +100°C)
+K ""
+F ""
+$ENDCMP
+#
+$CMP LM385Z_TO92
+D Voltage Reference 1,24-5,30V, Adjustable
+K ""
+F ""
+$ENDCMP
+#
+$CMP LMC6482IN_DIL8
+D Op-amp Single, Precision, Rail To Rail, single supply 3V to 15,5V
+K ""
+F ""
+$ENDCMP
+#
+$CMP MAX1112CPP_DIL20
+D A/D-converter 8-bit, internal reference 8-channel, SPI-bus
+K ""
+F ""
+$ENDCMP
+#
+$CMP MAX187BCPA_DIL8
+D A/D-converter 12-bit, internal reference 1-channel, SPI-bus
+K ""
+F ""
+$ENDCMP
+#
+$CMP MAX232CPE_DIL16
+D RS-232 multichannel driver, 5V-powered
+K ""
+F ""
+$ENDCMP
+#
+$CMP MAX518ACPA_DIL8
+D D/A-converter 8-bit, IIC-bus
+K ""
+F ""
+$ENDCMP
+#
+$CMP NE555P_DIL8
+D Precision general timer
+K ""
+F ""
+$ENDCMP
+#
+$CMP TL071CP_DIL8
+D Op-amp Single, JFET input
+K ""
+F ""
+$ENDCMP
+#
+$CMP TL431CLP_TO92
+D Voltage Reference, Adjustable Zener Shunt Regulator 2,5-36V
+K ""
+F ""
+$ENDCMP
+#
+$CMP TLC0832IP_DIL8
+D A/D-converter 8-bit, internal reference 2-channel, SPI-bus
+K ""
+F ""
+$ENDCMP
+#
+$CMP TLP620-2_DIL8
+D Optoisolator Dual, Transistor output
+K ""
+F ""
+$ENDCMP
+#
+$CMP ULN2803A_DIL18
+D Buffer, 8 darlington array
+K ""
+F ""
+$ENDCMP
+#
+$CMP uA741CP_DIL8
+D Op-amp Single, general purporse
+K ""
+F ""
+$ENDCMP
+#
+#End Doc Library

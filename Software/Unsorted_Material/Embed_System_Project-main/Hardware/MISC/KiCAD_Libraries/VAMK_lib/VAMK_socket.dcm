@@ -1,0 +1,117 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DIL14;0,3"
+D ""
+K ""
+F ""
+$ENDCMP
+#
+$CMP DIL16;0,3"
+D ""
+K ""
+F ""
+$ENDCMP
+#
+$CMP DIL18;0,3"
+D ""
+K ""
+F ""
+$ENDCMP
+#
+$CMP DIL20;0,3"
+D ""
+K ""
+F ""
+$ENDCMP
+#
+$CMP DIL22;0,3"
+D ""
+K ""
+F ""
+$ENDCMP
+#
+$CMP DIL24;0,3"
+D ""
+K ""
+F ""
+$ENDCMP
+#
+$CMP DIL24;0,6"
+D ""
+K ""
+F ""
+$ENDCMP
+#
+$CMP DIL28;0,3"
+D ""
+K ""
+F ""
+$ENDCMP
+#
+$CMP DIL28;0,6"
+D ""
+K ""
+F ""
+$ENDCMP
+#
+$CMP DIL40;0,6"
+D ""
+K ""
+F ""
+$ENDCMP
+#
+$CMP DIL48;0,6"
+D ""
+K ""
+F ""
+$ENDCMP
+#
+$CMP DIL6;0,3"
+D ""
+K ""
+F ""
+$ENDCMP
+#
+$CMP DIL8;0,3"
+D ""
+K ""
+F ""
+$ENDCMP
+#
+$CMP PLCC28
+D ""
+K ""
+F ""
+$ENDCMP
+#
+$CMP PLCC32
+D ""
+K ""
+F ""
+$ENDCMP
+#
+$CMP PLCC44
+D ""
+K ""
+F ""
+$ENDCMP
+#
+$CMP PLCC52
+D ""
+K ""
+F ""
+$ENDCMP
+#
+$CMP PLCC68
+D ""
+K ""
+F ""
+$ENDCMP
+#
+$CMP PLCC84
+D ""
+K ""
+F ""
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,309 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DCON25_FEMALE
+D Socket, D signal, 25 way
+K ""
+F ""
+$ENDCMP
+#
+$CMP DCON25_MALE
+D Plug, D signal, 25 way
+K ""
+F ""
+$ENDCMP
+#
+$CMP DCON9_FEMALE
+D Socket, D signal, 9 way
+K ""
+F ""
+$ENDCMP
+#
+$CMP DCON9_MALE
+D Plug, D signal, 9 way
+K ""
+F ""
+$ENDCMP
+#
+$CMP DC_CON_2_1MM_MALE
+D Socket, DC power, center tap 2,1mm
+K ""
+F ""
+$ENDCMP
+#
+$CMP RJ12_CON_FEMALE
+D RJ12, Angled Modular Jack, 6 way
+K ""
+F ""
+$ENDCMP
+#
+$CMP RJ45_CON_FEMALE
+D RJ45, Angled Modular Jack, 8 way
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_1X1
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_1X10
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_1X11
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_1X12
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_1X13
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_1X14
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_1X15
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_1X16
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_1X2
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_1X3
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_1X4
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_1X5
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_1X6
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_1X7
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_1X8
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_1X9
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_2X10
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_2X2
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_2X3
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_2X4
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_2X5
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_2X6
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_2X7
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_2X8
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP ROW_VERT_2X9
+D Plug, Vertical Row Header
+K ""
+F ""
+$ENDCMP
+#
+$CMP SOCKET_1X1
+D Socket, IC
+K ""
+F ""
+$ENDCMP
+#
+$CMP SOCKET_1X10
+D Socket, IC
+K ""
+F ""
+$ENDCMP
+#
+$CMP SOCKET_1X11
+D Socket, IC
+K ""
+F ""
+$ENDCMP
+#
+$CMP SOCKET_1X12
+D Socket, IC
+K ""
+F ""
+$ENDCMP
+#
+$CMP SOCKET_1X13
+D Socket, IC
+K ""
+F ""
+$ENDCMP
+#
+$CMP SOCKET_1X14
+D Socket, IC
+K ""
+F ""
+$ENDCMP
+#
+$CMP SOCKET_1X15
+D Socket, IC
+K ""
+F ""
+$ENDCMP
+#
+$CMP SOCKET_1X16
+D Socket, IC
+K ""
+F ""
+$ENDCMP
+#
+$CMP SOCKET_1X2
+D Socket, IC
+K ""
+F ""
+$ENDCMP
+#
+$CMP SOCKET_1X3
+D Socket, IC
+K ""
+F ""
+$ENDCMP
+#
+$CMP SOCKET_1X4
+D Socket, IC
+K ""
+F ""
+$ENDCMP
+#
+$CMP SOCKET_1X5
+D Socket, IC
+K ""
+F ""
+$ENDCMP
+#
+$CMP SOCKET_1X6
+D Socket, IC
+K ""
+F ""
+$ENDCMP
+#
+$CMP SOCKET_1X7
+D Socket, IC
+K ""
+F ""
+$ENDCMP
+#
+$CMP SOCKET_1X8
+D Socket, IC
+K ""
+F ""
+$ENDCMP
+#
+$CMP SOCKET_1X9
+D Socket, IC
+K ""
+F ""
+$ENDCMP
+#
+$CMP TM_BLOCK_2P
+D Socket, Power Terminal Block, 2 way
+K ""
+F ""
+$ENDCMP
+#
+$CMP TM_BLOCK_3P
+D Socket, Power Terminal Block, 3 way
+K ""
+F ""
+$ENDCMP
+#
+$CMP USB_CON
+D USB, Socket,  Type A
+K ""
+F ""
+$ENDCMP
+#
+#End Doc Library
