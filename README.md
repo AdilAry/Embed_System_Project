@@ -1,5 +1,4 @@
-### Commit and Merge rules;
-Every team member, before commiting and pushing into the main branch, must first commit to the "dev" branch and make a pull request for a merge with the main branch.
+Battery management system for a 4-cell LiFePO4 pack: plug-in board for an STM32 NUCLEO-L152RE with per-cell voltage, current and temperature measurement, MOSFET charge/discharge switching, and Modbus RTU over RS-485. Designed in KiCad, simulated in LTspice, built and tested.
 
 ---
 ### Project specification;

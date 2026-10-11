@@ -4,7 +4,7 @@ At least the PCB plugs into the nucleo board perfectly.
 ---
 ### Temperature measurement / Design mistakes;
 While the component itself works, the circuit accompanying it doesn't.
-And it doesn't work for a pretty nonsensical reason as well, so I managed to mess up even a simple voltage divider. 
+And it doesn't work for a pretty nonsensical reason as well.
 
 #### Future Fix;
 I have simply fixed that part of a circuit, which can be found on the presentation.
@@ -18,12 +18,7 @@ I made a custom footprint for the shunt that actually makes it fit, which also c
 
 ---
 ### Voltage measurement / MUX soldering issues;
-This one is of a simmiliar nature as the shunt mistake, although to a worse degree. As the problem wasn't on the pcb design per se, but more like with the component being ordered. The chosen multiplexer was extremely small, smaller than some of the resistor and more like a small capacitor in size, it was simply impossible to solder it in any way, even by printing another PCB as another did is just not doable as the printer and etching was problematic even for their case scenario(of a typically normal MOSFET), for a component case like ours this will not be feasable.
+This one is of a simmiliar nature as the shunt mistake, although to a worse degree. As the problem wasn't on the pcb design per se, but more like with the component being ordered. The chosen multiplexer was extremely small, smaller than some of the resistor and more like a small capacitor in size, it was too small to solder by hand, even by printing another PCB as another did is just not doable as the printer and etching was problematic even for their case scenario(of a typically normal MOSFET), for a component case like ours this will not be feasable.
 
 #### Future Fix;
 The only fix possible is to find a new multiplexer, which I did and it can be seen in the presentation.
-
----
-### Overall fixing thoughts;
-I think it would be better for both me and the final product I am working for, if I have done it in multiple attempts while also doing those attempts at a time slot where I wasn't fatigued, instead I made this in a single day at 3 am, thus making very simple and very dumb mistakes. 
-So ultimately this was a time management fumble.
